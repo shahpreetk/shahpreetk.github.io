@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #0c6d70;
 }
 
 .top-container {
@@ -137,4 +137,13 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.footer-link{
+  padding: 5px;
+  color: #0c6d70;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
 }
