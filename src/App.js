@@ -2,11 +2,12 @@ import React from "react";
 
 function App() {
   return (
-    <div className="font-body text-lg">
-      <h1 className="font-title text-3xl">Title</h1>
-      <h1 className="font-myname">PREET SHAH</h1>
-      <p>Hello World</p>
-    </div>
+    <>
+      <div className="h-screen flex overflow-hidden bg-white font-body text-lg">
+        <h1>Portfolio Preet Shah</h1>
+        <p>In Progress...</p>
+      </div>
+    </>
   );
 }
 
