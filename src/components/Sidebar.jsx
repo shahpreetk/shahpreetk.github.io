@@ -223,28 +223,28 @@ const Sidebar = () => {
                 </p>
                 <div className="mt-2 space-y-1">
                   <a
-                    href="/"
+                    href="/projects/bookit"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
                   >
                     <span className="truncate">BookIt</span>
                   </a>
 
                   <a
-                    href="/"
+                    href="/projects/learnfromhome"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
                   >
                     <span className="truncate">Learn from Home</span>
                   </a>
 
                   <a
-                    href="/"
+                    href="/projects/curatedlearning"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
                   >
                     <span className="truncate">curatedLearning</span>
                   </a>
 
                   <a
-                    href="/"
+                    href="/projects/smartbrain"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
                   >
                     <span className="truncate">SmartBrain</span>
@@ -416,28 +416,28 @@ const Sidebar = () => {
                   </p>
                   <div className="mt-2 space-y-1">
                     <a
-                      href="/"
+                      href="/projects/bookit"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
                     >
                       <span className="truncate">BookIt</span>
                     </a>
 
                     <a
-                      href="/"
+                      href="/projects/learnfromhome"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
                     >
                       <span className="truncate">Learn from Home</span>
                     </a>
 
                     <a
-                      href="/"
+                      href="/projects/curatedlearning"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
                     >
                       <span className="truncate">curatedLearning</span>
                     </a>
 
                     <a
-                      href="/"
+                      href="/projects/smartbrain"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
                     >
                       <span className="truncate">SmartBrain</span>
