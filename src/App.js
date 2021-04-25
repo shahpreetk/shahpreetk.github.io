@@ -20,23 +20,43 @@ function App() {
       >
         <Sidebar />
         <Switch>
-          <Route path="/" component={About} exact />
-          {/* <Route path="/about" component={About} exact /> */}
-          <Route path="/extracurriculars" component={Extracurriculars} exact />
-          <Route path="/experience" component={Experience} exact />
-          <Route path="/skills" component={Skills} exact />
-          <Route path="/projects/bookit" component={BookIt} exact />
+          <Route path={process.env.PUBLIC_URL + "/"} component={About} exact />
+          {/* <Route path={"/about" component={About} exact /> */}
           <Route
-            path="/projects/learnfromhome"
+            path={process.env.PUBLIC_URL + "/extracurriculars"}
+            component={Extracurriculars}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/experience"}
+            component={Experience}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/skills"}
+            component={Skills}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/projects/bookit"}
+            component={BookIt}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/projects/learnfromhome"}
             component={LearnfromHome}
             exact
           />
           <Route
-            path="/projects/curatedlearning"
+            path={process.env.PUBLIC_URL + "/projects/curatedlearning"}
             component={CuratedLearning}
             exact
           />
-          <Route path="/projects/smartbrain" component={SmartBrain} exact />
+          <Route
+            path={process.env.PUBLIC_URL + "/projects/smartbrain"}
+            component={SmartBrain}
+            exact
+          />
         </Switch>
       </div>
     </>
