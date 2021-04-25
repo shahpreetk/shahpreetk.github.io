@@ -40,12 +40,12 @@ const About = () => {
                         aut voluptatum alias?
                       </p>
                       <ul>
-                        <li>
+                        {/* <li>
                           Test line - Tempor ultrices proin nunc fames nunc ut
                           auctor vitae sed. Eget massa parturient vulputate
                           fermentum id facilisis nam pharetra. Aliquet leo
                           tellus.
-                        </li>
+                        </li> */}
                         <li>
                           Turpis ac nunc adipiscing adipiscing metus tincidunt
                           senectus tellus.
