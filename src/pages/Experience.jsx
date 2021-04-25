@@ -10,7 +10,7 @@ const Experience = () => {
         data-todo-x-init="$el.focus()"
       >
         <div className="py-8 xl:py-10">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 xl:max-w-5xl xl:grid xl:grid-cols-3">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 xl:max-w-5xl">
             <div
               className="xl:col-span-2 xl:pr-8
 
@@ -26,34 +26,184 @@ const Experience = () => {
                     </div>
                   </div>
 
-                  <div className="py-3 xl:pt-6 xl:pb-0">
-                    <h2 className="sr-only">Description</h2>
-                    <div className="prose max-w-none">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita, hic? Commodi cumque similique id tempora
-                        molestiae deserunt at suscipit, dolor voluptatem,
-                        numquam, harum consequatur laboriosam voluptas tempore
-                        aut voluptatum alias?
-                      </p>
-                      <ul>
-                        <li>
-                          Tempor ultrices proin nunc fames nunc ut auctor vitae
-                          sed. Eget massa parturient vulputate fermentum id
-                          facilisis nam pharetra. Aliquet leo tellus.
-                        </li>
-                        <li>
-                          Turpis ac nunc adipiscing adipiscing metus tincidunt
-                          senectus tellus.
-                        </li>
-                        <li>
-                          Semper interdum porta sit tincidunt. Dui suspendisse
-                          scelerisque amet metus eget sed. Ut tellus in sed
-                          dignissim.
-                        </li>
-                      </ul>
+                  <main>
+                    {/* Side-by-side grid */}
+                    <div className="bg-white">
+                      <div className="max-w-md mx-auto py-8 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-7xl lg:px-8">
+                        <div className="divide-y divide-warm-gray-200">
+                          <section
+                            className="lg:grid lg:grid-cols-2 lg:gap-8 pb-12"
+                            aria-labelledby="contactHeading"
+                          >
+                            <h2
+                              id="contactHeading"
+                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                            >
+                              Hellbent Software & Educational Services LLP
+                            </h2>
+                            <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Internship
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Freelance
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                            </div>
+                          </section>
+                          <section
+                            className="lg:grid lg:grid-cols-2 lg:gap-8 py-12"
+                            aria-labelledby="contactHeading"
+                          >
+                            <h2
+                              id="contactHeading"
+                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                            >
+                              Major League Hacking (MLH) Fellowship
+                            </h2>
+                            <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Program
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Achievements
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                            </div>
+                          </section>
+
+                          <section
+                            className="lg:grid lg:grid-cols-2 lg:gap-8 py-12"
+                            aria-labelledby="contactHeading"
+                          >
+                            <h2
+                              id="contactHeading"
+                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                            >
+                              Hackathons
+                            </h2>
+                            <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Program
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+
+                              <div>
+                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                  Achievements
+                                </h3>
+                                <dl className="mt-2 text-base text-warm-gray-500">
+                                  <div>
+                                    <dt className="sr-only">Email</dt>
+                                    <dd>
+                                      Lorem ipsum dolor sit amet, consectetur
+                                      adipiscing elit. Aenean pharetra gravida
+                                      dapibus. In sodales accumsan ante nec
+                                      lobortis. Proin sodales est a tortor
+                                      blandit blandit. Nullam vel tincidunt
+                                      lectus, a porttitor elit. Sed nec
+                                      consequat tellus, in viverra orci.
+                                      Suspendisse posuere risus metus, in
+                                      aliquam lacus ultricies in.
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                            </div>
+                          </section>
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  </main>
                 </div>
               </div>
             </div>
