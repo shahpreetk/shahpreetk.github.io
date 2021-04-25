@@ -1,5 +1,28 @@
 import React from "react";
 
+const features = [
+  {
+    name: "IETE",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  },
+  {
+    name: "NSS",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  },
+  {
+    name: "LEO",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  },
+  {
+    name: "Painting",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+  },
+];
+
 const Extracurriculars = () => {
   return (
     <div className="flex flex-col w-0 flex-1 overflow-hidden">
@@ -26,32 +49,23 @@ const Extracurriculars = () => {
                     </div>
                   </div>
 
-                  <div className="py-3 xl:pt-6 xl:pb-0">
-                    <h2 className="sr-only">Description</h2>
-                    <div className="prose max-w-none">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita, hic? Commodi cumque similique id tempora
-                        molestiae deserunt at suscipit, dolor voluptatem,
-                        numquam, harum consequatur laboriosam voluptas tempore
-                        aut voluptatum alias?
-                      </p>
-                      <ul>
-                        <li>
-                          Tempor ultrices proin nunc fames nunc ut auctor vitae
-                          sed. Eget massa parturient vulputate fermentum id
-                          facilisis nam pharetra. Aliquet leo tellus.
-                        </li>
-                        <li>
-                          Turpis ac nunc adipiscing adipiscing metus tincidunt
-                          senectus tellus.
-                        </li>
-                        <li>
-                          Semper interdum porta sit tincidunt. Dui suspendisse
-                          scelerisque amet metus eget sed. Ut tellus in sed
-                          dignissim.
-                        </li>
-                      </ul>
+                  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="mt-10">
+                      <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                        {features.map((feature) => (
+                          <div key={feature.name} className="relative">
+                            <dt>
+                              {" "}
+                              <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                                {feature.name}
+                              </p>
+                            </dt>
+                            <dd className="mt-2 ml-16 text-base text-gray-500">
+                              {feature.description}
+                            </dd>
+                          </div>
+                        ))}
+                      </dl>
                     </div>
                   </div>
                 </div>
