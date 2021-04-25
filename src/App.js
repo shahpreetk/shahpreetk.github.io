@@ -20,6 +20,8 @@ function App() {
       >
         <Sidebar />
         <Switch>
+          <Route path="/" component={About} exact />
+          {/* <Route path="/about" component={About} exact /> */}
           <Route path="/extracurriculars" component={Extracurriculars} exact />
           <Route path="/experience" component={Experience} exact />
           <Route path="/skills" component={Skills} exact />
@@ -35,7 +37,6 @@ function App() {
             exact
           />
           <Route path="/projects/smartbrain" component={SmartBrain} exact />
-          <Route path={"/" | "/about"} component={About} exact />
         </Switch>
       </div>
     </>
