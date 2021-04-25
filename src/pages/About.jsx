@@ -41,11 +41,6 @@ const About = () => {
                       </p>
                       <ul>
                         <li>
-                          Tempor ultrices proin nunc fames nunc ut auctor vitae
-                          sed. Eget massa parturient vulputate fermentum id
-                          facilisis nam pharetra. Aliquet leo tellus.
-                        </li>
-                        <li>
                           Turpis ac nunc adipiscing adipiscing metus tincidunt
                           senectus tellus.
                         </li>
