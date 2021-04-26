@@ -9,7 +9,7 @@ const Skills = () => {
         data-todo-x-data=""
         data-todo-x-init="$el.focus()"
       >
-        <div className="py-8 xl:py-10">
+        <div className="py-12 xl:py-10">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 xl:max-w-5xl">
             <div
               className="xl:col-span-2 xl:pr-8
@@ -26,7 +26,7 @@ const Skills = () => {
                     </div>
                   </div>
 
-                  <div className="px-4 flex justify-center sm:px-6 lg:px-8 py-12">
+                  <div className="px-4 flex justify-center sm:px-6 lg:px-8 py-3">
                     <div className="min-w-0">
                       <nav aria-label="Progress">
                         <ol className="overflow-hidden">

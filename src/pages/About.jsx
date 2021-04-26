@@ -9,7 +9,7 @@ const About = () => {
         data-todo-x-data=""
         data-todo-x-init="$el.focus()"
       >
-        <div className="py-8 xl:py-10">
+        <div className="py-12 xl:py-10">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 xl:max-w-5xl">
             <div
               className="xl:col-span-2 xl:pr-8
@@ -29,7 +29,7 @@ const About = () => {
                     </div>
                   </div>
 
-                  <div className="py-3 xl:pt-6 xl:pb-0">
+                  <div className="py-8 xl:pt-6 xl:pb-0">
                     <h2 className="sr-only">Description</h2>
                     <div className="prose max-w-none">
                       <p>

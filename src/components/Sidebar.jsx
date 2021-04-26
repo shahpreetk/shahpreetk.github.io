@@ -23,7 +23,9 @@ const Sidebar = () => {
           // data-todo-x-transition-leave-start="opacity-100"
           // data-todo-x-transition-leave-end="opacity-0"
           // data-todo-x-description="Off-canvas menu overlay, show/hide based on off-canvas menu state."
-          className="fixed inset-0 bg-gray-600 bg-opacity-75"
+          className={`${
+            isShowing ? "inset-0" : ""
+          } fixed bg-gray-600 bg-opacity-75`}
           // data-todo-at-click="open = false"
           aria-hidden="true"
         >
@@ -33,22 +35,21 @@ const Sidebar = () => {
             // data-todo-at-click="open"
             onClick={() => setIsShowing((isShowing) => !isShowing)}
           >
-            Open <span className="sr-only">Close sidebar</span>
+            <span className="sr-only">Open sidebar</span>
             <svg
-              className="h-6 w-6 text-black"
-              data-todo-x-description="Heroicon name: outline/x"
               xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-white"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="black"
+              stroke="currentColor"
               aria-hidden="true"
             >
               <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
             </svg>
           </button>
         </div>
