@@ -8,32 +8,20 @@ const Sidebar = () => {
   return (
     <>
       <div
-        // data-todo-x-show="open"
         className="fixed inset-0 flex z-40 lg:hidden"
-        // data-todo-x-description="Off-canvas menu for mobile, show/hide based on off-canvas menu state."
         data-todo-x-ref="dialog"
         role="dialog"
         aria-modal="true"
       >
         <div
-          // data-todo-x-show="open"
-          // data-todo-x-transition-enter="transition-opacity ease-linear duration-300"
-          // data-todo-x-transition-enter-start="opacity-0"
-          // data-todo-x-transition-enter-end="opacity-100"
-          // data-todo-x-transition-leave="transition-opacity ease-linear duration-300"
-          // data-todo-x-transition-leave-start="opacity-100"
-          // data-todo-x-transition-leave-end="opacity-0"
-          // data-todo-x-description="Off-canvas menu overlay, show/hide based on off-canvas menu state."
           className={`${
             isShowing ? "inset-0" : ""
           } fixed bg-gray-600 bg-opacity-75`}
-          // data-todo-at-click="open = false"
           aria-hidden="true"
         >
           <button
             type="button"
             className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-            // data-todo-at-click="open"
             onClick={() => setIsShowing((isShowing) => !isShowing)}
           >
             <span className="sr-only">Open sidebar</span>
@@ -63,32 +51,11 @@ const Sidebar = () => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div
-            // data-todo-x-show="open"
-            // data-todo-x-transition-enter="transition ease-in-out duration-300 transform"
-            // data-todo-x-transition-enter-start="-translate-x-full"
-            // data-todo-x-transition-enter-end="translate-x-0"
-            // data-todo-x-transition-leave="transition ease-in-out duration-300 transform"
-            // data-todo-x-transition-leave-start="translate-x-0"
-            // data-todo-x-transition-leave-end="-translate-x-full"
-            // data-todo-x-description="Off-canvas menu, show/hide based on off-canvas menu state."
-            className="relative flex-1 flex flex-col max-w-sm w-full pt-5 pb-4 bg-gray-800 h-full"
-          >
-            <div
-              // data-todo-x-show="open"
-              // data-todo-x-transition-enter="ease-in-out duration-300"
-              // data-todo-x-transition-enter-start="opacity-0"
-              // data-todo-x-transition-enter-end="opacity-100"
-              // data-todo-x-transition-leave="ease-in-out duration-300"
-              // data-todo-x-transition-leave-start="opacity-100"
-              // data-todo-x-transition-leave-end="opacity-0"
-              // data-todo-x-description="Close button, show/hide based on off-canvas menu state."
-              className="absolute top-0 right-0 -mr-12 pt-2"
-            >
+          <div className="relative flex-1 flex flex-col max-w-sm w-full pt-5 pb-4 bg-gray-800 h-full">
+            <div className="absolute top-0 right-0 -mr-12 pt-2">
               <button
                 type="button"
                 className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                // data-todo-at-click="open"
                 onClick={() => setIsShowing((isShowing) => !isShowing)}
               >
                 <span className="sr-only">Close sidebar</span>
@@ -122,14 +89,6 @@ const Sidebar = () => {
             <div className="mt-5 flex-1 h-0 overflow-y-auto">
               <nav className="px-2">
                 <div className="space-y-1">
-                  {/* <a
-                    href="/"
-                    className="bg-gray-900 text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-                    data-todo-x-state-on="Current"
-                    data-todo-x-state-off="Default"
-                    aria-current="page"
-                    data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/"
                     exact
@@ -138,10 +97,6 @@ const Sidebar = () => {
                   >
                     <svg
                       className="text-gray-300 mr-4 h-6 w-6"
-                      // data-todo-x-state-on="Current"
-                      // data-todo-x-state-off="Default"
-                      // data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
-                      // data-todo-x-description="Heroicon name: outline/home"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -157,15 +112,7 @@ const Sidebar = () => {
                     </svg>
                     About
                   </NavLink>
-                  {/* </a> */}
 
-                  {/* <a
-                    href="/skills"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-                    data-todo-x-state-on="Current"
-                    data-todo-x-state-off="Default"
-                    data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/skills"
                     exact
@@ -190,13 +137,7 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Skills
-                    {/* </a> */}
                   </NavLink>
-                  {/* <a
-                    href="/experience"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/experience"
                     exact
@@ -221,14 +162,8 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Experience
-                    {/* </a> */}
                   </NavLink>
 
-                  {/* <a
-                    href="/extracurriculars"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/extracurriculars"
                     exact
@@ -254,7 +189,6 @@ const Sidebar = () => {
                     </svg>
                     Extracurriculars
                   </NavLink>
-                  {/* </a> */}
                 </div>
 
                 <div className="mt-10">
@@ -262,10 +196,6 @@ const Sidebar = () => {
                     Projects
                   </p>
                   <div className="mt-2 space-y-1">
-                    {/* <a
-                      href="/projects/bookit"
-                      className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
-                    > */}
                     <NavLink
                       to="/projects/bookit"
                       exact
@@ -273,13 +203,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">BookIt</span>
-                      {/* </a> */}
                     </NavLink>
 
-                    {/* <a
-                      href="/projects/learnfromhome"
-                      className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
-                    > */}
                     <NavLink
                       to="/projects/learnfromhome"
                       exact
@@ -287,13 +212,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">Learn from Home</span>
-                      {/* </a> */}
                     </NavLink>
 
-                    {/* <a
-                      href="/projects/curatedlearning"
-                      className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
-                    >*/}
                     <NavLink
                       to="/projects/curatedlearning"
                       exact
@@ -301,13 +221,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">curatedLearning</span>
-                      {/* </a> */}
                     </NavLink>
 
-                    {/* <a
-                      href="/projects/smartbrain"
-                      className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
-                    > */}
                     <NavLink
                       to="/projects/smartbrain"
                       exact
@@ -315,7 +230,6 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">SmartBrain</span>
-                      {/* </a> */}
                     </NavLink>
                   </div>
                 </div>
@@ -344,14 +258,6 @@ const Sidebar = () => {
             <div className="flex-1 flex flex-col overflow-y-auto">
               <nav className="flex-1 px-2 py-4 bg-gray-800">
                 <div className="space-y-1">
-                  {/* <a
-                    href="/"
-                    className="bg-gray-900 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-                    data-todo-x-state-on="Current"
-                    data-todo-x-state-off="Default"
-                    aria-current="page"
-                    data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/"
                     exact
@@ -360,10 +266,6 @@ const Sidebar = () => {
                   >
                     <svg
                       className="text-gray-300 mr-3 h-6 w-6"
-                      // data-todo-x-state-on="Current"
-                      // data-todo-x-state-off="Default"
-                      // data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
-                      // data-todo-x-description="Heroicon name: outline/home"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -379,13 +281,6 @@ const Sidebar = () => {
                     </svg>
                     About
                   </NavLink>
-                  {/* </a> */}
-
-                  {/* <a
-                    href="/skills"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/skills"
                     exact
@@ -411,13 +306,7 @@ const Sidebar = () => {
                     </svg>
                     Skills
                   </NavLink>
-                  {/* </a> */}
 
-                  {/* <a
-                    href="/experience"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/experience"
                     exact
@@ -442,14 +331,8 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Experience
-                    {/* </a> */}
                   </NavLink>
 
-                  {/* <a
-                    href="/extracurriculars"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  > */}
                   <NavLink
                     to="/extracurriculars"
                     exact
@@ -474,7 +357,6 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Extracurriculars
-                    {/* </a> */}
                   </NavLink>
                 </div>
                 <div className="mt-10">
@@ -482,10 +364,6 @@ const Sidebar = () => {
                     Projects
                   </p>
                   <div className="mt-2 space-y-1">
-                    {/* <a
-                      href="/projects/bookit"
-                      className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                    > */}
                     <NavLink
                       to="/projects/bookit"
                       exact
@@ -493,12 +371,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">BookIt</span>
-                      {/* </a> */}
                     </NavLink>
-                    {/* <a
-                      href="/projects/learnfromhome"
-                      className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                    > */}{" "}
+
                     <NavLink
                       to="/projects/learnfromhome"
                       exact
@@ -506,12 +380,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">Learn from Home</span>
-                      {/* </a> */}
                     </NavLink>
-                    {/* <a
-                      href="/projects/curatedlearning"
-                      className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                    > */}{" "}
+
                     <NavLink
                       to="/projects/curatedlearning"
                       exact
@@ -519,12 +389,8 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">curatedLearning</span>
-                      {/* </a> */}
                     </NavLink>
-                    {/* <a
-                      href="/projects/smartbrain"
-                      className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
-                    > */}{" "}
+
                     <NavLink
                       to="/projects/smartbrain"
                       exact
@@ -532,7 +398,6 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">SmartBrain</span>
-                      {/* </a> */}
                     </NavLink>
                   </div>
                 </div>
