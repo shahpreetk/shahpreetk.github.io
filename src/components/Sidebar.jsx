@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 
 const Sidebar = () => {
@@ -38,7 +39,7 @@ const Sidebar = () => {
             <span className="sr-only">Open sidebar</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 text-white"
+              class="h-6 w-6 text-black"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -121,20 +122,26 @@ const Sidebar = () => {
             <div className="mt-5 flex-1 h-0 overflow-y-auto">
               <nav className="px-2">
                 <div className="space-y-1">
-                  <a
+                  {/* <a
                     href="/"
                     className="bg-gray-900 text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     data-todo-x-state-on="Current"
                     data-todo-x-state-off="Default"
                     aria-current="page"
                     data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-300 mr-4 h-6 w-6"
-                      data-todo-x-state-on="Current"
-                      data-todo-x-state-off="Default"
-                      data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/home"
+                      // data-todo-x-state-on="Current"
+                      // data-todo-x-state-off="Default"
+                      // data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
+                      // data-todo-x-description="Heroicon name: outline/home"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -149,16 +156,25 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     About
-                  </a>
+                  </NavLink>
+                  {/* </a> */}
 
-                  <a
+                  {/* <a
                     href="/skills"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                    data-todo-x-state-on="Current"
+                    data-todo-x-state-off="Default"
+                    data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/skills"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
-                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                      data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
                       data-todo-x-description="Heroicon name: outline/view-list"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -174,12 +190,18 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Skills
-                  </a>
-
-                  <a
+                    {/* </a> */}
+                  </NavLink>
+                  {/* <a
                     href="/experience"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/experience"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
@@ -199,12 +221,19 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Experience
-                  </a>
+                    {/* </a> */}
+                  </NavLink>
 
-                  <a
+                  {/* <a
                     href="/extracurriculars"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/extracurriculars"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
@@ -224,7 +253,8 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Extracurriculars
-                  </a>
+                  </NavLink>
+                  {/* </a> */}
                 </div>
 
                 <div className="mt-10">
@@ -232,33 +262,61 @@ const Sidebar = () => {
                     Projects
                   </p>
                   <div className="mt-2 space-y-1">
-                    <a
+                    {/* <a
                       href="/projects/bookit"
                       className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
+                    > */}
+                    <NavLink
+                      to="/projects/bookit"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">BookIt</span>
-                    </a>
+                      {/* </a> */}
+                    </NavLink>
 
-                    <a
+                    {/* <a
                       href="/projects/learnfromhome"
                       className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
+                    > */}
+                    <NavLink
+                      to="/projects/learnfromhome"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">Learn from Home</span>
-                    </a>
+                      {/* </a> */}
+                    </NavLink>
 
-                    <a
+                    {/* <a
                       href="/projects/curatedlearning"
                       className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
+                    >*/}
+                    <NavLink
+                      to="/projects/curatedlearning"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">curatedLearning</span>
-                    </a>
+                      {/* </a> */}
+                    </NavLink>
 
-                    <a
+                    {/* <a
                       href="/projects/smartbrain"
                       className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 text-base font-medium rounded-md"
+                    > */}
+                    <NavLink
+                      to="/projects/smartbrain"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">SmartBrain</span>
-                    </a>
+                      {/* </a> */}
+                    </NavLink>
                   </div>
                 </div>
               </nav>
@@ -286,20 +344,26 @@ const Sidebar = () => {
             <div className="flex-1 flex flex-col overflow-y-auto">
               <nav className="flex-1 px-2 py-4 bg-gray-800">
                 <div className="space-y-1">
-                  <a
+                  {/* <a
                     href="/"
                     className="bg-gray-900 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
                     data-todo-x-state-on="Current"
                     data-todo-x-state-off="Default"
                     aria-current="page"
                     data-todo-x-state-description='Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-300 mr-3 h-6 w-6"
-                      data-todo-x-state-on="Current"
-                      data-todo-x-state-off="Default"
-                      data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/home"
+                      // data-todo-x-state-on="Current"
+                      // data-todo-x-state-off="Default"
+                      // data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
+                      // data-todo-x-description="Heroicon name: outline/home"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -314,12 +378,19 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     About
-                  </a>
+                  </NavLink>
+                  {/* </a> */}
 
-                  <a
+                  {/* <a
                     href="/skills"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
                     data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/skills"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
@@ -339,12 +410,19 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Skills
-                  </a>
+                  </NavLink>
+                  {/* </a> */}
 
-                  <a
+                  {/* <a
                     href="/experience"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
                     data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/experience"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
@@ -364,12 +442,19 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Experience
-                  </a>
+                    {/* </a> */}
+                  </NavLink>
 
-                  <a
+                  {/* <a
                     href="/extracurriculars"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
                     data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
+                  > */}
+                  <NavLink
+                    to="/extracurriculars"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
                       className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
@@ -389,65 +474,66 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Extracurriculars
-                  </a>
-
-                  {/* <a
-                    href="/"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md"
-                    data-todo-x-state-description='undefined: "bg-gray-900 text-white", undefined: "text-gray-300 hover:bg-gray-700 hover:text-white"'
-                  >
-                    <svg
-                      className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
-                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/clock"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      ></path>
-                    </svg>
-                    Recent
-                  </a> */}
+                    {/* </a> */}
+                  </NavLink>
                 </div>
                 <div className="mt-10">
                   <p className="px-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">
                     Projects
                   </p>
                   <div className="mt-2 space-y-1">
-                    <a
+                    {/* <a
                       href="/projects/bookit"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
+                    > */}
+                    <NavLink
+                      to="/projects/bookit"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">BookIt</span>
-                    </a>
-
-                    <a
+                      {/* </a> */}
+                    </NavLink>
+                    {/* <a
                       href="/projects/learnfromhome"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
+                    > */}{" "}
+                    <NavLink
+                      to="/projects/learnfromhome"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">Learn from Home</span>
-                    </a>
-
-                    <a
+                      {/* </a> */}
+                    </NavLink>
+                    {/* <a
                       href="/projects/curatedlearning"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
+                    > */}{" "}
+                    <NavLink
+                      to="/projects/curatedlearning"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">curatedLearning</span>
-                    </a>
-
-                    <a
+                      {/* </a> */}
+                    </NavLink>
+                    {/* <a
                       href="/projects/smartbrain"
                       className="group flex items-center px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700"
+                    > */}{" "}
+                    <NavLink
+                      to="/projects/smartbrain"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">SmartBrain</span>
-                    </a>
+                      {/* </a> */}
+                    </NavLink>
                   </div>
                 </div>
               </nav>
