@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Transition } from "@headlessui/react";
 
 const Sidebar = () => {
-  const [isShowing, setIsShowing] = useState(true);
+  const [isShowing, setIsShowing] = useState(false);
 
   return (
     <>
@@ -21,13 +21,13 @@ const Sidebar = () => {
         >
           <button
             type="button"
-            className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none"
             onClick={() => setIsShowing((isShowing) => !isShowing)}
           >
             <span className="sr-only">Open sidebar</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 text-black"
+              class="h-6 w-6 text-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -51,11 +51,11 @@ const Sidebar = () => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="relative flex-1 flex flex-col max-w-sm w-full pt-5 pb-4 bg-gray-800 h-full">
+          <div className="relative flex-1 flex flex-col max-w-sm w-full pt-5 pb-4 bg-gray-800 h-full px-6">
             <div className="absolute top-0 right-0 -mr-12 pt-2">
               <button
                 type="button"
-                className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none"
                 onClick={() => setIsShowing((isShowing) => !isShowing)}
               >
                 <span className="sr-only">Close sidebar</span>
@@ -95,22 +95,28 @@ const Sidebar = () => {
                     activeClassName="selectedSidebarOption"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
-                    <svg
-                      className="text-gray-300 mr-4 h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                      ></path>
-                    </svg>
-                    About
+                      <svg
+                        className="text-gray-300 mr-4 h-6 w-6"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                        ></path>
+                      </svg>
+                      About
+                    </button>
                   </NavLink>
 
                   <NavLink
@@ -119,24 +125,30 @@ const Sidebar = () => {
                     activeClassName="selectedSidebarOption"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
-                    <svg
-                      className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
-                      data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/view-list"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M4 6h16M4 10h16M4 14h16M4 18h16"
-                      ></path>
-                    </svg>
-                    Skills
+                      <svg
+                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
+                        data-todo-x-state-description='Current: "text-gray-300", Default: "text-gray-400 group-hover:text-gray-300"'
+                        data-todo-x-description="Heroicon name: outline/view-list"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M4 6h16M4 10h16M4 14h16M4 18h16"
+                        ></path>
+                      </svg>
+                      Skills
+                    </button>
                   </NavLink>
                   <NavLink
                     to="/experience"
@@ -144,24 +156,30 @@ const Sidebar = () => {
                     activeClassName="selectedSidebarOption"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
-                    <svg
-                      className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
-                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/user-circle"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                      ></path>
-                    </svg>
-                    Experience
+                      <svg
+                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
+                        data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                        data-todo-x-description="Heroicon name: outline/user-circle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                        ></path>
+                      </svg>
+                      Experience
+                    </button>
                   </NavLink>
 
                   <NavLink
@@ -170,24 +188,30 @@ const Sidebar = () => {
                     activeClassName="selectedSidebarOption"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                   >
-                    <svg
-                      className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
-                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
-                      data-todo-x-description="Heroicon name: outline/archive"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
-                      ></path>
-                    </svg>
-                    Extracurriculars
+                      <svg
+                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
+                        data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                        data-todo-x-description="Heroicon name: outline/archive"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+                        ></path>
+                      </svg>
+                      Extracurriculars
+                    </button>
                   </NavLink>
                 </div>
 
@@ -202,7 +226,13 @@ const Sidebar = () => {
                       activeClassName="selectedSidebarOption"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
-                      <span className="truncate">BookIt</span>
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">BookIt</span>
+                      </button>
                     </NavLink>
 
                     <NavLink
@@ -211,7 +241,13 @@ const Sidebar = () => {
                       activeClassName="selectedSidebarOption"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
-                      <span className="truncate">Learn from Home</span>
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">Learn from Home</span>
+                      </button>
                     </NavLink>
 
                     <NavLink
@@ -220,7 +256,13 @@ const Sidebar = () => {
                       activeClassName="selectedSidebarOption"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
-                      <span className="truncate">curatedLearning</span>
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">curatedLearning</span>
+                      </button>
                     </NavLink>
 
                     <NavLink
@@ -229,7 +271,13 @@ const Sidebar = () => {
                       activeClassName="selectedSidebarOption"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
                     >
-                      <span className="truncate">SmartBrain</span>
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">SmartBrain</span>
+                      </button>
                     </NavLink>
                   </div>
                 </div>
