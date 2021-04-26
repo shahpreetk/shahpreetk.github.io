@@ -21,12 +21,12 @@ const Skills = () => {
                   <div className="md:flex md:items-center md:justify-between md:space-x-4 xl:border-b xl:pb-6">
                     <div>
                       <h1 className="text-2xl font-bold text-gray-900">
-                        Skills
+                        Skills & Tools
                       </h1>
                     </div>
                   </div>
 
-                  <div className="px-4 flex justify-center sm:px-6 lg:px-8 py-3">
+                  <div className="px-4 flex justify-center sm:px-6 lg:px-8 py-8">
                     <div className="min-w-0">
                       <nav aria-label="Progress">
                         <ol className="overflow-hidden">
