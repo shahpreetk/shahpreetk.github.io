@@ -26,32 +26,57 @@ const CuratedLearning = () => {
                     </div>
                   </div>
 
-                  <div className="py-3 xl:pt-6 xl:pb-0">
-                    <h2 className="sr-only">Description</h2>
-                    <div className="prose max-w-none">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita, hic? Commodi cumque similique id tempora
-                        molestiae deserunt at suscipit, dolor voluptatem,
-                        numquam, harum consequatur laboriosam voluptas tempore
-                        aut voluptatum alias?
-                      </p>
-                      <ul>
-                        <li>
-                          Tempor ultrices proin nunc fames nunc ut auctor vitae
-                          sed. Eget massa parturient vulputate fermentum id
-                          facilisis nam pharetra. Aliquet leo tellus.
-                        </li>
-                        <li>
-                          Turpis ac nunc adipiscing adipiscing metus tincidunt
-                          senectus tellus.
-                        </li>
-                        <li>
-                          Semper interdum porta sit tincidunt. Dui suspendisse
-                          scelerisque amet metus eget sed. Ut tellus in sed
-                          dignissim.
-                        </li>
-                      </ul>
+                  <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+                    <div className="mt-12 lg:mt-0 lg:col-span-2">
+                      <dl className="space-y-12" data-todo-x-max="1">
+                        <div>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            What is it?
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Quas
+                            cupiditate laboriosam fugiat.
+                          </dd>
+                        </div>
+
+                        <div>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            Why was it made?
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Quas
+                            cupiditate laboriosam fugiat.
+                          </dd>
+                        </div>
+
+                        <div>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            The Process
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Quas
+                            cupiditate laboriosam fugiat.
+                          </dd>
+                        </div>
+
+                        <div>
+                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                            Achievements
+                          </dt>
+                          <dd className="mt-2 text-base text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Quas
+                            cupiditate laboriosam fugiat.
+                          </dd>
+                        </div>
+                      </dl>
                     </div>
                   </div>
                 </div>
