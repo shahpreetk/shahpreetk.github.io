@@ -62,8 +62,10 @@ const About = () => {
                                   <ul className="flex space-x-5">
                                     <li>
                                       <a
+                                        target="_blank"
                                         href="https://www.linkedin.com/in/shahpreetk/"
                                         className="text-gray-400 hover:text-blue-600"
+                                        rel="noreferrer"
                                       >
                                         <span className="sr-only">
                                           LinkedIn
@@ -84,8 +86,10 @@ const About = () => {
                                     </li>
                                     <li>
                                       <a
+                                        target="_blank"
                                         href="https://github.com/shahpreetk"
                                         className="text-gray-400 hover:text-black"
+                                        rel="noreferrer"
                                       >
                                         <span className="sr-only">GitHub</span>
                                         <svg
@@ -101,8 +105,10 @@ const About = () => {
                                     </li>
                                     <li>
                                       <a
+                                        target="_blank"
                                         href="https://github.com/shahpreetk"
                                         className="text-gray-400 hover:text-fuchsia-800"
+                                        rel="noreferrer"
                                       >
                                         <span className="sr-only">
                                           Instagram
@@ -120,8 +126,10 @@ const About = () => {
                                     </li>
                                     <li>
                                       <a
+                                        target="_blank"
                                         href="https://github.com/shahpreetk"
                                         className="text-gray-400 hover:text-orange-600"
+                                        rel="noreferrer"
                                       >
                                         <span className="sr-only">Reddit</span>
                                         <svg
@@ -137,8 +145,10 @@ const About = () => {
                                     </li>
                                     <li>
                                       <a
+                                        target="_blank"
                                         href="https://twitter.com/shahpreetk"
                                         className="text-gray-400 hover:text-blue-500"
+                                        rel="noreferrer"
                                       >
                                         <span className="sr-only">Twitter</span>
                                         <svg
@@ -165,27 +175,26 @@ const About = () => {
                     <h2 className="sr-only">Description</h2>
                     <div className="prose max-w-none">
                       <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita, hic? Commodi cumque similique id tempora
-                        molestiae deserunt at suscipit, dolor voluptatem,
-                        numquam, harum consequatur laboriosam voluptas tempore
-                        aut voluptatum alias?
+                        Electronics and Telecommunications Student at KJSIEIT,
+                        I'm interested in Web Development. I'm a budding Full
+                        Stack Web Developer and well versed with MERN (MongoDB,
+                        Express, React, Node) Stack. Currently I am
+                        experimenting with JAM Stack. I have also been a part of
+                        the Major League Hacking Fellowship Program in the Fall
+                        2020 Batch.
                       </p>
                       <ul>
                         <li>
-                          Test line - Tempor ultrices proin nunc fames nunc ut
-                          auctor vitae sed. Eget massa parturient vulputate
-                          fermentum id facilisis nam pharetra. Aliquet leo
-                          tellus.
+                          I have also held positions of responsibility like
+                          Chairperson of IETE and Leader of NSS at KJSIEIT
+                          College. I also love to carry out social activities
+                          and am the District President of Leo District 3231 A1,
+                          India and the Chief Website Officer of Leo Multiple
+                          3231, India.
                         </li>
                         <li>
-                          Turpis ac nunc adipiscing adipiscing metus tincidunt
-                          senectus tellus.
-                        </li>
-                        <li>
-                          Semper interdum porta sit tincidunt. Dui suspendisse
-                          scelerisque amet metus eget sed. Ut tellus in sed
-                          dignissim.
+                          My love for colour doesn't let me forget my passion
+                          for Painting.
                         </li>
                       </ul>
                     </div>
