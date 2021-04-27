@@ -25,7 +25,7 @@ const Skills = () => {
                       </h1>
                     </div>
                   </div>
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <div className="grid grid-cols-1 gap-16 sm:grid-cols-2">
                     {/* Skills */}
                     <div className="px-2 flex justify-center sm:px-3 lg:px-4 py-8">
                       <div className="min-w-0">
@@ -251,7 +251,7 @@ const Skills = () => {
                       </div>
                     </div>
                     {/* Tools */}
-                    <div className="px-2 flex justify-center sm:px-3 lg:px-4 py-8">
+                    <div className="px-2 flex sm:px-3 lg:px-4 py-8">
                       <ul className="space-y-4">
                         <li className="flex space-x-3">
                           <svg
