@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="fixed inset-0 flex z-40 lg:hidden"
+        className="inset-0 flex z-40 lg:hidden"
         data-todo-x-ref="dialog"
         role="dialog"
         aria-modal="true"
