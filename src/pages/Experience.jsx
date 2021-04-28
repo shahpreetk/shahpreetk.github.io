@@ -37,13 +37,13 @@ const Experience = () => {
                           >
                             <h2
                               id="contactHeading"
-                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                              className="text-lg font-extrabold font-title text-warm-gray-900 sm:text-2xl"
                             >
                               Hellbent Software & Educational Services LLP
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                <h3 className="text-lg font-medium text-teal-800">
                                   Internship
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
@@ -58,7 +58,7 @@ const Experience = () => {
                               </div>
 
                               <div>
-                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                <h3 className="text-lg font-medium text-teal-800">
                                   Freelance
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
@@ -79,34 +79,35 @@ const Experience = () => {
                           >
                             <h2
                               id="contactHeading"
-                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                              className="text-lg font-extrabold font-title text-warm-gray-900 sm:text-2xl"
                             >
                               Major League Hacking (MLH) Fellowship
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                <h3 className="text-lg font-medium text-teal-800">
                                   Program
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
                                     <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
+                                      The MLH Fellowship was a 12 week
+                                      internship alternative for aspiring
+                                      technologists. On the Explorer Track we
+                                      were to build out our portfolio of
+                                      personal projects & experiment with new
+                                      technologies by collaborating in small
+                                      groups on a series of short hackathon
+                                      sprints. Each sprint had themes that
+                                      challenged us to experiment with new
+                                      technologies and explore our interests.
                                     </dd>
                                   </div>
                                 </dl>
                               </div>
 
                               <div>
-                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                <h3 className="text-lg font-medium text-teal-800">
                                   Achievements
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
@@ -134,13 +135,13 @@ const Experience = () => {
                           >
                             <h2
                               id="contactHeading"
-                              className="text-lg font-extrabold text-warm-gray-900 sm:text-2xl"
+                              className="text-lg font-extrabold font-title text-warm-gray-900 sm:text-2xl"
                             >
                               Hackathons
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                <h3 className="text-lg font-medium text-teal-800">
                                   Attended
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">

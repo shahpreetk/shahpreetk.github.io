@@ -30,7 +30,7 @@ const BookIt = () => {
                     <div className="mt-12 lg:mt-0 lg:col-span-2">
                       <dl className="space-y-12" data-todo-x-max="1">
                         <div>
-                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                          <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
@@ -42,7 +42,7 @@ const BookIt = () => {
                         </div>
 
                         <div>
-                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                          <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
@@ -54,7 +54,7 @@ const BookIt = () => {
                         </div>
 
                         <div>
-                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                          <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
@@ -66,7 +66,7 @@ const BookIt = () => {
                         </div>
 
                         <div>
-                          <dt className="text-lg leading-6 font-medium text-gray-900">
+                          <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             Achievements
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">

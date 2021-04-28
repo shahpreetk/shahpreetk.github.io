@@ -56,7 +56,7 @@ const Extracurriculars = () => {
                           <div key={feature.name} className="relative">
                             <dt>
                               {" "}
-                              <p className="ml-6 text-lg leading-6 font-medium text-gray-900">
+                              <p className="ml-6 text-lg leading-6 font-medium text-teal-800 font-title">
                                 {feature.name}
                               </p>
                             </dt>

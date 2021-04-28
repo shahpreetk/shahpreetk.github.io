@@ -55,8 +55,8 @@ const About = () => {
                                   </div>
                                   <div className="text-lg">
                                     <p className="text-gray-500">
-                                      A KittyLover, Painter, Dancer and aspiring
-                                      Fullstack Web Developer
+                                      A Kitty lover, Painter, Dancer and
+                                      aspiring Fullstack Web Developer
                                     </p>
                                   </div>
                                   <ul className="flex space-x-5">
