@@ -116,15 +116,15 @@ const Experience = () => {
                                   <div>
                                     <dd>
                                       <ul>
-                                        <li className="my-4 text-base text-gray-700">
+                                        <li className="break-all md:break-normal my-4 text-base text-gray-700">
                                           <span className="text-teal-600 font-title text-lg">
                                             Mentored&nbsp;
                                           </span>
                                           - A project made using the MERN stack
                                           for the theme Education. You can find
-                                          more about the project here -
+                                          more about the project here -&nbsp;
                                           <a
-                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            className="hover:underlinebreak-all text-sm font-bold text-teal-600"
                                             href="https://devpost.com/software/mentored"
                                             target="_blank"
                                             rel="noreferrer"
@@ -132,7 +132,7 @@ const Experience = () => {
                                             https://devpost.com/software/mentored
                                           </a>
                                         </li>
-                                        <li className="my-4 text-base text-gray-700">
+                                        <li className="break-all md:break-normal my-4 text-base text-gray-700">
                                           <span className="text-teal-600 font-title text-lg">
                                             KnightInTheNight&nbsp;
                                           </span>
@@ -142,7 +142,7 @@ const Experience = () => {
                                           to win our own game. You can find more
                                           about the project here -{" "}
                                           <a
-                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            className="hover:underlinebreak-all text-sm font-bold text-teal-600"
                                             href="https://devpost.com/software/knightinthenight"
                                             target="_blank"
                                             rel="noreferrer"
@@ -150,7 +150,7 @@ const Experience = () => {
                                             https://devpost.com/software/knightinthenight
                                           </a>
                                         </li>
-                                        <li className="my-4 text-base text-gray-700">
+                                        <li className="break-all md:break-normal my-4 text-base text-gray-700">
                                           <span className="text-teal-600 font-title text-lg">
                                             Volunteery&nbsp;
                                           </span>
@@ -161,7 +161,7 @@ const Experience = () => {
                                           Volunteers. Find out more of the
                                           project here -{" "}
                                           <a
-                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            className="hover:underlinebreak-all text-sm font-bold text-teal-600"
                                             href="https://devpost.com/software/volunteery-gno5zx"
                                             target="_blank"
                                             rel="noreferrer"
