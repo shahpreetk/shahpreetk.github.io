@@ -106,7 +106,7 @@ const About = () => {
                                     <li>
                                       <a
                                         target="_blank"
-                                        href="https://github.com/shahpreetk"
+                                        href="https://www.instagram.com/shahpreetk/"
                                         className="text-gray-400 hover:text-fuchsia-800"
                                         rel="noreferrer"
                                       >
