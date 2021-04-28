@@ -204,6 +204,7 @@ const Experience = () => {
                                       >
                                         Devpost
                                       </a>
+                                      .
                                       <ul>
                                         <li className="my-2">
                                           Backyard Hacks - May 2020
