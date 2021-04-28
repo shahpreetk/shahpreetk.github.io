@@ -101,6 +101,8 @@ const Experience = () => {
                                       sprints. Each sprint had themes that
                                       challenged us to experiment with new
                                       technologies and explore our interests.
+                                      The themes were - Education, Gaming, ML,
+                                      Productivity Tool, and Social Good.
                                     </dd>
                                   </div>
                                 </dl>
@@ -113,15 +115,61 @@ const Experience = () => {
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
                                     <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
+                                      <ul>
+                                        <li className="my-4 text-base text-gray-700">
+                                          <span className="text-teal-600 font-title text-lg">
+                                            Mentored&nbsp;
+                                          </span>
+                                          - A project made using the MERN stack
+                                          for the theme Education. You can find
+                                          more about the project here -
+                                          <a
+                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            href="https://devpost.com/software/mentored"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                          >
+                                            https://devpost.com/software/mentored
+                                          </a>
+                                        </li>
+                                        <li className="my-4 text-base text-gray-700">
+                                          <span className="text-teal-600 font-title text-lg">
+                                            KnightInTheNight&nbsp;
+                                          </span>
+                                          - So this project was a game build on
+                                          Godot, something we were all entirely
+                                          new to and had an amazing time trying
+                                          to win our own game. You can find more
+                                          about the project here -{" "}
+                                          <a
+                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            href="https://devpost.com/software/knightinthenight"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                          >
+                                            https://devpost.com/software/knightinthenight
+                                          </a>
+                                        </li>
+                                        <li className="my-4 text-base text-gray-700">
+                                          <span className="text-teal-600 font-title text-lg">
+                                            Volunteery&nbsp;
+                                          </span>
+                                          - Social Good, a theme really
+                                          important to always keep in our minds
+                                          and this app built using Flutter was
+                                          built to connect NGOs with quality
+                                          Volunteers. Find out more of the
+                                          project here -{" "}
+                                          <a
+                                            className="hover:underline text-sm font-bold text-teal-600"
+                                            href="https://devpost.com/software/volunteery-gno5zx"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                          >
+                                            https://devpost.com/software/volunteery-gno5zx
+                                          </a>
+                                        </li>
+                                      </ul>
                                     </dd>
                                   </div>
                                 </dl>
@@ -147,15 +195,35 @@ const Experience = () => {
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
                                     <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
+                                      You can even check out my profile on{" "}
+                                      <a
+                                        className="text-teal-600 font-title font-semibold hover:underline"
+                                        href="https://devpost.com/shahpreetk/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                      >
+                                        Devpost
+                                      </a>
+                                      <ul>
+                                        <li className="my-2">
+                                          Backyard Hacks - May 2020
+                                        </li>
+                                        <li className="my-2">
+                                          Open Hacks - May 2020
+                                        </li>
+                                        <li className="my-2">
+                                          Rookie Hacks - May 2020
+                                        </li>
+                                        <li className="my-2">
+                                          Same Home Different Hacks - June 2020
+                                        </li>
+                                        <li className="my-2">
+                                          Hack Girl Summer - June 2020
+                                        </li>
+                                        <li className="my-2">
+                                          Hack or Treat? - Halloween 2020 🎃
+                                        </li>
+                                      </ul>
                                     </dd>
                                   </div>
                                 </dl>
