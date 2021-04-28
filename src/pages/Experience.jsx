@@ -195,7 +195,7 @@ const Experience = () => {
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
                                     <dd>
-                                      You can even check out my profile on{" "}
+                                      You can check out my profile on{" "}
                                       <a
                                         className="text-teal-600 font-title font-semibold hover:underline"
                                         href="https://devpost.com/shahpreetk/"
