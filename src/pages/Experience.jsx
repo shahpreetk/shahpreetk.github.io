@@ -43,44 +43,30 @@ const Experience = () => {
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                <h3 className="text-lg font-medium text-teal-800 underline">
                                   Internship
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
-                                    <dt className="sr-only">Email</dt>
                                     <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
+                                      Prototyping, Designing, Developing, and
+                                      Testing Apps and Websites with database
+                                      management was expected from me.
                                     </dd>
                                   </div>
                                 </dl>
                               </div>
 
                               <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                <h3 className="text-lg font-medium text-teal-800 underline">
                                   Freelance
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
-                                    <dt className="sr-only">Email</dt>
                                     <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
+                                      Designed and later developed an Order
+                                      Management System(with Chat functionality)
+                                      using HTML, CSS, JS
                                     </dd>
                                   </div>
                                 </dl>
@@ -99,12 +85,11 @@ const Experience = () => {
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                <h3 className="text-lg font-medium text-teal-800 underline">
                                   Program
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
-                                    <dt className="sr-only">Email</dt>
                                     <dd>
                                       Lorem ipsum dolor sit amet, consectetur
                                       adipiscing elit. Aenean pharetra gravida
@@ -121,12 +106,11 @@ const Experience = () => {
                               </div>
 
                               <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
+                                <h3 className="text-lg font-medium text-teal-800 underline">
                                   Achievements
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
-                                    <dt className="sr-only">Email</dt>
                                     <dd>
                                       Lorem ipsum dolor sit amet, consectetur
                                       adipiscing elit. Aenean pharetra gravida
@@ -156,34 +140,11 @@ const Experience = () => {
                             </h2>
                             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-1 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-1">
                               <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
-                                  Program
+                                <h3 className="text-lg font-medium text-teal-800 underline">
+                                  Attended
                                 </h3>
                                 <dl className="mt-2 text-base text-warm-gray-500">
                                   <div>
-                                    <dt className="sr-only">Email</dt>
-                                    <dd>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Aenean pharetra gravida
-                                      dapibus. In sodales accumsan ante nec
-                                      lobortis. Proin sodales est a tortor
-                                      blandit blandit. Nullam vel tincidunt
-                                      lectus, a porttitor elit. Sed nec
-                                      consequat tellus, in viverra orci.
-                                      Suspendisse posuere risus metus, in
-                                      aliquam lacus ultricies in.
-                                    </dd>
-                                  </div>
-                                </dl>
-                              </div>
-
-                              <div>
-                                <h3 className="text-lg font-medium text-warm-gray-900">
-                                  Achievements
-                                </h3>
-                                <dl className="mt-2 text-base text-warm-gray-500">
-                                  <div>
-                                    <dt className="sr-only">Email</dt>
                                     <dd>
                                       Lorem ipsum dolor sit amet, consectetur
                                       adipiscing elit. Aenean pharetra gravida
