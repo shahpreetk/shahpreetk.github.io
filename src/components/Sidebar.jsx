@@ -279,6 +279,21 @@ const Sidebar = () => {
                         <span className="truncate">SmartBrain</span>
                       </button>
                     </NavLink>
+
+                    <NavLink
+                      to="/projects/inventostocks"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                    >
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">Inventostocks</span>
+                      </button>
+                    </NavLink>
                   </div>
                 </div>
               </nav>
@@ -446,6 +461,15 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">SmartBrain</span>
+                    </NavLink>
+
+                    <NavLink
+                      to="/projects/inventostocks"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
+                    >
+                      <span className="truncate">Inventostocks</span>
                     </NavLink>
                   </div>
                 </div>
