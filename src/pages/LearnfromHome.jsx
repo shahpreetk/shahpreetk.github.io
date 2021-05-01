@@ -34,10 +34,21 @@ const LearnfromHome = () => {
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            Learn From Home is an initiative to provide all the
+                            free and temporarily-free resources available for
+                            work/study/entertainment during the COVID-19
+                            outbreak, under one roof.
+                            <p className="mt-2">
+                              You can find the site on{" "}
+                              <a
+                                className="text-teal-800"
+                                href="https://learn-from-home.herokuapp.com"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                https://learn-from-home.herokuapp.com/
+                              </a>
+                            </p>
                           </dd>
                         </div>
 
@@ -46,10 +57,10 @@ const LearnfromHome = () => {
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            During the COVID-19 pandemic, learning, work and
+                            education had to be shifted online. So, this project
+                            was made in order to make accessing free online
+                            available resources easier on one single site.
                           </dd>
                         </div>
 
@@ -58,10 +69,12 @@ const LearnfromHome = () => {
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            The very first version of the Learn from Home
+                            website was made using HTML, CSS and an API to add
+                            random images in the cards. Since, there was a lot
+                            of redundant code, the site was then shifted to
+                            React and a Search functionality was added to
+                            improve user experience..
                           </dd>
                         </div>
 
@@ -70,10 +83,14 @@ const LearnfromHome = () => {
                             Achievements
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            <ul>
+                              <li>It was my first unique React project.</li>
+                              <li>
+                                The site was shared onto various social media
+                                platforms and in the span of 4 months had
+                                received 5000+ views.
+                              </li>
+                            </ul>
                           </dd>
                         </div>
                       </dl>
