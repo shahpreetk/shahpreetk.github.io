@@ -38,6 +38,17 @@ const SmartBrain = () => {
                             elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
                             dolor sit amet consectetur adipisicing elit. Quas
                             cupiditate laboriosam fugiat.
+                            <p className="mt-2">
+                              You can find the site on{" "}
+                              <a
+                                className="text-teal-800"
+                                href="https://safe-brook-69703.herokuapp.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                https://safe-brook-69703.herokuapp.com/
+                              </a>
+                            </p>
                           </dd>
                         </div>
 

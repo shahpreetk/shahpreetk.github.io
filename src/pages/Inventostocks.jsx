@@ -38,6 +38,17 @@ const Inventostocks = () => {
                             elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
                             dolor sit amet consectetur adipisicing elit. Quas
                             cupiditate laboriosam fugiat.
+                            <p className="mt-2">
+                              You can find the site on{" "}
+                              <a
+                                className="text-teal-800"
+                                href="https://inventostocks.netlify.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                https://inventostocks.netlify.app/
+                              </a>
+                            </p>
                           </dd>
                         </div>
 
