@@ -120,9 +120,11 @@ const Experience = () => {
                                           <span className="text-teal-600 font-title text-lg">
                                             Mentored&nbsp;
                                           </span>
-                                          - A project made using the MERN stack
-                                          for the theme Education. You can find
-                                          more about the project here -&nbsp;
+                                          - Third place in the Global finales.{" "}
+                                          <br />A project made using the MERN
+                                          stack for the theme Education. You can
+                                          find more about the project here
+                                          -&nbsp;
                                           <a
                                             className="hover:underlinebreak-all text-sm font-bold text-teal-600"
                                             href="https://devpost.com/software/mentored"
@@ -136,7 +138,9 @@ const Experience = () => {
                                           <span className="text-teal-600 font-title text-lg">
                                             KnightInTheNight&nbsp;
                                           </span>
-                                          - So this project was a game build on
+                                          - Third place in the Global finales.{" "}
+                                          <br />
+                                          So this project was a game build on
                                           Godot, something we were all entirely
                                           new to and had an amazing time trying
                                           to win our own game. You can find more
@@ -154,12 +158,13 @@ const Experience = () => {
                                           <span className="text-teal-600 font-title text-lg">
                                             Volunteery&nbsp;
                                           </span>
-                                          - Social Good, a theme really
-                                          important to always keep in our minds
-                                          and this app built using Flutter was
-                                          built to connect NGOs with quality
-                                          Volunteers. Find out more of the
-                                          project here -{" "}
+                                          - Second place in the Global finales.{" "}
+                                          <br />
+                                          Social Good, a theme really important
+                                          to always keep in our minds and this
+                                          app built using Flutter was built to
+                                          connect NGOs with quality Volunteers.
+                                          Find out more of the project here -{" "}
                                           <a
                                             className="hover:underlinebreak-all text-sm font-bold text-teal-600"
                                             href="https://devpost.com/software/volunteery-gno5zx"
