@@ -34,10 +34,11 @@ const BookIt = () => {
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            BookIt is aproject made for the Final year of my
+                            Bachelors of Engineering degree. It is an online
+                            system made using MERN stack to book the Auditorium
+                            or Tuf of K. J. Somaiya Institute of Engineering and
+                            Information Technology.
                             <p className="mt-2">
                               You can find the site on{" "}
                               <a
@@ -57,10 +58,15 @@ const BookIt = () => {
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            Currently, we are surrounded by applications like
+                            Zomato, Swiggy, Flipkart, etc., and have a lot of
+                            these apps even installed on our phones. So the
+                            thought behind this system was to make something
+                            that would help teachers, students and even
+                            outsiders. Now with the help of this system, we can
+                            book our college Auditorium and Turf from anywhere,
+                            without being present in college and without needing
+                            to approach the administration too.
                           </dd>
                         </div>
 
