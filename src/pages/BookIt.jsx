@@ -75,10 +75,69 @@ const BookIt = () => {
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            As this was my very first self-made complete MERN
+                            stack project there were quite a few obstacles faced
+                            while building it. One of the most difficult choice
+                            I had to make was on the tech stack that I wanted to
+                            use for the project. I had started with the idea of
+                            using MERN stack but since I did not know much I
+                            shifted my plan to using Firebase Functions and
+                            Firestore. But I still wished to learn something new
+                            while building this project so then thought, why not
+                            use Amazon Web Services.
+                            <br />
+                            Once I shifted to AWS I realised that it was not
+                            very easy to learn. It took me 2 tries to setup AWS
+                            incognito for Authentication and after multiple
+                            tries to setup REST API with AWS functions and
+                            Storage bucket, I gave up. By then I had done a few
+                            courses on Nodejs, one by Andrew Mead and had a
+                            decent understanding of how I could build the
+                            project using MERN stack. So finally, I shifted back
+                            to using the MERN stack just this time it was
+                            different as I actually was successful in building
+                            the system.
+                            <br />
+                            <ul>
+                              <li>
+                                <span className="text-violet-700 font-bold">
+                                  UI
+                                </span>{" "}
+                                - First, we sketched the wireframe of the
+                                website after which the prototype and designing
+                                were done on Adobe XD.
+                              </li>{" "}
+                              <li>
+                                <span className="text-violet-700 font-bold">
+                                  Frontend
+                                </span>{" "}
+                                - The frontend of this online booking system is
+                                made using the Reactjs UI library. It helps in
+                                making a single-page application (SPA) that
+                                ensures fast rendering. React-Bootstrap with
+                                Styled Components has been used for the styling
+                                of the web app. To give the user a feeling of
+                                content being loaded, we show a loader using
+                                react-loading-skeleton after which the backend
+                                sends the data using Axios. The state management
+                                of the cart has been done using
+                                use-shopping-cart and the checkout is managed by
+                                Stripe payment system.
+                              </li>{" "}
+                              <li>
+                                <span className="text-violet-700 font-bold">
+                                  Backend
+                                </span>{" "}
+                                - The API system is made using Express, a
+                                lightweight Nodejs library. The data is saved on
+                                a NoSQL MongoDB database. To welcome the user
+                                after signup, we send an email using the
+                                Sendgrid service. For the security and privacy
+                                of the user, we use bcrypt to hash the user’s
+                                password in the database, and session
+                                authentication is done via JSON web tokens.
+                              </li>
+                            </ul>
                           </dd>
                         </div>
 
