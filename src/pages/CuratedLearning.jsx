@@ -34,10 +34,10 @@ const CuratedLearning = () => {
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            curatedLearning is a personally curated list of
+                            learning paths for individuals who want to get
+                            started but are overwhelmed by the huge amount of
+                            resources that are available.
                             <p className="mt-2">
                               You can find the site on{" "}
                               <a
@@ -57,10 +57,14 @@ const CuratedLearning = () => {
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            When I started out with coding I had no clue about
+                            what I would be interested in or would like to
+                            build. If not for the help of my seniors and friends
+                            I would be clueless but I was lucky.
+                            <br />
+                            So since maybe not everyone would have people around
+                            them in the tech background I thought of making this
+                            site to help them.
                           </dd>
                         </div>
 
@@ -69,14 +73,15 @@ const CuratedLearning = () => {
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            Currently, the site is only made using React but due
+                            to code redundancy I plan on moving the project to
+                            MERN stack in the future. The lists are still in
+                            development phase and new resources are constantly
+                            being added.
                           </dd>
                         </div>
 
-                        <div>
+                        {/* <div>
                           <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             Achievements
                           </dt>
@@ -86,7 +91,7 @@ const CuratedLearning = () => {
                             dolor sit amet consectetur adipisicing elit. Quas
                             cupiditate laboriosam fugiat.
                           </dd>
-                        </div>
+                        </div> */}
                       </dl>
                     </div>
                   </div>
