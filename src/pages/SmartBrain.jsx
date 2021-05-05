@@ -34,10 +34,9 @@ const SmartBrain = () => {
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            SmartBrain is a project where-in you can paste the
+                            URL of any image and the system would detect any
+                            faces in the image and give it back to you.
                             <p className="mt-2">
                               You can find the site on{" "}
                               <a
@@ -57,10 +56,8 @@ const SmartBrain = () => {
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            SmartBrain was my first MERN stack project made in a
+                            course by Andrei Neagoie.
                           </dd>
                         </div>
 
@@ -69,10 +66,12 @@ const SmartBrain = () => {
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            The sight is made using the MERN stack. It has an
+                            authentication system and counts the number of times
+                            the user has pasted a URL to detect faces. It
+                            detects faces by making an API call to Clarifai. We
+                            then map out the coordinates given back as a
+                            repsonse and provide the user the result.
                           </dd>
                         </div>
 
@@ -81,10 +80,8 @@ const SmartBrain = () => {
                             Achievements
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            This project was my first step into Fullstack Web
+                            Development.
                           </dd>
                         </div>
                       </dl>
