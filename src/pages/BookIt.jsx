@@ -146,10 +146,20 @@ const BookIt = () => {
                             Achievements
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            A paper has been published on the same in the
+                            International Journal for Research in Applied
+                            Science and Engineering Technology Volume 9, Issue
+                            IV, April 2021.
+                            <br />
+                            You can find the same at{" "}
+                            <a
+                              href="https://doi.org/10.22214/ijraset.2021.33974"
+                              className="text-teal-800 "
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              https://doi.org/10.22214/ijraset.2021.33974
+                            </a>
                           </dd>
                         </div>
                       </dl>
