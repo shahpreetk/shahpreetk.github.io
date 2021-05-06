@@ -34,10 +34,9 @@ const Inventostocks = () => {
                             What is it?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            Inventostocks is a platform to save all your shares
+                            inventory. You can save buying as well as selling
+                            information of all your shares on this site.
                             <p className="mt-2">
                               You can find the site on{" "}
                               <a
@@ -57,10 +56,14 @@ const Inventostocks = () => {
                             Why was it made?
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            Inventostocks was made in order to help managing
+                            shares better. Many a times people buy shares from
+                            multiple platforms like a digital application or
+                            from a broker. So in such cases keeping track of all
+                            shares becomes a hassle in the long run.
+                            Inventostocks prevents that. It allows you to add a
+                            share and edits its information so as to know all
+                            you need to about all your shares at one place.
                           </dd>
                         </div>
 
@@ -69,14 +72,12 @@ const Inventostocks = () => {
                             The Process
                           </dt>
                           <dd className="mt-2 text-base text-gray-500">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quas cupiditate laboriosam fugiat. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Quas
-                            cupiditate laboriosam fugiat.
+                            The site is built using the MERN stack but is
+                            currently still in the development phase.
                           </dd>
                         </div>
 
-                        <div>
+                        {/* <div>
                           <dt className="text-lg leading-6 font-medium text-teal-800 font-title">
                             Achievements
                           </dt>
@@ -86,7 +87,7 @@ const Inventostocks = () => {
                             dolor sit amet consectetur adipisicing elit. Quas
                             cupiditate laboriosam fugiat.
                           </dd>
-                        </div>
+                        </div> */}
                       </dl>
                     </div>
                   </div>
