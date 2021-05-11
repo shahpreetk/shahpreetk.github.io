@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Extracurriculars from "./pages/Extracurriculars";
 import Experience from "./pages/Experience";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 import BookIt from "./pages/BookIt";
 import LearnfromHome from "./pages/LearnfromHome";
 import CuratedLearning from "./pages/CuratedLearning";
@@ -26,6 +27,11 @@ function App() {
           <Route
             path={process.env.PUBLIC_URL + "/extracurriculars"}
             component={Extracurriculars}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/contact"}
+            component={Contact}
             exact
           />
           <Route

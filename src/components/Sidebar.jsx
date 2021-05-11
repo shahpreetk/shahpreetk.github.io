@@ -213,6 +213,38 @@ const Sidebar = () => {
                       Extracurriculars
                     </button>
                   </NavLink>
+
+                  <NavLink
+                    to="/contact"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                  >
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
+                    >
+                      <svg
+                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
+                        data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                        data-todo-x-description="Heroicon name: outline/archive"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+                        ></path>
+                      </svg>
+                      Contact Me
+                    </button>
+                  </NavLink>
                 </div>
 
                 <div className="mt-10">
@@ -420,6 +452,31 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Extracurriculars
+                  </NavLink>
+                  <NavLink
+                    to="/contact"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
+                  >
+                    <svg
+                      className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
+                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                      data-todo-x-description="Heroicon name: outline/archive"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+                      ></path>
+                    </svg>
+                    Contact Me
                   </NavLink>
                 </div>
                 <div className="mt-10">
