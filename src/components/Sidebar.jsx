@@ -226,7 +226,7 @@ const Sidebar = () => {
                       onClick={() => setIsShowing((isShowing) => !isShowing)}
                     >
                       <svg
-                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-6 w-6"
+                        className="text-gray-400 group-hover:text-gray-300 mr-4 h-5 w-5"
                         data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
                         data-todo-x-description="Heroicon name: outline/archive"
                         xmlns="http://www.w3.org/2000/svg"
@@ -235,12 +235,7 @@ const Sidebar = () => {
                         stroke="currentColor"
                         aria-hidden="true"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
-                        ></path>
+                        <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
                       </svg>
                       Contact Me
                     </button>
@@ -460,7 +455,7 @@ const Sidebar = () => {
                     className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
                   >
                     <svg
-                      className="text-gray-400 group-hover:text-gray-300 mr-3 h-6 w-6"
+                      className="text-gray-400 group-hover:text-gray-300 mr-3 h-5 w-5"
                       data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
                       data-todo-x-description="Heroicon name: outline/archive"
                       xmlns="http://www.w3.org/2000/svg"
@@ -469,12 +464,7 @@ const Sidebar = () => {
                       stroke="currentColor"
                       aria-hidden="true"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
-                      ></path>
+                      <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
                     </svg>
                     Contact Me
                   </NavLink>
