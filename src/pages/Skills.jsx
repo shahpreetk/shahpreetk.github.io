@@ -33,7 +33,7 @@ const Skills = () => {
                           <ol className="overflow-hidden">
                             <li className="relative pb-10">
                               <div
-                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-indigo-600"
+                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-teal-500"
                                 aria-hidden="true"
                               ></div>
                               <a
@@ -44,7 +44,7 @@ const Skills = () => {
                                 rel="noreferrer"
                               >
                                 <span className="h-9 flex items-center">
-                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-indigo-600 rounded-full group-hover:bg-indigo-800">
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-teal-500 rounded-full group-hover:bg-teal-700">
                                     <svg
                                       className="w-5 h-5 text-white"
                                       data-todo-x-description="Heroicon name: solid/check"
@@ -74,7 +74,7 @@ const Skills = () => {
 
                             <li className="relative pb-10">
                               <div
-                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-indigo-600"
+                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-teal-500"
                                 aria-hidden="true"
                               ></div>
                               <a
@@ -85,7 +85,7 @@ const Skills = () => {
                                 rel="noreferrer"
                               >
                                 <span className="h-9 flex items-center">
-                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-indigo-600 rounded-full group-hover:bg-indigo-800">
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-teal-500 rounded-full group-hover:bg-teal-700">
                                     <svg
                                       className="w-5 h-5 text-white"
                                       data-todo-x-description="Heroicon name: solid/check"
@@ -115,7 +115,7 @@ const Skills = () => {
 
                             <li className="relative pb-10">
                               <div
-                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-indigo-600"
+                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-teal-500"
                                 aria-hidden="true"
                               ></div>
                               <a
@@ -126,7 +126,7 @@ const Skills = () => {
                                 rel="noreferrer"
                               >
                                 <span className="h-9 flex items-center">
-                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-indigo-600 rounded-full group-hover:bg-indigo-800">
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-teal-500 rounded-full group-hover:bg-teal-700">
                                     <svg
                                       className="w-5 h-5 text-white"
                                       data-todo-x-description="Heroicon name: solid/check"
@@ -171,12 +171,12 @@ const Skills = () => {
                                   className="h-9 flex items-center"
                                   aria-hidden="true"
                                 >
-                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-indigo-600 rounded-full">
-                                    <span className="h-2.5 w-2.5 bg-indigo-600 rounded-full"></span>
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-teal-500 rounded-full">
+                                    <span className="h-2.5 w-2.5 bg-teal-500 rounded-full"></span>
                                   </span>
                                 </span>
                                 <span className="ml-4 min-w-0 flex flex-col">
-                                  <span className="text-xs font-semibold tracking-wide uppercase text-indigo-600">
+                                  <span className="text-xs font-semibold tracking-wide uppercase text-teal-500">
                                     NodeJS
                                   </span>
                                   <span className="text-sm text-gray-500">
@@ -204,12 +204,12 @@ const Skills = () => {
                                   className="h-9 flex items-center"
                                   aria-hidden="true"
                                 >
-                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-indigo-600 rounded-full">
-                                    <span className="h-2.5 w-2.5 bg-indigo-600 rounded-full"></span>
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-teal-500 rounded-full">
+                                    <span className="h-2.5 w-2.5 bg-teal-500 rounded-full"></span>
                                   </span>
                                 </span>
                                 <span className="ml-4 min-w-0 flex flex-col">
-                                  <span className="text-xs font-semibold tracking-wide uppercase text-indigo-600">
+                                  <span className="text-xs font-semibold tracking-wide uppercase text-teal-500">
                                     MongoDB
                                   </span>
                                   <span className="text-sm text-gray-500">
@@ -255,7 +255,7 @@ const Skills = () => {
                       <ul className="space-y-4">
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -274,7 +274,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -291,7 +291,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -310,7 +310,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -329,7 +329,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -348,7 +348,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -365,7 +365,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -382,7 +382,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
@@ -399,7 +399,7 @@ const Skills = () => {
                         </li>
                         <li className="flex space-x-3">
                           <svg
-                            className="flex-shrink-0 h-6 w-6 text-green-500"
+                            className="flex-shrink-0 h-6 w-6 text-teal-400"
                             data-todo-x-description="Heroicon name: solid/check"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"

@@ -49,7 +49,7 @@ const About = () => {
                                 <div className="space-y-4">
                                   <div className="text-lg leading-6 font-medium space-y-1">
                                     <h3>Preet Shah</h3>
-                                    <p className="text-indigo-600">
+                                    <p className="text-teal-500">
                                       Web Developer
                                     </p>
                                   </div>
