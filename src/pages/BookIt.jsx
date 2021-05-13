@@ -152,14 +152,17 @@ const BookIt = () => {
                             IV, April 2021.
                             <br />
                             You can find the same at{" "}
-                            <a
-                              href="https://doi.org/10.22214/ijraset.2021.33974"
-                              className="text-teal-800 "
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              https://doi.org/10.22214/ijraset.2021.33974
-                            </a>
+                            <p className="mt-2 break-words">
+                              You can find the site on{" "}
+                              <a
+                                className="text-teal-800"
+                                href="https://doi.org/10.22214/ijraset.2021.33974"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                https://doi.org/10.22214/ijraset.2021.33974/
+                              </a>
+                            </p>
                           </dd>
                         </div>
                       </dl>
