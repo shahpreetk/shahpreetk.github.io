@@ -199,6 +199,56 @@ const About = () => {
                       </ul>
                     </div>
                   </div>
+                  <div className="relative bottom-0 inset-x-0 py-16 sm:pb-5">
+                    <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                      <div className="p-2 rounded-lg bg-teal-400 shadow-lg sm:p-3">
+                        <div className="flex items-center justify-between flex-wrap">
+                          <div className="w-0 flex-1 flex items-center">
+                            <span className="flex p-2 rounded-lg bg-teal-800">
+                              <svg
+                                className="h-6 w-6 text-white"
+                                data-todo-x-description="Heroicon name: outline/speakerphone"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth="2"
+                                  d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"
+                                ></path>
+                              </svg>
+                            </span>
+                            <p className="ml-3 font-medium text-white truncate">
+                              <span className="md:hidden">Contact Me</span>
+                              <span className="hidden md:inline">
+                                Want to rant about coding or discuss painting?
+                              </span>
+                            </p>
+                          </div>
+                          <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
+                            <a
+                              href="mailto:shahpreetk@outlook.com"
+                              className="flex items-center justify-center px-4 py-3 border border-transparent rounded-md shadow-sm text-sm font-medium text-teal-600 bg-white hover:bg-indigo-50"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
