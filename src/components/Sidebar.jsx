@@ -213,6 +213,33 @@ const Sidebar = () => {
                       Extracurriculars
                     </button>
                   </NavLink>
+                  <NavLink
+                    to="/images/Shah_Preet_K-Resume.pdf"
+                    target="_blank"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                  >
+                    <button
+                      type="button"
+                      className="flex items-center w-full h-full rounded-full focus:outline-none"
+                      onClick={() => setIsShowing((isShowing) => !isShowing)}
+                    >
+                      <svg
+                        className="text-gray-400 group-hover:text-gray-300 ml-1 mr-4 h-5 w-5"
+                        data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                        data-todo-x-description="Heroicon name: outline/archive"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke="none"
+                        aria-hidden="true"
+                      >
+                        <path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-3v-1h3v1zm0 2h-3v1h3v-1zm0 3h-10v1h10v-1zm-5-6h-5v4h5v-4z" />
+                      </svg>
+                      Resume
+                    </button>
+                  </NavLink>
                 </div>
 
                 <div className="mt-10">
@@ -420,6 +447,28 @@ const Sidebar = () => {
                       ></path>
                     </svg>
                     Extracurriculars
+                  </NavLink>
+
+                  <NavLink
+                    to="/images/Shah_Preet_K-Resume.pdf"
+                    target="_blank"
+                    exact
+                    activeClassName="selectedSidebarOption"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
+                  >
+                    <svg
+                      className="text-gray-400 group-hover:text-gray-300 ml-1 mr-4 h-5 w-5"
+                      data-todo-x-state-description='undefined: "text-gray-300", undefined: "text-gray-400 group-hover:text-gray-300"'
+                      data-todo-x-description="Heroicon name: outline/archive"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke="none"
+                      aria-hidden="true"
+                    >
+                      <path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-3v-1h3v1zm0 2h-3v1h3v-1zm0 3h-10v1h10v-1zm-5-6h-5v4h5v-4z" />
+                    </svg>
+                    Resume
                   </NavLink>
                 </div>
                 <div className="mt-10">
