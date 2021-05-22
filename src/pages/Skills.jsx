@@ -37,6 +37,53 @@ const Skills = () => {
                                 aria-hidden="true"
                               ></div>
                               <a
+                                href="https://www.adobe.com/products/xd/features.html"
+                                className="relative flex items-start group"
+                                data-todo-x-description="Complete Step"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                <span className="h-9 flex items-center">
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-teal-500 rounded-full group-hover:bg-teal-700">
+                                    <svg
+                                      className="w-5 h-5 text-white"
+                                      data-todo-x-description="Heroicon name: solid/check"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clipRule="evenodd"
+                                      ></path>
+                                    </svg>
+                                  </span>
+                                </span>
+                                <span className="ml-4 min-w-0 flex flex-col">
+                                  <span className="text-xs font-semibold tracking-wide uppercase">
+                                    Adobe XD
+                                  </span>
+                                  <span className="text-sm text-gray-500">
+                                    <ol>
+                                      <li> - Adobe XD Basics Course, Udemy.</li>
+                                      <li>
+                                        - Front-End Web UI Frameworks and Tools:
+                                        Bootstrap 4, Coursera.
+                                      </li>
+                                    </ol>
+                                  </span>
+                                </span>
+                              </a>
+                            </li>
+
+                            <li className="relative pb-10">
+                              <div
+                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-teal-500"
+                                aria-hidden="true"
+                              ></div>
+                              <a
                                 href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
                                 className="relative flex items-start group"
                                 data-todo-x-description="Complete Step"
@@ -66,7 +113,12 @@ const Skills = () => {
                                     HTML & CSS
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Vitae sed mi luctus laoreet.
+                                    <ol>
+                                      <li>
+                                        - Responsive Website Basics: Code with
+                                        HTML, CSS, and JavaScript, Coursera.
+                                      </li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
@@ -107,7 +159,12 @@ const Skills = () => {
                                     JavaScript
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Vitae sed mi luctus laoreet.
+                                    <ol>
+                                      <li>
+                                        - Beginner Javascript, Zack Freedman,
+                                        Udemy.
+                                      </li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
@@ -148,7 +205,24 @@ const Skills = () => {
                                     React
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Vitae sed mi luctus laoreet.
+                                    <ol>
+                                      <li>
+                                        - React Developer in 2020, Andrei
+                                        Neagoie, ZTM.
+                                      </li>
+                                      <li>
+                                        - Front-End Web Development with React,
+                                        Coursera.
+                                      </li>
+                                      <li>
+                                        - Web Developer Bootcamp, Colt Steele,
+                                        Udemy.
+                                      </li>
+                                      <li>
+                                        {" "}
+                                        - React Front to Back, Brad Traversy.
+                                      </li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
@@ -180,8 +254,11 @@ const Skills = () => {
                                     NodeJS
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Cursus semper viverra facilisis et et some
-                                    more.
+                                    <ol>
+                                      <li>
+                                        - NodeJS Developer Course, Andrew Mead.
+                                      </li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
@@ -213,8 +290,15 @@ const Skills = () => {
                                     MongoDB
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Cursus semper viverra facilisis et et some
-                                    more.
+                                    <ol>
+                                      <li>
+                                        - NodeJS Developer Course, Andrew Mead.
+                                      </li>
+                                      <li>
+                                        - Web Developer Bootcamp, Colt Steele,
+                                        Udemy.
+                                      </li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
@@ -241,7 +325,9 @@ const Skills = () => {
                                     React Native
                                   </span>
                                   <span className="text-sm text-gray-500">
-                                    Iusto et officia maiores porro ad non quas.
+                                    <ol>
+                                      <li>- React Native, Code with Mosh.</li>
+                                    </ol>
                                   </span>
                                 </span>
                               </a>
