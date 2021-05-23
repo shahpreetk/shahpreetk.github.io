@@ -118,6 +118,7 @@ const Skills = () => {
                                         - Responsive Website Basics: Code with
                                         HTML, CSS, and JavaScript, Coursera.
                                       </li>
+                                      <li>- Interneting is Hard</li>
                                     </ol>
                                   </span>
                                 </span>
