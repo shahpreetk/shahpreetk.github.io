@@ -321,6 +321,21 @@ const Sidebar = () => {
                         <span className="truncate">Inventostocks</span>
                       </button>
                     </NavLink>
+
+                    <NavLink
+                      to="/projects/dj-events"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                    >
+                      <button
+                        type="button"
+                        className="flex items-center w-full h-full rounded-full focus:outline-none"
+                        onClick={() => setIsShowing((isShowing) => !isShowing)}
+                      >
+                        <span className="truncate">DJ Events</span>
+                      </button>
+                    </NavLink>
                   </div>
                 </div>
               </nav>
@@ -519,6 +534,15 @@ const Sidebar = () => {
                       className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
                     >
                       <span className="truncate">Inventostocks</span>
+                    </NavLink>
+
+                    <NavLink
+                      to="/projects/dj-events"
+                      exact
+                      activeClassName="selectedSidebarOption"
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center mr-2 px-2 py-2 text-base font-medium rounded-md"
+                    >
+                      <span className="truncate">DJ Events</span>
                     </NavLink>
                   </div>
                 </div>
