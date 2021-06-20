@@ -10,6 +10,7 @@ import LearnfromHome from "./pages/LearnfromHome";
 import CuratedLearning from "./pages/CuratedLearning";
 import SmartBrain from "./pages/SmartBrain";
 import Inventostocks from "./pages/Inventostocks";
+import DJEvents from "./pages/DJEvents";
 
 function App() {
   return (
@@ -61,6 +62,11 @@ function App() {
           <Route
             path={process.env.PUBLIC_URL + "/projects/inventostocks"}
             component={Inventostocks}
+            exact
+          />
+          <Route
+            path={process.env.PUBLIC_URL + "/projects/dj-events"}
+            component={DJEvents}
             exact
           />
         </Switch>
