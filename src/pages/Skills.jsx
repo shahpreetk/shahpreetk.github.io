@@ -235,6 +235,43 @@ const Skills = () => {
                                 aria-hidden="true"
                               ></div>
                               <a
+                                href="https://nextjs.org/"
+                                target="_blank"
+                                className="relative flex items-start group"
+                                aria-current="step"
+                                data-todo-x-description="Current Step"
+                                rel="noreferrer"
+                              >
+                                <span
+                                  className="h-9 flex items-center"
+                                  aria-hidden="true"
+                                >
+                                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-white border-2 border-teal-500 rounded-full">
+                                    <span className="h-2.5 w-2.5 bg-teal-500 rounded-full"></span>
+                                  </span>
+                                </span>
+                                <span className="ml-4 min-w-0 flex flex-col">
+                                  <span className="text-xs font-semibold tracking-wide uppercase text-teal-500">
+                                    Next.js
+                                  </span>
+                                  <span className="text-sm text-gray-500">
+                                    <ol>
+                                      <li>
+                                        - Next.js Dev to Development, Brad
+                                        Traversy.
+                                      </li>
+                                    </ol>
+                                  </span>
+                                </span>
+                              </a>
+                            </li>
+
+                            <li className="relative pb-10">
+                              <div
+                                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-gray-300"
+                                aria-hidden="true"
+                              ></div>
+                              <a
                                 href="https://nodejs.org/en/"
                                 target="_blank"
                                 className="relative flex items-start group"
