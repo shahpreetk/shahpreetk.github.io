@@ -6,10 +6,6 @@ const Skill = () => {
     <>
       {skills.map((skill) => (
         <li className="relative pb-10" key={skill.id}>
-          {/* <div
-                className="-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full bg-teal-500"
-                aria-hidden="true"
-              ></div> */}
           <div
             className={`-ml-px absolute mt-0.5 top-4 left-4 w-0.5 h-full ${
               skill.status === "completed"
@@ -22,7 +18,6 @@ const Skill = () => {
           <a
             href={skill.url}
             className="relative flex items-start group"
-            // data-todo-x-description="Complete Step"
             data-todo-x-description={
               skill.status === "completed"
                 ? "Complete Step"
