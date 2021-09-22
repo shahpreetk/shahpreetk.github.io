@@ -24,7 +24,7 @@ const About = () => {
                         About Me
                       </h1>
                       <p className="mt-2 text-sm text-gray-500">
-                        Student . Bachelors of Engineering
+                        Engineer . Pursuing MS in Computer Science
                       </p>
                     </div>
                   </div>
@@ -196,22 +196,23 @@ const About = () => {
                     <h2 className="sr-only">Description</h2>
                     <div className="prose max-w-none">
                       <p>
-                        Electronics and Telecommunications Student at KJSIEIT,
-                        I'm interested in Web Development. I'm a budding Full
+                        Bachelors of Engineering in Electronics and
+                        Telecommunications, now pursuing Masters in Computer
+                        Science from Newcastle University. I'm a budding Full
                         Stack Web Developer and well versed with MERN (MongoDB,
-                        Express, React, Node) Stack. Currently I am
-                        experimenting with JAM Stack. I have also been a part of
-                        the Major League Hacking Fellowship Program in the Fall
-                        2020 Batch.
+                        Express, React, Node) Stack. Currently am experimenting
+                        with JAM Stack and have also been a part of the Major
+                        League Hacking Fellowship Program in the Fall 2020
+                        Batch.
                       </p>
                       <ul>
                         <li>
                           I have also held positions of responsibility like
                           Chairperson of IETE and Leader of NSS at KJSIEIT
                           College. I also love to carry out social activities
-                          and am the District President of Leo District 3231 A1,
-                          India and the Chief Website Officer of Leo Multiple
-                          3231, India.
+                          and am the Past District President of Leo District
+                          3231 A1, India and was the Chief Website Officer of
+                          Leo Multiple 3231, India.
                         </li>
                         <li>
                           My love for colour doesn't let me forget my passion

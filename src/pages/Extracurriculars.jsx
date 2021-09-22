@@ -27,14 +27,14 @@ const Extracurriculars = () => {
                     </div>
                   </div>
 
-                  <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                  <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
                     <div className="mt-10">
                       <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                         {extracurriculars.map((extracurricular) => (
                           <div key={extracurricular.id} className="relative">
                             <dt>
                               {" "}
-                              <p className="ml-6 text-lg leading-6 font-medium text-teal-800 font-title">
+                              <p className="ml-0 text-lg leading-6 font-medium text-teal-800 font-title">
                                 <a
                                   href={extracurricular.url}
                                   target="_blank"
@@ -44,7 +44,7 @@ const Extracurriculars = () => {
                                 </a>
                               </p>
                             </dt>
-                            <dd className="mt-2 ml-12 text-base text-gray-500">
+                            <dd className="mt-2 ml-0 text-base text-gray-500">
                               {extracurricular.description}
                             </dd>
                           </div>

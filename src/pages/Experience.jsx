@@ -29,7 +29,7 @@ const Experience = () => {
                   <main>
                     {/* Side-by-side grid */}
                     <div className="bg-white">
-                      <div className="max-w-md mx-auto py-8 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-7xl lg:px-8">
+                      <div className="max-w-md mx-auto py-8 px-0 sm:max-w-3xl sm:py-16 sm:px-0 lg:max-w-7xl lg:px-0">
                         <div className="divide-y divide-warm-gray-200">
                           <section
                             className="lg:grid lg:grid-cols-2 lg:gap-8 pb-12"

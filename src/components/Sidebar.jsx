@@ -214,7 +214,7 @@ const Sidebar = () => {
                     </button>
                   </NavLink>
                   <NavLink
-                    to="/images/Shah_Preet_K-Resume.pdf"
+                    to="/images/Preet_K_Shah_Resume.pdf"
                     target="_blank"
                     exact
                     activeClassName="selectedSidebarOption"
@@ -465,7 +465,7 @@ const Sidebar = () => {
                   </NavLink>
 
                   <NavLink
-                    to="/images/Shah_Preet_K-Resume.pdf"
+                    to="/images/Preet_K_Shah_Resume.pdf"
                     target="_blank"
                     exact
                     activeClassName="selectedSidebarOption"
