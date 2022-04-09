@@ -14,7 +14,18 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense
+        fallback={
+          <div className="flex h-screen">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="text-center">
+                <img className="h-24 w-auto" src="/images/shahpreetk-logo.png" alt="loader logo" />
+                <h1>Loading...</h1>
+              </div>
+            </div>
+          </div>
+        }
+      >
         <NavHeader />
         <Routes>
           <Route path={ROUTES.ABOUT_ME} element={<AboutMe />} />
