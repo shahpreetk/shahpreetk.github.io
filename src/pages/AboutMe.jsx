@@ -1,3 +1,5 @@
+import Hero from "../components/Hero";
+
 const AboutMe = () => {
   return (
     <>
@@ -8,13 +10,20 @@ const AboutMe = () => {
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
             <div className="py-4">
-              <div className="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+              <div className="h-96">
+                <Hero />
+              </div>
+            </div>
+          </div>
+          <div className="max-w-7xl mx-auto px-2 md:px-8">
+            <div className="py-4">
+              <div className=" rounded-lg h-96" />
             </div>
           </div>
         </div>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;
