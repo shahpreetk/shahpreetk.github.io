@@ -7,7 +7,7 @@ const personDetails = [
     name: "Preet Shah",
     imageUrl: "/images/preet-photo.jpg",
     title: "Fullstack Web Developer",
-    description: `Ardent Kitty lover, Painter (Digital Art too!) and an aspiring Software Engineer ❤️`,
+    shortDescription: `Self-taught MERN Stack Developer (MongoDB, Express, React, Node), Ardent Kitty lover, Painter (Digital Art too!) and an aspiring Software Engineer ❤️`,
     social: [
       {
         name: "Github",
@@ -25,7 +25,7 @@ const personDetails = [
         icon: <FaTwitter size={24} />,
       }
     ],
-    lastNotes: "Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com",
+    emailText: "Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com",
   }
 ];
 
@@ -67,7 +67,7 @@ const Hero = () => {
                                   <p className="text-teal-600 text-md">{person.title}</p>
                                 </div>
                                 <div className="text-md">
-                                  <p className="text-gray-500">{person.description}</p>
+                                  <p className="text-gray-500">{person.shortDescription}</p>
                                 </div>
                                 <ul className="flex space-x-5 mb-4 pb-1 sm:pb-4">
                                   {person.social.map((socialIcon) => (
@@ -81,7 +81,7 @@ const Hero = () => {
                                   ))}
                                 </ul>
                                 <div className="text-sm">
-                                  <p className="text-gray-500">{person.lastNotes}</p>
+                                  <p className="text-gray-500">{person.emailText}</p>
                                 </div>
                               </div>
                             </div>

@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import Technology from "../components/Technology";
 
 const AboutMe = () => {
   return (
@@ -9,15 +10,17 @@ const AboutMe = () => {
             <h1 className="text-2xl font-semibold text-gray-900">About Me</h1>
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
-            <div className="py-4">
-              <div className="h-96">
+            <div className="py-2">
+              <div className="min-h-fit">
                 <Hero />
               </div>
+              <div className="border border-solid border-slate-200 rounded-xl" />
             </div>
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
-            <div className="py-4">
-              <div className=" rounded-lg h-96" />
+            <div className="py-2">
+              <div className="min-h-fit" />
+              <Technology />
             </div>
           </div>
         </div>
