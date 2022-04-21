@@ -1,3 +1,4 @@
+import Experience from "../components/Experience";
 import Hero from "../components/Hero";
 import Technology from "../components/Technology";
 
@@ -18,9 +19,16 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
-            <div className="py-2">
+            <div className="py-2 pb-4 mb-4">
               <div className="min-h-fit" />
               <Technology />
+            </div>
+            <div className="border border-solid border-slate-200 rounded-xl" />
+          </div>
+          <div className="max-w-7xl mx-auto px-2 md:px-8">
+            <div className="py-2">
+              <div className="min-h-fit" />
+              <Experience />
             </div>
           </div>
         </div>
