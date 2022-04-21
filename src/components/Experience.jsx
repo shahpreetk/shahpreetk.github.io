@@ -55,7 +55,7 @@ const Experience = () => {
                 <div key={eachCompany.name} className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-200 text-white border-2 border-slate-200">
-                      <img className="h-11 w-11 rounded-md" src={eachCompany.companyLogo} alt={eachCompany.name} />
+                      <img loading="lazy" className="h-11 w-11 rounded-md" src={eachCompany.companyLogo} alt={eachCompany.name} />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{eachCompany.name}</p>
                   </dt>
@@ -66,7 +66,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };
