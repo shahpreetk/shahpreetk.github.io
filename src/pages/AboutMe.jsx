@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <>
       <main className="grid col-start-2 sm:col-start-6">
-        <div className="py-6 ml-4 md:ml-60">
+        <div className="py-6 ml-2 md:ml-60">
           <div className="max-w-7xl mx-auto px-2 md:px-8">
             <h1 className="text-2xl font-semibold text-gray-900">About Me</h1>
           </div>
@@ -22,14 +22,14 @@ const AboutMe = () => {
           <div className="max-w-7xl mx-auto px-2 md:px-8">
             <div className="py-2 pb-4 mb-4">
               <div className="min-h-fit" />
-              <Technology />
+              <Experience />
             </div>
             <div className="border border-solid border-slate-200 rounded-xl" />
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
             <div className="py-2">
               <div className="min-h-fit" />
-              <Experience />
+              <Technology />
             </div>
             <div className="border border-solid border-slate-200 rounded-xl" />
           </div>
