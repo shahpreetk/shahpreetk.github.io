@@ -9,7 +9,6 @@ const extracurriculars = [
       `Lions Clubs International's youth organisation is called LEO. It emphasises community service, camaraderie, and networking opportunities. I've been a member of this organisation for three years and am presently the Past President of the Walkeshwar Leo Club, the Past President of Leo District 3231 A1, and the Chief Website Officer of Leo Multiple 3231, India. As District President, it was my responsibility to supervise the smooth operation of the seven clubs in the South Mumbai area.`,
     instagramURL: `https://www.instagram.com/p/CASmGG1gx1e/`,
     image: `${BASE_LOGO_PATH}/leo.jpg`,
-
   },
   {
     name: 'IETE [2019 - 2021]',
