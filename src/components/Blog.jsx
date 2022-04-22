@@ -12,7 +12,7 @@ const Blog = ({ blogData }) => {
       <div className="max-w-7xl mx-auto px-2 md:px-8">
         <div className="py-4">
           {blogData.map((eachBlog) => (
-            <div key={eachBlog.id} className={classNames((eachBlog.id) % 2 === 0 ? 'bg-slate-100' : 'bg-slate-50', "shadow overflow-hidden sm:rounded-lg mb-4")}>
+            <div key={eachBlog.id} className={classNames((eachBlog.id) % 2 === 0 ? 'bg-slate-100' : 'bg-gray-100', "shadow overflow-hidden sm:rounded-lg mb-4")}>
               <div className="px-4 py-5 sm:px-6">
                 <h3 className="text-lg leading-6 font-medium text-gray-900">{eachBlog.title}</h3>
                 <p className="mt-1 max-w-2xl text-sm text-gray-500">{eachBlog.subTitle}</p>
