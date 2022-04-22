@@ -214,7 +214,7 @@ const NavHeader = () => {
         </div>
 
         <div className="md:pl-64 flex flex-col flex-1">
-          <div className="sticky top-0 z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3">
+          <div className="sticky top-0 z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-slate-100">
             <span className='inline-block text-center justify-center space-x-2'>
               <button
                 type="button"

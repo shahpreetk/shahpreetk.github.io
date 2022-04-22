@@ -11,6 +11,8 @@ const DigitalArt = lazy(() => import("./pages/DigitalArt"));
 const Projects = lazy(() => import("./pages/Projects"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+const LOADER_IMG = "/images/shahpreetk-logo.png";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +21,7 @@ function App() {
           <div className="flex h-screen">
             <div className="w-full h-full flex items-center justify-center">
               <div className="text-center">
-                <img className="h-24 w-auto" src="/images/shahpreetk-logo.png" alt="loader logo" />
+                <img className="h-24 w-auto" src={LOADER_IMG} alt="loader logo" />
                 <h1>Loading...</h1>
               </div>
             </div>

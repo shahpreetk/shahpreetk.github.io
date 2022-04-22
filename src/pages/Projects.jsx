@@ -47,11 +47,11 @@ const Projects = () => {
           </div>
           <div className="max-w-7xl mx-auto px-2 md:px-8">
             <div className="py-2">
-              <div className="mt-6 mr-2 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+              <div className="mt-6 mr-2 mx-auto grid gap-5 md:grid-cols-1 lg:grid-cols-3 lg:max-w-none">
                 {allProjects.map((project) => (
                   <div key={project.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div className={classNames(
-                      (project.id) % 2 === 0 ? 'bg-orange-100' : 'bg-violet-100', "flex-1 bg-violet-50 p-6 flex flex-col justify-between"
+                      (project.id) % 2 === 0 ? 'bg-slate-50' : 'bg-violet-50', "flex-1 p-6 flex flex-col justify-between"
                     )}>
                       <div className="flex-1">
                         <p className="text-sm font-medium text-indigo-600">

@@ -54,12 +54,12 @@ const Experience = () => {
               {experiences.map((eachCompany) => (
                 <div key={eachCompany.name} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-200 text-white border-2 border-slate-200">
+                    <div className="sm:absolute flex items-center justify-center h-12 w-12 rounded-md bg-slate-200 text-white border-2 border-slate-200">
                       <img loading="lazy" className="h-11 w-11 rounded-md" src={eachCompany.companyLogo} alt={eachCompany.name} />
                     </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{eachCompany.name}</p>
+                    <p className="mt-1 sm:ml-16 text-lg leading-6 font-medium text-gray-900">{eachCompany.name}</p>
                   </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500 whitespace-pre-line">{eachCompany.description}</dd>
+                  <dd className="mt-1 sm:ml-16 sm:mt-2 text-base text-gray-500 whitespace-pre-wrap">{eachCompany.description}</dd>
                 </div>
               ))}
             </dl>
