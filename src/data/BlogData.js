@@ -3,11 +3,11 @@ export const BlogData = [
     id: 1,
     title: "Deployment - Surge",
     subTitle: "Deploying a react app to surge.sh",
-    content: `Step 1: (OPTIONAL) Make a new file in the public folder called CNAME and write the name of your domain. Every time ahead, you can just run surge and it will remember the domain for you.
-Step 2: Type "npm run build"
-Step 3: Type "cd build"
-Step 4: Rename "index.html" to "200.html" for client side routing.
-Step 5: Type "surge"`,
+    content: `Step 1 - (OPTIONAL) Make a new file in the public folder called CNAME and write the name of your domain. Every time ahead, you can just run surge and it will remember the domain for you.
+Step 2 - Type "npm run build"
+Step 3 - Type "cd build"
+Step 4 - Rename "index.html" to "200.html" for client side routing.
+Step 5 - Type "surge"`,
     date: "21 Apr, 2022",
     references: [
       {
@@ -50,6 +50,27 @@ Step 7 - Stopping Auto Publish under the Deploys option helps save build time.`,
   },
   {
     id: 3,
+    title: "Deployment - GitHub Pages",
+    subTitle: "Deploying a react app to gh-pages",
+    content: `Step 1 - Install gh-pages as a dev depedency: npm install -D gh-pages
+Step 2 - In package.json add the following scripts:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+"build": "react-scripts build && cp build/index.html build/404.html",
+Step 3 - Run "npm run deploy" to deploy the site to GitHub Pages.
+`,
+    date: "21 Apr, 2022",
+    references: [
+      {
+        id: 1,
+        title: "Creating a GitHub Pages site",
+        link: "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      },
+    ],
+    hashtags: ["deployment", "react", "gh-pages"],
+  },
+  {
+    id: 4,
     title: "Show Relation between two tables in Strapi API",
     subTitle:
       "Displaying information of related tables with the table requested",
@@ -69,7 +90,7 @@ So populate here, populates the API with relations, components or dynamic zones.
     hashtags: ["databases", "strapi", "sql"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Removing a commit from Github",
     subTitle: "Removing the latest commit once pushed to Github",
     content: `NOTE: this solution works only if the commit to be removed is the latest commit.
@@ -93,7 +114,7 @@ Step 7 - Commit the changes: git commit -m '<new_commit_message>'
     hashtags: ["git", "GitHub"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Rendering images in react",
     subTitle:
       "Using the public folder to save images and not needing to import them several times",
@@ -113,7 +134,7 @@ Step 3 - In your component, you can directly type the following in the src attri
     hashtags: ["react", "rendering", "images"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Starting a MongoDB local connection",
     subTitle: "Starting a MongoDB local connection in macOS using the terminal",
     content: `An example of a terminal command to start a MongoDB local connection with MongoDB Compass in macOS:
@@ -130,7 +151,7 @@ This command takes you to the MongoDB path and starts the MongoDB server.`,
     hashtags: ["databases", "mongoDB", "nosql"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Open folder in VSCode",
     subTitle: "Opening a folder in VSCode using the terminal",
     content: `Step 1 - Open the terminal
