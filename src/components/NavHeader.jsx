@@ -19,13 +19,13 @@ const navigation = [
 ];
 
 const secondaryNavigation = [
-  { name: '#deployment', href: '/' },
-  { name: '#react', href: '/' },
-  { name: '#coding', href: '/' },
-  { name: '#java', href: '/' },
-  { name: '#leetcode', href: '/' },
-  { name: '#mernstack', href: '/' },
-  { name: '#javascript', href: '/' },
+  { name: '#deployment', href: `${BLOGS}/deployment` },
+  { name: '#react', href: `${BLOGS}/react` },
+  { name: '#coding', href: `${BLOGS}/coding` },
+  { name: '#java', href: `${BLOGS}/java` },
+  { name: '#leetcode', href: `${BLOGS}/leetcode` },
+  { name: '#mernstack', href: `${BLOGS}/mernstack` },
+  { name: '#javascript', href: `${BLOGS}/javascript` },
 ];
 
 function classNames(...classes) {
