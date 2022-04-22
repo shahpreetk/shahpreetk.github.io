@@ -3,11 +3,11 @@ export const BlogData = [
     id: 1,
     title: "Deployment - Surge",
     subTitle: "Deploying a react app to surge.sh",
-    content: `Step 1 - (OPTIONAL) Make a new file in the public folder called CNAME and write the name of your domain. Every time ahead, you can just run surge and it will remember the domain for you.
-Step 2 - Type "npm run build"
-Step 3 - Type "cd build"
-Step 4 - Rename "index.html" to "200.html" for client side routing.
-Step 5 - Type "surge"`,
+    content: `Step 1: (OPTIONAL) Make a new file in the public folder called CNAME and write the name of your domain. Every time ahead, you can just run surge and it will remember the domain for you.
+Step 2: Type "npm run build"
+Step 3: Type "cd build"
+Step 4: Rename "index.html" to "200.html" for client side routing.
+Step 5: Type "surge"`,
     date: "21 Apr, 2022",
     references: [
       {
@@ -27,17 +27,17 @@ Step 5 - Type "surge"`,
     id: 2,
     title: "Deployment - Netlify",
     subTitle: "Deploying a react app to netlify.com",
-    content: `Step 0 -
+    content: `Step 0:
  a) For deploying to netlify make a "_redirects file" in public folder and type - "/* /index.html 200" - inside
  b) There should be no unused variables or imports in the code as it causes netlify build to fail
  c) All tags in index.html should be closed (example unclosed <br> tag which works in normal html but breaks on netlify)
-Step 1 - Login to netlify
-Step 2 - Select New site from Git
-Step 3 - Choose Github
-Step 4 - Configure the Netlify app on GitHub and choose the repository you wish to publish then select save
-Step 5 - Select repo on netlify and click on Deploy Site. Netlify will now deploy the site for you.
-Step 6 - You can change the domain that the site is hosted on by changing the name in Domain Settings.
-Step 7 - Stopping Auto Publish under the Deploys option helps save build time.`,
+Step 1: Login to netlify
+Step 2: Select New site from Git
+Step 3: Choose Github
+Step 4: Configure the Netlify app on GitHub and choose the repository you wish to publish then select save
+Step 5: Select repo on netlify and click on Deploy Site. Netlify will now deploy the site for you.
+Step 6: You can change the domain that the site is hosted on by changing the name in Domain Settings.
+Step 7: Stopping Auto Publish under the Deploys option helps save build time.`,
     date: "21 Apr, 2022",
     references: [
       {
@@ -52,12 +52,12 @@ Step 7 - Stopping Auto Publish under the Deploys option helps save build time.`,
     id: 3,
     title: "Deployment - GitHub Pages",
     subTitle: "Deploying a react app to gh-pages",
-    content: `Step 1 - Install gh-pages as a dev depedency: npm install -D gh-pages
-Step 2 - In package.json add the following scripts:
+    content: `Step 1: Install gh-pages as a dev depedency: npm install -D gh-pages
+Step 2: In package.json add the following scripts:
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 "build": "react-scripts build && cp build/index.html build/404.html",
-Step 3 - Run "npm run deploy" to deploy the site to GitHub Pages.
+Step 3: Run "npm run deploy" to deploy the site to GitHub Pages.
 `,
     date: "21 Apr, 2022",
     references: [
@@ -94,14 +94,14 @@ So populate here, populates the API with relations, components or dynamic zones.
     title: "Removing a commit from Github",
     subTitle: "Removing the latest commit once pushed to Github",
     content: `NOTE: this solution works only if the commit to be removed is the latest commit.
-Step 1 - Copy the commit reference you like to go back to from the log: git log,
-Step 2 - Reset git to the commit reference: git reset <commit_ref>
-Step 3 - In case you like to keep the commit changes after deletion,
+Step 1: Copy the commit reference you like to go back to from the log: git log,
+Step 2: Reset git to the commit reference: git reset <commit_ref>
+Step 3: In case you like to keep the commit changes after deletion,
 stash/store the local changes from the wrong commit: git stash
-Step 4 - Push the changes to remote repository, (-f or --force): git push -f
-Step 5 - Get back the stored changes to local repository: git stash apply
-Step 6 - If you have untracked/new files in the changes, you need to add them to git: git add .
-Step 7 - Commit the changes: git commit -m '<new_commit_message>'
+Step 4: Push the changes to remote repository, (-f or --force): git push -f
+Step 5: Get back the stored changes to local repository: git stash apply
+Step 6: If you have untracked/new files in the changes, you need to add them to git: git add .
+Step 7: Commit the changes: git commit -m '<new_commit_message>'
 `,
     date: "22 Apr, 2022",
     references: [
@@ -111,7 +111,7 @@ Step 7 - Commit the changes: git commit -m '<new_commit_message>'
         link: "https://stackoverflow.com/a/44415889",
       },
     ],
-    hashtags: ["git", "GitHub"],
+    hashtags: ["git", "github"],
   },
   {
     id: 6,
@@ -120,9 +120,9 @@ Step 7 - Commit the changes: git commit -m '<new_commit_message>'
       "Using the public folder to save images and not needing to import them several times",
     content: `Images stored in the public folder are served as static assets. This increases efficiency and makes dynamically loading files simpler.
 You can do so by following the instructions below:
-Step 1 - Create a new folder in your public folder called "assets" or "images"
-Step 2 - Store all your images in this folder
-Step 3 - In your component, you can directly type the following in the src attribute: assets/<image_name>`,
+Step 1: Create a new folder in your public folder called "assets" or "images"
+Step 2: Store all your images in this folder
+Step 3: In your component, you can directly type the following in the src attribute: assets/<image_name>`,
     date: "22 Apr, 2022",
     references: [
       {
@@ -148,15 +148,15 @@ This command takes you to the MongoDB path and starts the MongoDB server.`,
         link: "https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/",
       },
     ],
-    hashtags: ["databases", "mongoDB", "nosql"],
+    hashtags: ["databases", "mongodb", "nosql"],
   },
   {
     id: 8,
     title: "Open folder in VSCode",
     subTitle: "Opening a folder in VSCode using the terminal",
-    content: `Step 1 - Open the terminal
-Step 2 - Type "cd <folder_name>"
-Step 3 - Type "code ."
+    content: `Step 1: Open the terminal
+Step 2: Type "cd <folder_name>"
+Step 3: Type "code ."
 Alternatively, you can use the following command to open the folder in an Open VSCode window: "code . -r"
 `,
     date: "22 Apr, 2022",
