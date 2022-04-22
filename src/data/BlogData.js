@@ -168,6 +168,6 @@ Alternatively, you can use the following command to open the folder in an Open V
         link: "https://www.w3schools.com/howto/howto_css_overlay.asp",
       },
     ],
-    hashtags: ["terminal", "vscode", "shortcuts"],
+    hashtags: ["css", "overlay", "styles"],
   },
 ];
