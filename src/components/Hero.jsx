@@ -1,6 +1,6 @@
 // @ts-check
 
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFilePdf, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const personDetails = [
   {
@@ -23,6 +23,11 @@ const personDetails = [
         name: "Twitter",
         url: "https://twitter.com/shahpreetk",
         icon: <FaTwitter size={24} />,
+      },
+      {
+        name: "Resume",
+        url: "/images/Preet-Kaushal-Shah-Resume.pdf",
+        icon: <FaFilePdf size={24} />,
       }
     ],
     emailText: "Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com",
