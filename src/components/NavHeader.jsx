@@ -214,19 +214,19 @@ const NavHeader = () => {
         </div>
 
         <div className="md:pl-64 flex flex-col flex-1">
-          <div className="sticky top-0 z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-slate-100">
+          <div className="sticky top-0 z-10 md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3 bg-slate-800">
             <span className='inline-block text-center justify-center space-x-2'>
               <button
                 type="button"
-                className="ml-2 -mt-0.5 h-12 w-12 inline-flex items-center justify-center rounded-md text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-slate-500"
+                className="ml-2 -mt-0.5 h-12 w-12 inline-flex items-center justify-center rounded-md text-slate-50 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-slate-500"
                 onClick={() => setSidebarOpen(true)}
               >
                 <span className="sr-only">Open sidebar</span>
-                <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                <MenuIcon className="h-6 w-6 border-2 rounded border-slate-100" aria-hidden="true" />
               </button>
             </span>
             <span className='inline-block align-top space-x-2 space-y-2'>
-              <h1 className='space-x-2 space-y-2 my-3 pl-1 font-semibold'>Menu</h1>
+              <h1 className='space-x-2 space-y-2 my-3 pl-1 font-semibold text-slate-50'>Menu</h1>
             </span>
           </div>
         </div>
