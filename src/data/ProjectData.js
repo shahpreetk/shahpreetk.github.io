@@ -10,7 +10,7 @@ export const projectData = [
     projectAchievements: `Published a paper in "The International Journal for Research in Applied Science and Engineering Technology, Volume 9, Issue IV", April 2021.`,
     achievement: {
       name: "Research Paper Link",
-      achievementHref: "https://doi.org/10.22214/ijraset.2021.33974/",
+      achievementHref: "https://doi.org/10.22214/ijraset.2021.33974",
     },
   },
   {
