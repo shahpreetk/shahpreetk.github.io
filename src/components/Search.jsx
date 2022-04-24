@@ -1,6 +1,6 @@
 import { AiOutlineFileSearch } from 'react-icons/ai';
 
-const Search = ({search, searchChange}) => {
+const Search = ({ search, searchChange }) => {
   return (
     <div>
       <label htmlFor="search" className="block text-sm font-medium text-gray-700">
@@ -17,7 +17,7 @@ const Search = ({search, searchChange}) => {
         />
         <div className="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
           <kbd className="inline-flex items-center border border-gray-200 rounded px-2 text-sm font-sans font-medium text-gray-400">
-            <AiOutlineFileSearch/>
+            <AiOutlineFileSearch />
           </kbd>
         </div>
       </div>

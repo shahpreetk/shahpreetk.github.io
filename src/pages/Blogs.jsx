@@ -9,11 +9,11 @@ const Blogs = () => {
   const [blogs, setBlogs] = useState(BlogData);
 
   const searchChange = (e) => {
-    setSearch(e.target.value);
+    setSearch(e.target.value.toLowerCase());
   };
-
+  
   const updateInput = (/** @type {string} */ search) => {
-    const filteredBlogs = blogs.filter((blog) => blog.hashtags.includes(search) || blog.title.includes(search) || blog.subTitle.includes(search) || blog.content.includes(search));
+    const filteredBlogs = blogs.filter((blog) => blog.title.toLowerCase().includes(search) || blog.subTitle.toLowerCase().includes(search) || blog.hashtags.includes(search) || blog.content.toLowerCase().includes(search));
     if (filteredBlogs.length > 0) {
       setBlogs(filteredBlogs);
     }
