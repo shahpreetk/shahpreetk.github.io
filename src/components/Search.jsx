@@ -13,6 +13,8 @@ const Search = ({ search, searchChange }) => {
           id="search"
           value={search}
           onChange={searchChange}
+          aria-autocomplete="none"
+          autoComplete="off"
           className="shadow-sm focus:ring-purple-800 focus:border-purple-800 block w-full pr-12 sm:text-sm border-gray-300 rounded-md"
         />
         <div className="absolute inset-y-0 right-0 flex py-1.5 pr-1.5">
