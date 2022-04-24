@@ -24,7 +24,7 @@ const Projects = () => {
                     )}>
                       <div className="flex-1">
                         <p className="text-sm font-medium text-indigo-600">
-                          <a href={project.category.categoryHref} className="hover:underline">
+                          <a target="_blank" rel="noreferrer" href={project.category.categoryHref} className="hover:underline">
                             {project.category.name}
                           </a>
                         </p>
@@ -38,7 +38,7 @@ const Projects = () => {
                         </div>
                         <div>
                           <p className="text-sm font-medium text-indigo-600">
-                            <a href={project.achievement.achievementHref} className="hover:underline">
+                            <a target="_blank" rel="noreferrer" href={project.achievement.achievementHref} className="hover:underline">
                               {project.achievement.name}
                             </a>
                           </p>
