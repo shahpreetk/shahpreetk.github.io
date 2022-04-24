@@ -195,4 +195,26 @@ Alternatively, you can use the following command to open the folder in an Open V
     ],
     hashtags: ["css", "overlay", "styles"],
   },
+  {
+    blogId: 10,
+    title: "Deployment - Heroku",
+    subTitle: "Deploying backend to heroku",
+    content: `Step 0: npm install -g heroku
+Step 1: In the terminal, type: heroku login
+Step 2: heroku apps:create <project_name>,
+Example, heroku apps:create vikhyaat
+Step 3: If the domain is not already taken, you can now run: git push heroku main
+Step 4: You can now access your backend on "https://<project_name>.herokuapp.com".
+Example, https://vikhyaat.herokuapp.com/
+`,
+    date: "23 Apr, 2022",
+    references: [
+      {
+        referenceId: 1,
+        title: "Deploying Node.js Apps on Heroku",
+        link: "https://devcenter.heroku.com/articles/deploying-nodejs",
+      },
+    ],
+    hashtags: ["deployment", "backend", "heroku"],
+  },
 ];
