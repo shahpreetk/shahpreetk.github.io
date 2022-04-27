@@ -2,6 +2,12 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 4,
+    title: "Jar full of Wonder",
+    previewImg: `${BASE_DIGITAL_ART_URL}/jar_full_of_wonder.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/Cc3MK3zjcil/",
+  },
+  {
     id: 3,
     title: "Soft Serve Canvas Card",
     previewImg: `${BASE_DIGITAL_ART_URL}/soft_serve_canvas_card.jpeg`,
