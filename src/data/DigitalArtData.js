@@ -2,6 +2,18 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 6,
+    title: "Sunset in an Urban Jungle",
+    previewImg: `${BASE_DIGITAL_ART_URL}/sunset_urban_jungle.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CdFthZuDLhw/",
+  },
+  {
+    id: 5,
+    title: "Desert Landscape",
+    previewImg: `${BASE_DIGITAL_ART_URL}/desert_landscape.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/Cc-CnlnDqID/",
+  },
+  {
     id: 4,
     title: "Jar full of Wonder",
     previewImg: `${BASE_DIGITAL_ART_URL}/jar_full_of_wonder.jpeg`,
