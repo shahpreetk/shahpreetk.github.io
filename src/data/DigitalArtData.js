@@ -2,6 +2,30 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 10,
+    title: "Asteroid Landscape",
+    previewImg: `${BASE_DIGITAL_ART_URL}/asteroid_landscape.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/Cdk4XMXD7VJ/",
+  },
+  {
+    id: 9,
+    title: "Winter Bunny",
+    previewImg: `${BASE_DIGITAL_ART_URL}/winter_bunny.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CdfosgpjlCe/",
+  },
+  {
+    id: 8,
+    title: "Space Bound Rocket Ship",
+    previewImg: `${BASE_DIGITAL_ART_URL}/space_bound_rocket_ship.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CdYKNVBjovi/",
+  },
+  {
+    id: 7,
+    title: "Here Kitty Kitty",
+    previewImg: `${BASE_DIGITAL_ART_URL}/here_kitty_kitty.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CdN4OYcj2m2/",
+  },
+  {
     id: 6,
     title: "Sunset in an Urban Jungle",
     previewImg: `${BASE_DIGITAL_ART_URL}/sunset_urban_jungle.jpeg`,
