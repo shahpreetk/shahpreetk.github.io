@@ -2,6 +2,12 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 11,
+    title: "Beyond the Mountains",
+    previewImg: `${BASE_DIGITAL_ART_URL}/beyond_the_mountains.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CeENA0gDV04/",
+  },
+  {
     id: 10,
     title: "Asteroid Landscape",
     previewImg: `${BASE_DIGITAL_ART_URL}/asteroid_landscape.jpeg`,
