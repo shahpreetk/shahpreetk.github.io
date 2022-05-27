@@ -43,4 +43,21 @@ What's Next?: Adding more langugages and more types of data.`,
       achievementHref: "https://github.com/myOhana/vikhyaat",
     },
   },
+  {
+    id: 4,
+    title: "Trippy Castle",
+    category: {
+      name: "Frontend GitHub Link",
+      categoryHref: "https://github.com/shahpreetk/trippycastle",
+    },
+    description: `This was a team project made for a module in my Masters degree course.
+
+The requirements asked for were -
+Develop an app to allow University students to plan a day trip using local bus services to one of the following historic castles: • Alnwick Castle • Auckland Castle • Bamburgh Castle • Barnard Castle Each day trip will start and end at either Newcastle Haymarket Bus Station or Newcastle Eldon Square Bus Station depending on the castle visited.`,
+    projectAchievements: `Successfully completed 6/6 basic requirements and 2/5 advanced requirements.`,
+    achievement: {
+      name: "",
+      achievementHref: "",
+    },
+  },
 ];
