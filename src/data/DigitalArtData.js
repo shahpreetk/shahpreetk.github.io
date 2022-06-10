@@ -2,6 +2,18 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 13,
+    title: "The Green Blossom",
+    previewImg: `${BASE_DIGITAL_ART_URL}/the_green_blossom.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CeizVCajOm2/",
+  },
+  {
+    id: 12,
+    title: "The Winding Path",
+    previewImg: `${BASE_DIGITAL_ART_URL}/the_winding_path.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CeYUY6TjROQ/",
+  },
+  {
     id: 11,
     title: "Beyond the Mountains",
     previewImg: `${BASE_DIGITAL_ART_URL}/beyond_the_mountains.jpeg`,
