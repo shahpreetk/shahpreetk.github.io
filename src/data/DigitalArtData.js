@@ -2,6 +2,12 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 14,
+    title: "Fireplace (Procreate Artmash)",
+    previewImg: `${BASE_DIGITAL_ART_URL}/fireplace_procreate_artmash.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CetgGH2j6yb/",
+  },
+  {
     id: 13,
     title: "The Green Blossom",
     previewImg: `${BASE_DIGITAL_ART_URL}/the_green_blossom.jpeg`,
