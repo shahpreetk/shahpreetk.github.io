@@ -2,6 +2,30 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 18,
+    title: "Meerkat (Procreate Artmash)",
+    previewImg: `${BASE_DIGITAL_ART_URL}/meerkat_artmash.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfO2MxNDhcM/",
+  },
+  {
+    id: 17,
+    title: "Space Whale",
+    previewImg: `${BASE_DIGITAL_ART_URL}/space_whale.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfMOVZLDghE/",
+  },
+  {
+    id: 16,
+    title: "Dancing Cactus",
+    previewImg: `${BASE_DIGITAL_ART_URL}/dancing_cactus.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfJffCnrzHF/",
+  },
+  {
+    id: 15,
+    title: "Christmas Bear",
+    previewImg: `${BASE_DIGITAL_ART_URL}/christmas_bear.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfEcY7EDmjk/",
+  },
+  {
     id: 14,
     title: "Fireplace (Procreate Artmash)",
     previewImg: `${BASE_DIGITAL_ART_URL}/fireplace_procreate_artmash.jpeg`,
