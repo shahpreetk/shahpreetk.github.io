@@ -2,6 +2,12 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 19,
+    title: "Waves (Blue & Purple)",
+    previewImg: `${BASE_DIGITAL_ART_URL}/waves_blue.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfYyVyMDbUr/",
+  },
+  {
     id: 18,
     title: "Meerkat (Procreate Artmash)",
     previewImg: `${BASE_DIGITAL_ART_URL}/meerkat_artmash.jpeg`,
