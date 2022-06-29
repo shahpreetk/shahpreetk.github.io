@@ -1,6 +1,7 @@
 {
-  "name": "shahpreetk.github.io",
+  "name": "shahpreetk",
   "version": "0.1.0",
+  "homepage": "https://shahpreetk.github.io/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.5.0",
