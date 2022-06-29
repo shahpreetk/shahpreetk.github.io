@@ -2,6 +2,7 @@
 
 import { DigitalArtData } from '../data/DigitalArtData';
 import { GoLinkExternal } from 'react-icons/go';
+
 const digitalArtData = DigitalArtData;
 
 const DigitalArt = () => {
@@ -19,12 +20,12 @@ const DigitalArt = () => {
                   <h2>Original images: </h2>
                   <ul className="space-y-3 mt-2">
                     <li>Desktop wallpaper -
-                      <a href="https://shahpreetk.github.io/images/og_images/waves_blue.png" target="_blank" rel="noopener noreferrer" className="text-blue-700"> Waves (Blue): <GoLinkExternal className="inline" />
+                      <a href="/images/og_images/waves_blue.png" target="_blank" rel="noopener noreferrer" className="text-blue-700"> Waves (Blue): <GoLinkExternal className="inline" />
                       </a>
                     </li>
 
                     <li>Desktop wallpaper -
-                      <a href="https://shahpreetk.github.io/images/og_images/waves_purple.png" target="_blank" rel="noopener noreferrer" className="text-purple-700"> Waves (Purple): <GoLinkExternal className="inline" />
+                      <a href="/images/og_images/waves_purple.png" target="_blank" rel="noopener noreferrer" className="text-purple-700"> Waves (Purple): <GoLinkExternal className="inline" />
                       </a>
                     </li>
                   </ul>
