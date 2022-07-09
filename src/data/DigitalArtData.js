@@ -2,6 +2,18 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 21,
+    title: "Bubble Tea",
+    previewImg: `${BASE_DIGITAL_ART_URL}/bubble_tea.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfwgiL1DuV6/",
+  },
+  {
+    id: 20,
+    title: "Floating Castle",
+    previewImg: `${BASE_DIGITAL_ART_URL}/floating_castle.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CfeKkypj0Hi/",
+  },
+  {
     id: 19,
     title: "Waves (Blue & Purple)",
     previewImg: `${BASE_DIGITAL_ART_URL}/waves_blue.jpeg`,
