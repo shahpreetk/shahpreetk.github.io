@@ -3,7 +3,7 @@ const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
     id: 21,
-    title: "Bubble Tea",
+    title: "Bobba Tea",
     previewImg: `${BASE_DIGITAL_ART_URL}/bubble_tea.jpeg`,
     instagramUrl: "https://www.instagram.com/p/CfwgiL1DuV6/",
   },

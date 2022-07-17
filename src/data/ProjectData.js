@@ -39,11 +39,14 @@ Develop an app to allow University students to plan a day trip using local bus s
     },
     description: `Vikhyaat is a fake data provider. It currently provides data of Indian places and animals in three Indian languages. The aim is to be an Indian alternative of fakerjs.dev
 
-What's Next?: Adding more langugages and more types of data.`,
-    projectAchievements: `This project is open-sourced on GitHub.`,
+What's Next?: Adding more langugages and more types of data.
+
+This project is open-sourced on GitHub.`,
+    projectAchievements: `Deployed the project on a remote server with a SSL certificate using Linode, for the first time.`,
     achievement: {
-      name: "GitHub Link",
-      achievementHref: "https://github.com/myOhana/vikhyaat",
+      name: "API Link",
+      achievementHref:
+        "https://teach-tech.ml",
     },
   },
   {

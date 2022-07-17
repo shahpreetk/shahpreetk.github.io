@@ -217,4 +217,87 @@ Example, https://vikhyaat.herokuapp.com/
     ],
     hashtags: ["deployment", "backend", "heroku"],
   },
+  {
+    blogId: 11,
+    title: "Deployment - Linode",
+    subTitle: "Deploying a Node.js project to linode",
+    content: `Step 0: Sign up for a Linode account
+Step 1: Click on "Create Linode"
+Step 2: Choose "Ubuntu LTS" for the distribution
+Step 3: Choose a "Region" closest to you
+Step 4: In the "Linode Plan" section, choose "Shared CPU" and then choose "Nanode 1GB"
+Step 5: Create a Root Password
+Step 6: Add an SSH key or choose one from your existing keys
+Step 7: Click "Create Linode"
+Step 8: Wait for the Linode to show "Running"
+Step 9: Copy the Linode SSH Access, paste it in the terminal and run it
+Step 10: When it prompts you asking -> "Are you sure you want to continue connecting (yes/no/fingerprint)?", type "yes"
+Step 11: Now, run the following commands ->
+    apt-get update
+    apt-get upgrade
+    apt-get install npm
+    npm i -g n
+    n install lts
+    exit
+Step 12: Restart the server by entering your SSH Access. The server will now be using the latest node version
+Step 13: Make sure your latest project code is pushed to a GitHub repository.
+Step 14: Create a SSH key on your server and copy and upload to GitHub.
+Step 15: Git clone the repository using SSH.
+Step 16: cd into your project and npm install.
+Step 17:(optional) If you want to copy the .env file from your local machine to the remote server, run the following command:
+      scp <location_of_file_in_local_machine>/.env root@<server_ip_address>:~/<location_of_project>
+You can add a -r flagto the command to copy an entire folder.
+Step 18: Run the node project to ensure it's running correctly.
+Step 19: Run "npm i -g pm2" to install pm2.
+Step 20: Run "pm2 start <entry_file_name>.js -n <project_name>" to start the project.
+Step 21: Run "pm2 startup ubuntu" to restart API by itself, in case of crash.
+Step 22: Run "apt-get install nginx" to install nginx for reverse-proxy.
+Step 23: Now, run the following commands ->
+    cd ~/etc/nginx/sites-available
+    nano default
+  In this file make the following changes ->
+    i) At "server_name _;" replace the underscore with your domain name(with and without www prefix) or server IP address.
+    ii) In the "location /" block, remove the existing code and add the following ->
+        location / {
+        proxy_pass http://localhost:5000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+    iii) "[Ctrl] + S" to save the file. "[Ctrl] + X"  to exit the file.
+Step 24: Run "nginx -t" to check if the changes are correct.
+Step 25: Restart nginx by running "systemctl restart nginx".
+Step 26: "cd ~" and then "ufw enable" to enable the firewall.
+Step 27: Run "ufw allow ssh", "ufw allow http" and "ufw allow https" to allow using these methods through the firewall. The firewall restricts access trough other ports like 5000.
+Step 28: Run "snap install --classic certbot" to install the Let's Encrypt certificate manager.
+Step 29: Run "ln -s /snap/bin/certbot /usr/bin/certbot" to link the certificate manager to the /usr/bin/certbot folder.
+Step 30: Setup Domain on Linode by ->
+    i) Go to "Domains" tab in sidebar.
+    ii) Create a new domain.
+    iii) In the "Domain" section, type the domain name.
+    iv) Provide an email address.
+    v) In "Insert Default Records", select "Insert Default Records from one of my Linodes"
+    vi) Select the Linode you want to use.
+    vii) Click "Create Domain"
+    viii) Copy the NS(name servers) and add them to your domain name provider (example: namecheap) as "Custom DNS"
+    ix) Click "Save"
+    x) Check if your domain (without https) now shows your project.
+Step 31: Run "certbot --nginx"
+Step 32:(optional) Run "certbot renew --dry-run" to check if the SSL certificate gets renewed successfully.
+Step 33: Reload your domain to check if it is now secure.
+
+You have now successfully deployed your project to a Linode with a SSL certificate.
+`,
+    date: "17 Jul, 2022",
+    references: [
+      {
+        referenceId: 1,
+        title: "Creating and Using SSH keys",
+        link: "https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/",
+      },
+    ],
+    hashtags: ["deployment", "backend", "linode"],
+  },
 ];
