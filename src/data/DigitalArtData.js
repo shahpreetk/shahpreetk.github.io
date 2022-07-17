@@ -2,6 +2,18 @@
 const BASE_DIGITAL_ART_URL = "/images/digitalart";
 export const DigitalArtData = [
   {
+    id: 23,
+    title: "Amortentia (Love Potion)",
+    previewImg: `${BASE_DIGITAL_ART_URL}/love_potion.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/CgHoWtmDp4I/",
+  },
+  {
+    id: 22,
+    title: "Octoplushy",
+    previewImg: `${BASE_DIGITAL_ART_URL}/octoplushy.jpeg`,
+    instagramUrl: "https://www.instagram.com/p/Cf8s92RDgT-/",
+  },
+  {
     id: 21,
     title: "Bobba Tea",
     previewImg: `${BASE_DIGITAL_ART_URL}/bubble_tea.jpeg`,
