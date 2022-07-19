@@ -192,6 +192,9 @@ Step 3: In your component, you can directly type the following in the src attrib
       {
         value: "images",
       },
+      {
+        value: "coding",
+      },
     ],
   },
   {
@@ -279,6 +282,9 @@ Alternatively, you can use the following command to open the folder in an Open V
       },
       {
         value: "styles",
+      },
+      {
+        value: "coding",
       },
     ],
   },
