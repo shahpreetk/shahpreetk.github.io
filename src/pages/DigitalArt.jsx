@@ -1,5 +1,5 @@
 // @ts-check
-
+import React from "react";
 import { DigitalArtData } from '../data/DigitalArtData';
 import { GoLinkExternal } from 'react-icons/go';
 

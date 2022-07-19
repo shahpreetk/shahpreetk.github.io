@@ -1,4 +1,5 @@
 // @ts-check
+import React from "react";
 
 const BASE_COMPANY_LOGO_PATH = "/images/companylogos";
 

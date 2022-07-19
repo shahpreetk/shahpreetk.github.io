@@ -1,3 +1,5 @@
+// @ts-check
+import React from "react";
 import Experience from "../components/Experience";
 import Extracurricular from "../components/Extracurricular";
 import Hero from "../components/Hero";

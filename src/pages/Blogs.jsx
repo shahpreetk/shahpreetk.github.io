@@ -1,10 +1,10 @@
 // @ts-check
+import React from "react";
 import { useState, useEffect } from "react";
 import Blog from "../components/Blog";
 import Search from "../components/Search";
 import { BlogData } from "../data/BlogData";
 import Fuse from 'fuse.js';
-import React from "react";
 
 const Blogs = () => {
   const [search, setSearch] = useState("");

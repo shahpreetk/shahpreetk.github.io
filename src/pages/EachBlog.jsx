@@ -12,17 +12,14 @@ const EachBlog = () => {
     const matchedBlogs = BlogData.filter((blog) => {
       return blog.hashtags.map((hashtag) => {
         return hashtag.value;
-      // @ts-ignore
-      }).includes(params.blogId);
+      }).includes(params.blogId || "");
     });
-    console.log(matchedBlogs);
     if (matchedBlogs.length > 0) {
       // @ts-ignore
       setBlog(matchedBlogs);
     }
-    // setBlog(matchedBlogs);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params.blogId]);
 
   return (

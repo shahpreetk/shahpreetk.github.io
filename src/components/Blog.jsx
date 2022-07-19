@@ -1,6 +1,6 @@
 // @ts-check
-import { LinkIcon } from '@heroicons/react/solid';
 import React from "react";
+import { LinkIcon } from '@heroicons/react/solid';
 import { BLOGS } from "../constants/routes";
 
 function classNames(...classes) {
