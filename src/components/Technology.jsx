@@ -3,12 +3,12 @@ import React from "react";
 
 const skills = [
   {
-    name: "Java",
-    fluency: "Beginner",
-  },
-  {
     name: "Javascript",
     fluency: "Intermediate",
+  },
+  {
+    name: "Java OOP",
+    fluency: "Beginner",
   },
   {
     name: "Python",
@@ -21,6 +21,14 @@ const skills = [
   {
     name: "React.js",
     fluency: "Intermediate",
+  },
+  {
+    name: "Redux (with redux-thunk)",
+    fluency: "Beginner",
+  },
+  {
+    name: "Ionic 5 with react.js",
+    fluency: "Beginner",
   },
   {
     name: "Next.js",
@@ -51,16 +59,24 @@ const skills = [
     fluency: "Beginner",
   },
   {
+    name: "CSS Frameworks",
+    fluency: "Tailwind CSS | Bootstrap | DaisyUI",
+  },
+  {
     name: "Version Control",
     fluency: "Git | GitHub",
   },
   {
+    name: "API Testing Tools",
+    fluency: "Postman | Hoppscotch.io",
+  },
+  {
     name: "Hosting",
-    fluency: "Netlify | Heroku | Surge",
+    fluency: "Linode | Netlify | Heroku | gh-pages | Surge",
   },
   {
     name: "Designing",
-    fluency: "Procreate | Figma | Adobe XD",
+    fluency: "Procreate | Figma | AdobeXD | Canva",
   },
   {
     name: "IDE",
