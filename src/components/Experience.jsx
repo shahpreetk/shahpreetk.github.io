@@ -5,6 +5,13 @@ const BASE_COMPANY_LOGO_PATH = "/images/companylogos";
 
 const experiences = [
   {
+    name: 'JP Morgan Chase & Co.',
+    description:
+      `Currently training in the Tech Connect program.
+Primary stack: Java, Spring Boot, React`,
+    companyLogo: `${BASE_COMPANY_LOGO_PATH}/jpmc.jpg`,
+  },
+  {
     name: 'Major League Hacking (MLH)',
     description:
       `For prospective technologists, the MLH Fellowship offered a twelve week internship programme.
