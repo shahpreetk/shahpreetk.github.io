@@ -17,7 +17,7 @@ const DigitalArt = () => {
             <div className="py-4">
               <div className="bg-white">
                 <div className="max-w-2xl mx-auto py-1 px-1 sm:py-1 sm:px-1 lg:max-w-7xl lg:px-1">
-                  <h2>Original images: </h2>
+                  <h2 className="text-rose-700 tracking-wide">Total artworks: {digitalArtData.length}</h2>
                   <ul className="space-y-3 mt-2">
                     <li>Desktop wallpaper -
                       <a href="/images/og_images/waves_blue.png" target="_blank" rel="noopener noreferrer" className="text-blue-700"> Waves (Blue): <GoLinkExternal className="inline" />

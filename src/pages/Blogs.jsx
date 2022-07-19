@@ -66,9 +66,16 @@ const Blogs = () => {
           </div>
           {loading ? <div className="text-center">Loading Blogs...</div> : (
             searchedBlogs && searchedBlogs.length > 0 ? (
-              <Blog blogData={searchedBlogs} />
+              <>
+                <p className="ml-8"> Searched and found {searchedBlogs.length} blog(s)!</p>
+                <Blog blogData={searchedBlogs} />
+              </>
             ) : (
-              <Blog blogData={blogs} />
+              <>
+                {search && searchedBlogs.length === 0 && <p className="ml-8">Search didn't return anything 🙃. Here are all blogs 🤷‍♀️</p>}
+                <p className="ml-8">Total blogs: {blogs.length}</p>
+                <Blog blogData={blogs} />
+              </>
             ))}
         </div>
       </main>
