@@ -21,7 +21,17 @@ Step 5: Run "surge" in terminal to deploy your app to surge.sh`,
         link: "https://surge.sh/help/remembering-a-domain",
       },
     ],
-    hashtags: ["deployment", "react", "surge"],
+    hashtags: [
+      {
+        value: "deployment",
+      },
+      {
+        value: "react",
+      },
+      {
+        value: "surge",
+      },
+    ],
   },
   {
     blogId: 2,
@@ -49,7 +59,17 @@ Link: https://app.netlify.com/drop`,
         link: "https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/",
       },
     ],
-    hashtags: ["deployment", "react", "netlify"],
+    hashtags: [
+      {
+        value: "deployment",
+      },
+      {
+        value: "react",
+      },
+      {
+        value: "netlify",
+      },
+    ],
   },
   {
     blogId: 3,
@@ -72,7 +92,17 @@ NOTE: On Windows cmd, it will be "copy" instead of "cp".
         link: "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
       },
     ],
-    hashtags: ["deployment", "react", "gh-pages"],
+    hashtags: [
+      {
+        value: "deployment",
+      },
+      {
+        value: "react",
+      },
+      {
+        value: "gh-pages",
+      },
+    ],
   },
   {
     blogId: 4,
@@ -92,7 +122,17 @@ So populate here, populates the API with relations, components or dynamic zones.
         link: "https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/rest/populating-fields.html#population",
       },
     ],
-    hashtags: ["databases", "strapi", "sql"],
+    hashtags: [
+      {
+        value: "databases",
+      },
+      {
+        value: "strapi",
+      },
+      {
+        value: "sql",
+      },
+    ],
   },
   {
     blogId: 5,
@@ -115,7 +155,14 @@ Step 7: Commit the changes: git commit -m '<new_commit_message>'
         link: "https://stackoverflow.com/a/44415889",
       },
     ],
-    hashtags: ["git", "github"],
+    hashtags: [
+      {
+        value: "git",
+      },
+      {
+        value: "github",
+      },
+    ],
   },
   {
     blogId: 6,
@@ -135,7 +182,17 @@ Step 3: In your component, you can directly type the following in the src attrib
         link: "https://www.upbeatcode.com/react/where-to-store-images-in-react-app/",
       },
     ],
-    hashtags: ["react", "rendering", "images"],
+    hashtags: [
+      {
+        value: "react",
+      },
+      {
+        value: "rendering",
+      },
+      {
+        value: "images",
+      },
+    ],
   },
   {
     blogId: 7,
@@ -152,7 +209,17 @@ This command takes you to the MongoDB path and starts the MongoDB server.`,
         link: "https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/",
       },
     ],
-    hashtags: ["databases", "mongodb", "nosql"],
+    hashtags: [
+      {
+        value: "databases",
+      },
+      {
+        value: "mongodb",
+      },
+      {
+        value: "nosql",
+      },
+    ],
   },
   {
     blogId: 8,
@@ -171,7 +238,17 @@ Alternatively, you can use the following command to open the folder in an Open V
         link: "https://code.visualstudio.com/docs/editor/command-line#_core-cli-options",
       },
     ],
-    hashtags: ["terminal", "vscode", "shortcuts"],
+    hashtags: [
+      {
+        value: "terminal",
+      },
+      {
+        value: "vscode",
+      },
+      {
+        value: "shortcuts",
+      },
+    ],
   },
   {
     blogId: 9,
@@ -193,7 +270,17 @@ Alternatively, you can use the following command to open the folder in an Open V
         link: "https://www.w3schools.com/howto/howto_css_overlay.asp",
       },
     ],
-    hashtags: ["css", "overlay", "styles"],
+    hashtags: [
+      {
+        value: "css",
+      },
+      {
+        value: "overlay",
+      },
+      {
+        value: "styles",
+      },
+    ],
   },
   {
     blogId: 10,
@@ -215,7 +302,17 @@ Example, https://vikhyaat.herokuapp.com/
         link: "https://devcenter.heroku.com/articles/deploying-nodejs",
       },
     ],
-    hashtags: ["deployment", "backend", "heroku"],
+    hashtags: [
+      {
+        value: "deployment",
+      },
+      {
+        value: "backend",
+      },
+      {
+        value: "heroku",
+      },
+    ],
   },
   {
     blogId: 11,
@@ -298,6 +395,16 @@ You have now successfully deployed your project to a Linode with a SSL certifica
         link: "https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/",
       },
     ],
-    hashtags: ["deployment", "backend", "linode"],
+    hashtags: [
+      {
+        value: "deployment",
+      },
+      {
+        value: "backend",
+      },
+      {
+        value: "linode",
+      },
+    ],
   },
 ];

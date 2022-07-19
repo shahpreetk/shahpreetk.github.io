@@ -1,5 +1,6 @@
 // @ts-check
 import { LinkIcon } from '@heroicons/react/solid';
+import React from "react";
 import { BLOGS } from "../constants/routes";
 
 function classNames(...classes) {
@@ -7,6 +8,7 @@ function classNames(...classes) {
 }
 
 const Blog = ({ blogData }) => {
+
   return (
     <>
       <div className="max-w-7xl mx-auto px-2 md:px-8">
@@ -49,8 +51,8 @@ const Blog = ({ blogData }) => {
                   </div>
                   <div className="items-center text-sm font-medium text-gray-500 mt-0 pt-0">
                     {eachBlog.hashtags.map(hashtag =>
-                      <span key={hashtag} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-purple-100 text-purple-800 mr-2">
-                        <a href={`${BLOGS}/${hashtag}`}>#{hashtag}</a>
+                      <span key={hashtag.value} className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-purple-100 text-purple-800 mr-2">
+                        <a href={`${BLOGS}/${hashtag.value}`}>#{hashtag.value}</a>
                       </span>
                     )}
                   </div>

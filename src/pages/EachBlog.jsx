@@ -1,4 +1,5 @@
 // @ts-check
+import React from "react";
 import { useParams } from "react-router-dom";
 import { BlogData } from "../data/BlogData";
 import Blog from "../components/Blog";

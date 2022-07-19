@@ -3,29 +3,56 @@ import { useState, useEffect } from "react";
 import Blog from "../components/Blog";
 import Search from "../components/Search";
 import { BlogData } from "../data/BlogData";
+import Fuse from 'fuse.js';
+import React from "react";
 
 const Blogs = () => {
   const [search, setSearch] = useState("");
   const [blogs, setBlogs] = useState(BlogData);
+  const [filteredBlogs, setFilteredBlogs] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const searchChange = (e) => {
     setSearch(e.target.value.toLowerCase());
   };
-  
-  const updateInput = (/** @type {string} */ search) => {
-    const filteredBlogs = blogs.filter((blog) => blog.title.toLowerCase().includes(search) || blog.subTitle.toLowerCase().includes(search) || blog.hashtags.includes(search) || blog.content.toLowerCase().includes(search));
-    if (filteredBlogs.length > 0) {
-      setBlogs(filteredBlogs);
+
+
+  const updateInput = async (search) => {
+    const options = {
+      useExtendedSearch: true,
+      keys: ['title', 'subTitle', 'content', 'hashtags.value'],
+      includeScore: true,
+    };
+    const fuse = new Fuse(blogs, options);
+    const searchResult = fuse.search(`'${search}`);
+
+    if (search !== "" && searchResult.length > 0) {
+      setLoading(true);
+      // @ts-ignore
+      setFilteredBlogs(searchResult);
+      setTimeout(() => {
+        setLoading(false);
+      }, 150);
+    } else {
+      setFilteredBlogs([]);
+      setLoading(false);
     }
   };
 
   useEffect(() => {
     updateInput(search);
-    if (!search) {
+    if (!search || search === "") {
+      setLoading(false);
       setBlogs(BlogData);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
+
+
+  const searchedBlogs = filteredBlogs.map((sblog) => {
+    // @ts-ignore
+    return sblog.item;
+  });
 
   return (
     <>
@@ -37,7 +64,12 @@ const Blogs = () => {
           <div className="max-w-2xl px-2 md:px-8 py-4">
             <Search search={search} searchChange={searchChange} />
           </div>
-          <Blog blogData={blogs} />
+          {loading ? <div className="text-center">Loading Blogs...</div> : (
+            searchedBlogs && searchedBlogs.length > 0 ? (
+              <Blog blogData={searchedBlogs} />
+            ) : (
+              <Blog blogData={blogs} />
+            ))}
         </div>
       </main>
     </>
