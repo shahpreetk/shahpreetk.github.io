@@ -1,7 +1,6 @@
 // @ts-check
 import React from "react";
 import { DigitalArtData } from '../data/DigitalArtData';
-import { GoLinkExternal } from 'react-icons/go';
 
 const digitalArtData = DigitalArtData;
 
@@ -17,7 +16,7 @@ const DigitalArt = () => {
             <div className="py-4">
               <div className="bg-white">
                 <div className="max-w-2xl mx-auto py-1 px-1 sm:py-1 sm:px-1 lg:max-w-7xl lg:px-1">
-                  <a href="https://shahpreetk.gumroad.com/l/abstractMobileWallpaperBundle" target="_blank" className="text-rose-700 tracking-wide text-xl">Gumroad Profile: https://shahpreetk.gumroad.com</a>
+                  <a href="https://shahpreetk.gumroad.com/l/abstractMobileWallpaperBundle" target="_blank" rel="noreferrer" className="text-rose-700 tracking-wide text-xl">Gumroad Profile: https://shahpreetk.gumroad.com</a>
                   <hr className="mt-1" />
                   <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                     {digitalArtData.map((art) => (
