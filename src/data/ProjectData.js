@@ -1,6 +1,39 @@
 export const projectData = [
   {
-    id: 1,
+    id: 6,
+    title: "FuTourist",
+    category: {
+      name: "Frontend GitHub Link",
+      categoryHref: "https://github.com/shahpreetk-NCL/futourist",
+    },
+    description: `This was a 48-hour hackathon project organised by MLH.
+
+FuTourist allows everyone to choose which planets they want to travel between and on which date. Then it gives users an option to book for multiple people by selecting the number of people travelling. It provides the user with three spaceship options - one being the cheapest and longest journey, one a little faster, and the final option being a private spaceship. Users can then make a payment on the app and ask for the details being sent to them via SMS.`,
+    projectAchievements: `Won 3rd overall`,
+    achievement: {
+      name: "Devpost Link",
+      achievementHref: "https://devpost.com/software/futourist",
+    },
+  },
+  {
+    id: 5,
+    title: "SocialSpirit",
+    category: {
+      name: "Frontend GitHub Link",
+      categoryHref: "https://github.com/shahpreetk/socialspirit-frontend",
+    },
+    description: `This was a dissertation project made for MSc Computer Science.
+
+Aim of the project:
+To connect potential volunteers with organisations undertaking service activities. A geo-volunteering platform which helps prospective volunteers find service activities pertaining to their interests and calibre.`,
+    projectAchievements: `Obtained 70% on the thesis and project.`,
+    achievement: {
+      name: "",
+      achievementHref: "",
+    },
+  },
+  {
+    id: 4,
     title: "Trippy Castle",
     category: {
       name: "Frontend GitHub Link",
@@ -17,7 +50,7 @@ Develop an app to allow University students to plan a day trip using local bus s
     },
   },
   {
-    id: 2,
+    id: 3,
     title: "BookIt",
     category: {
       name: "Project Netlify Link",
@@ -31,7 +64,7 @@ Develop an app to allow University students to plan a day trip using local bus s
     },
   },
   {
-    id: 3,
+    id: 2,
     title: "Vikhyaat",
     category: {
       name: "Project Heroku Link",
@@ -45,12 +78,11 @@ This project is open-sourced on GitHub.`,
     projectAchievements: `Deployed the project on a remote server with a SSL certificate using Linode, for the first time.`,
     achievement: {
       name: "API Link",
-      achievementHref:
-        "https://teach-tech.ml",
+      achievementHref: "https://teach-tech.ml",
     },
   },
   {
-    id: 4,
+    id: 1,
     title: "DJ Events",
     category: {
       name: "Project Vercel Link",

@@ -20,30 +20,6 @@ export const DigitalArtData = [
     instagramUrl: "https://www.instagram.com/p/CfwgiL1DuV6/",
   },
   {
-    id: 20,
-    title: "Floating Castle",
-    previewImg: `${BASE_DIGITAL_ART_URL}/floating_castle.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CfeKkypj0Hi/",
-  },
-  {
-    id: 19,
-    title: "Waves (Blue & Purple)",
-    previewImg: `${BASE_DIGITAL_ART_URL}/waves_blue.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CfYyVyMDbUr/",
-  },
-  {
-    id: 18,
-    title: "Meerkat (Procreate Artmash)",
-    previewImg: `${BASE_DIGITAL_ART_URL}/meerkat_artmash.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CfO2MxNDhcM/",
-  },
-  {
-    id: 17,
-    title: "Space Whale",
-    previewImg: `${BASE_DIGITAL_ART_URL}/space_whale.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CfMOVZLDghE/",
-  },
-  {
     id: 16,
     title: "Dancing Cactus",
     previewImg: `${BASE_DIGITAL_ART_URL}/dancing_cactus.jpeg`,
@@ -54,18 +30,6 @@ export const DigitalArtData = [
     title: "Christmas Bear",
     previewImg: `${BASE_DIGITAL_ART_URL}/christmas_bear.jpeg`,
     instagramUrl: "https://www.instagram.com/p/CfEcY7EDmjk/",
-  },
-  {
-    id: 14,
-    title: "Fireplace (Procreate Artmash)",
-    previewImg: `${BASE_DIGITAL_ART_URL}/fireplace_procreate_artmash.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CetgGH2j6yb/",
-  },
-  {
-    id: 13,
-    title: "The Green Blossom",
-    previewImg: `${BASE_DIGITAL_ART_URL}/the_green_blossom.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CeizVCajOm2/",
   },
   {
     id: 12,
@@ -120,12 +84,6 @@ export const DigitalArtData = [
     title: "Jar full of Wonder",
     previewImg: `${BASE_DIGITAL_ART_URL}/jar_full_of_wonder.jpeg`,
     instagramUrl: "https://www.instagram.com/p/Cc3MK3zjcil/",
-  },
-  {
-    id: 3,
-    title: "Soft Serve Canvas Card",
-    previewImg: `${BASE_DIGITAL_ART_URL}/soft_serve_canvas_card.jpeg`,
-    instagramUrl: "https://www.instagram.com/p/CcxtZksjRm3/",
   },
   {
     id: 2,

@@ -7,7 +7,10 @@ const experiences = [
   {
     name: 'JP Morgan Chase & Co.',
     description:
-      `Currently training in the Tech Connect program.
+      `[Sept 2022 - Present] Currently working as a Full Stack developer.
+Primary stack: Java, Spring Boot, React, react-bootstrap, GOS DB, Jenkins, Bitbucket.
+
+[July 2022 - Sept 2022] Graduated from the Tech Connect program.
 Primary stack: Java, Spring Boot, React`,
     companyLogo: `${BASE_COMPANY_LOGO_PATH}/jpmc.jpg`,
   },
@@ -23,14 +26,11 @@ The themes were - Education, Gaming, ML, Productivity Tool, and Social Good.`,
   {
     name: 'Hackathons',
     description:
-      `Devpost lists the majority of the hackathons I've attended - ${"https://devpost.com/shahpreetk/"}
+      `Participated in multiple hackathons hosted by Major League Hacking over the years.
 
-Mentored: Third place - https://devpost.com/software/mentored
+Won the third place overall: FuTourist - https://devpost.com/software/futourist
 
-KnightInTheNight: Third place - https://devpost.com/software/knightinthenight
-
-Volunteery: Second place - https://devpost.com/software/volunteery-gno5zx
-`,
+Frontend GitHub: https://shahpreetk-ncl.github.io/futourist/`,
     companyLogo: `${BASE_COMPANY_LOGO_PATH}/devpost.jpg`,
   },
   {

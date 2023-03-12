@@ -8,7 +8,7 @@ const skills = [
   },
   {
     name: "Java OOP",
-    fluency: "Beginner",
+    fluency: "Intermediate",
   },
   {
     name: "Python",
@@ -31,14 +31,6 @@ const skills = [
     fluency: "Beginner",
   },
   {
-    name: "Next.js",
-    fluency: "Beginner",
-  },
-  {
-    name: "React Native",
-    fluency: "Beginner",
-  },
-  {
     name: "Node.js",
     fluency: "Intermediate",
   },
@@ -51,24 +43,28 @@ const skills = [
     fluency: "Intermediate",
   },
   {
+    name: "Gaia Oracle Services DB",
+    fluency: "Beginner",
+  },
+  {
     name: "PostgreSQL",
     fluency: "Beginner",
   },
   {
-    name: "Firebase",
-    fluency: "Beginner",
-  },
-  {
     name: "CSS Frameworks",
-    fluency: "Tailwind CSS | Bootstrap | DaisyUI",
+    fluency: "Tailwind CSS | Bootstrap | React-Bootstrap | DaisyUI",
   },
   {
     name: "Version Control",
-    fluency: "Git | GitHub",
+    fluency: "Git | GitHub | Bitbucket",
   },
   {
     name: "API Testing Tools",
     fluency: "Postman | Hoppscotch.io",
+  },
+  {
+    name: "CI/CD",
+    fluency: "Jenkins",
   },
   {
     name: "Hosting",

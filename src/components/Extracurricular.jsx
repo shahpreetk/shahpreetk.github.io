@@ -5,6 +5,13 @@ const BASE_LOGO_PATH = "/images/companylogos";
 
 const extracurriculars = [
   {
+    name: 'PowerUp Bournemouth [November 2022]',
+    description:
+      `As the Logistics Lead for PowerUp by J.P. Morgan Chase, I successfully organized a week-long tech conference in Bournemouth, UK in November 2022. I led a team of volunteers and managed logistics such as venue, catering, scheduling and swag distribution, ensuring a seamless and memorable experience for all attendees.`,
+    instagramURL: `https://www.linkedin.com/posts/clrapp_powerup-tech-bournemouth-activity-6998274953695440897-stZH?utm_source=share&utm_medium=member_desktop`,
+    image: `${BASE_LOGO_PATH}/jpmc.jpg`,
+  },
+  {
     name: 'LEO [2019 - Present]',
     description:
       `Lions Clubs International's youth organisation is called LEO. It emphasises community service, camaraderie, and networking opportunities. I've been a member of this organisation for three years and am presently the Past President of the Leo Club of Walkeshwar, the Past President of Leo District 3231 A1, and the Chief Website Officer of Leo Multiple 3231, India. As District President, it was my responsibility to supervise the smooth operation of the seven clubs in the South Mumbai area.`,

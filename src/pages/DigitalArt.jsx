@@ -17,18 +17,7 @@ const DigitalArt = () => {
             <div className="py-4">
               <div className="bg-white">
                 <div className="max-w-2xl mx-auto py-1 px-1 sm:py-1 sm:px-1 lg:max-w-7xl lg:px-1">
-                  <h2 className="text-rose-700 tracking-wide">Total artworks: {digitalArtData.length}</h2>
-                  <ul className="space-y-3 mt-2">
-                    <li>Desktop wallpaper -
-                      <a href="/images/og_images/waves_blue.png" target="_blank" rel="noopener noreferrer" className="text-blue-700"> Waves (Blue): <GoLinkExternal className="inline" />
-                      </a>
-                    </li>
-
-                    <li>Desktop wallpaper -
-                      <a href="/images/og_images/waves_purple.png" target="_blank" rel="noopener noreferrer" className="text-purple-700"> Waves (Purple): <GoLinkExternal className="inline" />
-                      </a>
-                    </li>
-                  </ul>
+                  <a href="https://shahpreetk.gumroad.com/l/abstractMobileWallpaperBundle" target="_blank" className="text-rose-700 tracking-wide text-xl">Gumroad Profile: https://shahpreetk.gumroad.com</a>
                   <hr className="mt-1" />
                   <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                     {digitalArtData.map((art) => (

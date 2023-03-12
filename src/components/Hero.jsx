@@ -7,8 +7,8 @@ const personDetails = [
   {
     name: "Preet Shah",
     imageUrl: "/images/preet-photo.jpg",
-    title: "Fullstack Web Developer",
-    shortDescription: `Self-taught MERN Stack Developer (MongoDB, Express, React, Node), Ardent Kitty lover, Painter (Digital Art too!) and an aspiring Software Engineer ❤️`,
+    title: "Fullstack Developer & Digital Artist",
+    shortDescription: `Self-taught MERN Stack Developer (MongoDB, Express, React, Node), Ardent Kitty lover, Painter (Digital Art too!) and a Software Engineer ❤️`,
     social: [
       {
         name: "Github",
@@ -40,13 +40,14 @@ const Hero = () => {
     <div>
       <div>
         <div className="my-2 text-sm text">
-          <p className="block">
-            Electronics and Telecommunication Engineer
-          </p>
-          <p className="block">
-            Pursuing <span className="font-bold"> MSc. Computer Science </span> from {" "}
+          <p className="block"><span className="font-bold"> MSc. Computer Science</span> from {" "}
             <a href="https://www.ncl.ac.uk/" target="_blank" rel="noreferrer" className="underline decoration-solid hover:text-teal-600">
               Newcastle University, UK
+            </a>
+          </p>
+          <p className="block"><span className="font-bold"> B.E. Electronics and Telecommunication Engineer</span> from {" "}
+            <a href="https://kjsit.somaiya.edu.in/en" target="_blank" rel="noreferrer" className="underline decoration-solid hover:text-teal-600">
+              KJSIEIT, Mumbai, India
             </a>
           </p>
           <div className="mt-2 border border-solid border-slate-700 rounded-xl" />
