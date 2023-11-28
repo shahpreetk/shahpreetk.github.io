@@ -6,32 +6,28 @@ const FeatureList = [
   {
     title: "Software Developer",
     Svg: require("@site/static/img/coder.png").default,
-    // description: (
-    //   <>
-    //     Docusaurus was designed from the ground up to be easily installed and
-    //     used to get your website up and running quickly.
-    //   </>
-    // ),
+    description: <>at JP Morgan Chase, working with React and Java</>,
   },
   {
     title: "Artist",
     Svg: require("@site/static/img/artist.png").default,
-    // description: (
-    //   <>
-    //     Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-    //     ahead and move your docs into the <code>docs</code> directory.
-    //   </>
-    // ),
+    description: (
+      <>
+        and Murder Mystery novels enthusiast. Do check my{" "}
+          <a href="https://twitter.com/shahpreetk">Twitter </a>
+        for book recommendations.
+      </>
+    ),
   },
   {
     title: "Contact Me",
     Svg: require("@site/static/img/contact.png").default,
-    // description: (
-    //   <>
-    //     Want to rant about coding or discuss painting? Hit me an email on
-    //     shahpreetk[at]outlook[dot]com
-    //   </>
-    // ),
+    description: (
+      <>
+        Want to rant about coding or discuss painting? Hit me an email on
+        shahpreetk[at]outlook[dot]com
+      </>
+    ),
   },
 ];
 

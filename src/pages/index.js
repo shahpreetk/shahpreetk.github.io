@@ -49,14 +49,6 @@ function HomepageHeader() {
                 >
                   <FaGithub size={24} style={{ color: "#e2e8f0" }} />
                 </a>
-                {/* <a
-                  title="Resume"
-                  href="/files/Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFilePdf size={24} style={{ color: "#e2e8f0" }} />
-                </a> */}
               </div>
             </div>
           </div>
