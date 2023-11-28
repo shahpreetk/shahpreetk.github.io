@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "overrides": [],
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "build/",
+    ".eslintrc.json",
+    "vite.config.js",
+    "postcss.config.mjs",
+    "tailwind.config.js",
+    "commitlint.config.cjs"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": [],
+  "rules": {
+    "react/prop-types": "off",
+    "no-await-in-loop": "error",
+    "no-constant-binary-expression": "error",
+    "no-duplicate-imports": "error",
+    "no-new-native-nonconstructor": "error",
+    "no-promise-executor-return": "error",
+    "no-self-compare": "error",
+    "no-template-curly-in-string": "error",
+    "no-unmodified-loop-condition": "error",
+    "no-unreachable-loop": "error",
+    "no-unused-private-class-members": "error",
+    "no-use-before-define": "error",
+    "require-atomic-updates": "error",
+    "camelcase": "error",
+    "no-return-await": "off",
+    "no-undef": "off"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.docusaurus
+
+package.json
+package-lock.json
+yarn.lock
+yarn-error.log
+yarn-debug.log
+
+
+build
+dist

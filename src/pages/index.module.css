@@ -1,0 +1,95 @@
+/* Common styles */
+
+.heroBanner {
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+  background: url(/img/waves.svg) no-repeat center/cover;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  width: 60%;
+  display: flex;
+  flex-direction: row; /* Set the default direction to row */
+  justify-content: left;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.heroUserProfile {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 1rem; /* Add spacing between image and text */
+}
+
+.textContent {
+  text-align: left; /* Align text to the left */
+}
+
+.heroSocialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 1rem;
+}
+
+.heroSocialLinks a {
+  margin: 0.9rem 0.5rem;
+  background-color: #020617;
+  border-radius: 10%;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .card {
+    width: 100%;
+    flex-direction: column; /* Change direction to column for small screens */
+  }
+
+  .heroUserProfile {
+    margin-right: 0; /* Remove spacing between image and text */
+  }
+
+  .textContent {
+    text-align: center; /* Align text to the center */
+  }
+
+  .cardContent {
+    flex-direction: column; /* Change direction to column for small screens */
+  }
+
+  .heroSocialLinks {
+    justify-content: center;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
