@@ -6,7 +6,12 @@ const FeatureList = [
   {
     title: "Software Developer",
     Svg: require("@site/static/img/coder.png").default,
-    description: <>at JP Morgan Chase, working with React and Java</>,
+    description: (
+      <>
+        at JP Morgan Chase, working with React, Java SpringBoot, and SQL
+        databases.
+      </>
+    ),
   },
   {
     title: "Artist",
@@ -14,7 +19,7 @@ const FeatureList = [
     description: (
       <>
         and Murder Mystery novels enthusiast. Do check my{" "}
-          <a href="https://twitter.com/shahpreetk">Twitter </a>
+        <a href="https://twitter.com/shahpreetk">Twitter </a>
         for book recommendations.
       </>
     ),
@@ -24,8 +29,8 @@ const FeatureList = [
     Svg: require("@site/static/img/contact.png").default,
     description: (
       <>
-        Want to rant about coding or discuss painting? Hit me an email on
-        shahpreetk[at]outlook[dot]com
+        Want to rant about coding or discuss painting? Hit me an email on{" "}
+        <em>shahpreetk[at]outlook[dot]com</em>
       </>
     ),
   },

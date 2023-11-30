@@ -77,6 +77,25 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <footer className={clsx("hero__footer", styles.footer)}>
+        <div className="container">
+          <div>
+            <div style={{ textAlign: "right", marginTop:"30px"}}>
+              <small>
+                This site uses{" "}
+                <a
+                  href="https://analytics.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Analytics
+                </a>
+                .
+              </small>
+            </div>
+          </div>
+        </div>
+      </footer>
     </Layout>
   );
 }
