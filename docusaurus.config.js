@@ -47,7 +47,7 @@ const config = {
           anonymizeIP: true,
         },
         googleTagManager: {
-          containerId: "GTM-172196540",
+          containerId: "GTM-TMCWBXF2",
         },
         docs: {
           sidebarPath: "./sidebars.js",
