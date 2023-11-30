@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import clsx from "clsx";
 import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -6,6 +7,8 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
+
+import * as Cronitor from "@cronitorio/cronitor-rum";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -60,6 +63,11 @@ function HomepageHeader() {
 
 export default function Home() {
   // const { siteConfig } = useDocusaurusContext();
+  useEffect(() => {
+    Cronitor.load("1814971e2b4c9a714e9d35d7a7e11461");
+    Cronitor.track("Pageview");
+  }, []);
+
   return (
     <Layout
       title="Software Developer"

@@ -5,6 +5,9 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
+// import * as Cronitor from "@cronitorio/cronitor-rum";
+
+// Cronitor.track("Pageview");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -39,6 +42,13 @@ const config = {
       "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: "G-EZYBN7167D",
+          anonymizeIP: true,
+        },
+        googleTagManager: {
+          containerId: "GTM-EZYBN7167D",
+        },
         docs: {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
