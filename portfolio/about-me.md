@@ -14,4 +14,8 @@ I have a strong academic background in computer science, having graduated with a
 
 I am always eager to learn new things and challenge myself, both personally and professionally. I have held various positions of responsibility and leadership in social service organisations, such as Leo Club and National Service Scheme, where I contributed to various causes and initiatives, such as education, health, environment, and community development. I also enjoy painting and crochet, which allow me to express my creativity and color sense.
 
+:::success
+[AWS Certified Cloud Practitioner](https://www.credly.com/badges/7ce03755-389a-4037-8202-16e0e78b9813)
+:::
+
 *Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com*
