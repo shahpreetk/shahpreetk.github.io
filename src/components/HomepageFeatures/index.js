@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
@@ -12,6 +13,7 @@ const FeatureList = [
         databases.
       </>
     ),
+    link: "/portfolio/experience",
   },
   {
     title: "Artist",
@@ -23,6 +25,7 @@ const FeatureList = [
         for book recommendations.
       </>
     ),
+    link: "/portfolio/category/art",
   },
   {
     title: "Contact Me",
@@ -33,17 +36,20 @@ const FeatureList = [
         <em>shahpreetk[at]outlook[dot]com</em>
       </>
     ),
+    link: "/portfolio/about-me",
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col col--4")}>
-      <div className={clsx("text--center",styles.featureDiv)}>
+      <div className={clsx("text--center", styles.featureDiv)}>
         <img src={Svg} className={styles.featureSvg} />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">
+          <Link to={link}>{title}</Link>
+        </Heading>
         <p>{description}</p>
       </div>
     </div>

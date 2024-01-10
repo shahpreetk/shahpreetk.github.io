@@ -1,0 +1,28 @@
+---
+slug: books-2022
+title: Books I read in 2022
+description: I read 46 books in 2022
+authors: shahpreetk
+tags: [books, thriller, mysteries]
+---
+
+import data from './data.js';
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Book Title</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.map((book) => (
+      <tr key={book.id}>
+        <td>{book.id}</td>
+        <td>{book.bookTitle}</td>
+        <td>{book.author}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
