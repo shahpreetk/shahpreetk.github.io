@@ -79,6 +79,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+      },
       image: "img/preet-social-card.png?v=3",
       navbar: {
         title: "Preet Shah",

@@ -6,7 +6,13 @@ authors: shahpreetk
 tags: [books, thriller, mysteries]
 ---
 
-import data2023 from './data2023.js';
+import books2023 from './books2023.js';
+
+I read 20 books in 2023
+
+Here is the list of books I read -
+
+<!-- truncate -->
 
 <table>
   <thead>
@@ -17,7 +23,7 @@ import data2023 from './data2023.js';
     </tr>
   </thead>
   <tbody>
-    {data2023.map((book) => (
+    {books2023.map((book) => (
       <tr key={book.id}>
         <td>{book.id}</td>
         <td>{book.bookTitle}</td>

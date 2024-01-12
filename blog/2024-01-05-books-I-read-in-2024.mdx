@@ -6,7 +6,7 @@ authors: shahpreetk
 tags: [books, thriller, mysteries, history]
 ---
 
-import data2024 from './data2024.js';
+import books2024 from './books2024.js';
 
 <table>
   <thead>
@@ -17,7 +17,7 @@ import data2024 from './data2024.js';
     </tr>
   </thead>
   <tbody>
-    {data2024.map((book) => (
+    {books2024.map((book) => (
       <tr key={book.id}>
         <td>{book.id}</td>
         <td>{book.bookTitle}</td>

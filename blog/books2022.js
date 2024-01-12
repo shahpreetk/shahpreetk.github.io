@@ -1,4 +1,4 @@
-const data = [
+const books2022 = [
   {
     id: 1,
     bookTitle: "A Good Girl\u2019s Guide to Murder",
@@ -231,4 +231,4 @@ const data = [
   },
 ];
 
-export default data;
+export default books2022;

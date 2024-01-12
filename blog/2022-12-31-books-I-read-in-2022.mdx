@@ -6,7 +6,13 @@ authors: shahpreetk
 tags: [books, thriller, mysteries]
 ---
 
-import data from './data.js';
+import books2022 from './books2022.js';
+
+Decided to take up 60 book challenge in 2022. I read 46 books.
+
+Here is the list of books I read -
+
+<!-- truncate -->
 
 <table>
   <thead>
@@ -17,7 +23,7 @@ import data from './data.js';
     </tr>
   </thead>
   <tbody>
-    {data.map((book) => (
+    {books2022.map((book) => (
       <tr key={book.id}>
         <td>{book.id}</td>
         <td>{book.bookTitle}</td>

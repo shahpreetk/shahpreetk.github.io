@@ -1,4 +1,4 @@
-const data2023 = [
+const books2023 = [
   { id: 1, bookTitle: "The Pale Blue Eye", author: "Louis Bayard" },
   { id: 2, bookTitle: "Wobble to Death", author: "Peter Lovesey" },
   { id: 3, bookTitle: "Presumed Innocent", author: "Scott Turow" },
@@ -25,4 +25,4 @@ const data2023 = [
   { id: 20, bookTitle: "Murder in the Caribbean", author: "Robert Thorogood" },
 ];
 
-export default data2023;
+export default books2023;
