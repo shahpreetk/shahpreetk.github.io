@@ -25,7 +25,7 @@ const FeatureList = [
         for book recommendations.
       </>
     ),
-    link: "/portfolio/category/art",
+    link: "/portfolio/category/hobbies",
   },
   {
     title: "Contact Me",

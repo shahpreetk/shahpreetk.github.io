@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Art
+# Art Projects
 
 ### Check out all my Art [here](https://www.instagram.com/shahpreetk.paints/)! 🎨
 

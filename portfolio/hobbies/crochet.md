@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Crochet
+# Crochet Projects
 
 ### Just a beginner trying to new stuff! 🧶
 
