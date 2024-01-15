@@ -17,6 +17,8 @@ C:\Users\shahpreetk> cd C:\Program Files\Google\Chrome\Application
 C:\Program Files\Google\Chrome\Application> chrome.exe --user-data-dir=“C:\temp\chrome” —disable-web-security 
 ```
 
+<!-- truncate -->
+
 OR
 
 ```
@@ -25,9 +27,6 @@ C:\Users\shahpreetk> cd C:\Program Files (x86)\Google\Chrome\Application
 ⁠
 C:\Program Files (x86)\Google\Chrome\Application\> ⁠ chrome.exe --user-data-dir=“C:\temp\chrome” —disable-web-security ⁠
 ```
-
-<!-- truncate -->
-
 
 For <b>Mac</b>, you can achieve the same testing setup with the following commands:
 
