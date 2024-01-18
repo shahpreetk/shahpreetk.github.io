@@ -13,6 +13,7 @@ I'm a left-handed crocheter, so the tips below are for left-handed crocheters. I
 - To keep things organised, I note down the stitch count for each round. It's like my crochet journal, complete with circles around any increases or decreases.
 - For all my left-handed crochet pals out there, The Wobbles has this fantastic [YouTube playlist with all the common stitch tutorials](https://www.youtube.com/playlist?list=PLEh6W6iC57uQOF1BYrkmBUbG88kmwB0Ag).
 - Big love to Bella Coco too – she's got a bunch of [leftie-friendly crochet projects waiting for you on her YouTube channel](https://www.youtube.com/@bellacococrochet).
+- If your single crochet stitches aren't forming nice squares, it might be because you're accidentally skipping the first stitch right after a slip stitch and chain stitch.
 :::
 
 1. Left-handed Slip knot - [https://www.youtube.com/watch?v=PmSoXNqpP8Y&t=161s](https://www.youtube.com/watch?v=PmSoXNqpP8Y&t=161s)
