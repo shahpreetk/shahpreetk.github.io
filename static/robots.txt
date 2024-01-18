@@ -1,2 +1,4 @@
+Sitemap: https://shahpreetk.github.io/sitemap.xml
+
 User-agent: *
 Disallow:
