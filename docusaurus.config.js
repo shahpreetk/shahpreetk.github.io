@@ -49,6 +49,12 @@ const config = {
         googleTagManager: {
           containerId: "GTM-TMCWBXF2",
         },
+        sitemap: {
+          changefreq: "daily",
+          priority: 1.0,
+          ignorePatterns: undefined,
+          filename: "sitemap.xml",
+        },
         docs: {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
