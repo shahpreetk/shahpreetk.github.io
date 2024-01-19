@@ -20,7 +20,8 @@ To deploy a Node.js app to Linode, follow the instructions below:
 9. Copy the Linode SSH Access, paste it in the terminal and run it
 10. When it prompts you asking -> "Are you sure you want to continue connecting (yes/no/fingerprint)?", type "yes"
 11. Now, run the following commands ->
-    ```
+
+    ```sh
     apt-get update
     apt-get upgrade
     apt-get install npm

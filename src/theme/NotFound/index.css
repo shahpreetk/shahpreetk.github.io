@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+.imgStyle {
+  margin: 0 auto 1rem;
+  text-align: center;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #cfcfcf;
+}
+
+.btnStyle {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btnStyle:hover {
+  background-color: #020522;
+  color: aliceblue;
+}
+
+.btnStyleOutline {
+  border: 2px solid #cfcfcf;
+  background-color: var(--ifm-background-color);
+}
+
+.btnStyleOutline:hover {
+  border: 2px solid rgb(171, 168, 229);
+}
+

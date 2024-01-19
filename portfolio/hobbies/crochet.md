@@ -6,6 +6,8 @@ sidebar_position: 2
 
 ### Just a beginner trying to new stuff! 🧶
 
+![Dino](./img/dino.png)
+
 ![Elephant](./img/elephant.png)
 
 ![Moon and Star Accessory](./img/star-moon.png)
