@@ -1,7 +1,7 @@
-import clsx from "clsx";
-import Heading from "@theme/Heading";
-import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
+import Heading from "@theme/Heading";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
@@ -21,7 +21,14 @@ const FeatureList = [
     description: (
       <>
         and Murder Mystery novels enthusiast. Do check my{" "}
-        <a href="https://twitter.com/shahpreetk">Twitter </a>
+        <strong>
+          <a
+            style={{ margin: "5px", padding: "5px", bgColor: "transparent" }}
+            href="https://twitter.com/shahpreetk"
+          >
+            Twitter
+          </a>
+        </strong>
         for book recommendations.
       </>
     ),
@@ -44,7 +51,7 @@ function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col col--4")}>
       <div className={clsx("text--center", styles.featureDiv)}>
-        <img src={Svg} className={styles.featureSvg} />
+        <img alt={title} src={Svg} className={styles.featureSvg} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">
@@ -61,8 +68,8 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((props) => (
+            <Feature key={props.title} {...props} />
           ))}
         </div>
       </div>

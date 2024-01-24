@@ -7,7 +7,6 @@ import styles from "./index.module.css";
 
 import * as Cronitor from "@cronitorio/cronitor-rum";
 
-
 export default function Home() {
   // const { siteConfig } = useDocusaurusContext();
   useEffect(() => {
@@ -27,7 +26,7 @@ export default function Home() {
       <footer className={clsx("hero__footer", styles.footer)}>
         <div className="container">
           <div>
-            <div style={{ textAlign: "right", marginTop:"30px"}}>
+            <div style={{ textAlign: "right", marginTop: "30px" }}>
               <small>
                 This site uses{" "}
                 <a
