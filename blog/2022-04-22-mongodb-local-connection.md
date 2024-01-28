@@ -13,6 +13,7 @@ Following command starts the MongoDB server:
 <!-- truncate -->
 
 Example of terminal command to start MongoDB local connection with MongoDB Compass in macOS:
+
 ```/Users/preetshah/mongodb/bin/mongod --dbpath=/Users/preetshah/mongodb-data```
 
 This command takes you to the MongoDB path and starts the MongoDB server.

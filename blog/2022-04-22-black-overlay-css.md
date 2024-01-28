@@ -7,12 +7,11 @@ tags: [css, overlay, styles]
 ---
 
 Code for creating a black overlay in CSS over an image:
-<!-- truncate -->
-```
+```css
 {
   background: black;
   overflow: hidden;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("<IMAGEURL COMES HERE>");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("<IMAGEURL_COMES_HERE>");
   object-fit: cover;
 }
 ```

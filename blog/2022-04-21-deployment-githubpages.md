@@ -10,7 +10,7 @@ To deploy a React app to GitHub Pages, follow the instructions below:
 <!-- truncate -->
 1. Install gh-pages as a dev depedency: ```npm install -D gh-pages```
 2. In package.json add the following in scripts:
-```
+```sh
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 "build": "react-scripts build && cp build/index.html build/404.html",

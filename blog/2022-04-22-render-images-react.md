@@ -6,7 +6,8 @@ authors: shahpreetk
 tags: [react, rendering, images]
 ---
 
-Images stored in the public folder are served as static assets.
+Images stored in the public folder are served as static assets. Doing this, should help you avoid importing the images in your components several times. It also shortens the path to the image in the src attribute.
+
 
 <!-- truncate -->
 

@@ -6,13 +6,17 @@ authors: shahpreetk
 tags: [terminal, vscode, shortcuts]
 ---
 
-Following command opens the current folder in VSCode:
+The following commands open the current folder in VSCode from the terminal:
+```sh
+cd <folder_name>
+code .
+```
 <!-- truncate -->
-1. Open the terminal
-2. Type ```cd <folder_name>```
-3. Type ```code .```
 
-Alternatively, you can use the following command to open the folder in an Open VSCode window: ```code . -r```
+Alternatively, you can use the following command to open the folder in an Open VSCode window:
+```sh
+code . -r
+```
 
 #### References
 - [VSCode Core CLI options](https://code.visualstudio.com/docs/editor/command-line#_core-cli-options)

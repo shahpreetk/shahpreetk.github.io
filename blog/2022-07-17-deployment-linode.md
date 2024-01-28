@@ -38,16 +38,17 @@ To deploy a Node.js app to Linode, follow the instructions below:
       ```scp <location_of_file_in_local_machine>/.env root@<server_ip_address>:~/<location_of_project>```
 You can add a -r flag to the command to copy an entire folder.
 18. Run the node project to ensure it's running correctly.
-19. Run ```npm i -g pm2``` to install pm2.
-20. Run ```pm2 start <entry_file_name>.js -n <project_name>``` to start the project.
-21. Run ```pm2 startup ubuntu``` to restart API by itself, in case of crash.
-22. Run ```apt-get install nginx``` to install nginx for reverse-proxy.
-23. Now, run the following commands:
-    ```
-    cd ~/etc/nginx/sites-available
-    nano default
-    ```
-    In this file make the following changes:
+19. Then run the following commands:
+```js
+npm i -g pm2 // install pm2
+pm2 start <entry_file_name>.js -n <project_name> // start the project
+pm2 startup ubuntu // to restart API by itself, in case of crash
+apt-get install nginx // install nginx for reverse-proxy
+cd ~/etc/nginx/sites-available
+nano default
+```
+
+20. In this file make the following changes:
         1. At "server_name _;" replace the underscore with your domain name(with and without www prefix) or server IP address.
         2. In the "location /" block, remove the existing code and add the following:
               ```
