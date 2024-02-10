@@ -52,7 +52,6 @@ const config = {
         sitemap: {
           changefreq: "weekly",
           ignorePaths: ["/blog/tags/*", "/blog/authors/*"],
-          trailingSlash: false,
           filename: "sitemap.xml",
         },
         docs: {
