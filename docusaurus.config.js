@@ -51,7 +51,7 @@ const config = {
         },
         sitemap: {
           changefreq: "weekly",
-          ignorePaths: ["/blog/tags/*", "/blog/authors/*"],
+          ignorePatterns: ["/tags/**"],
           filename: "sitemap.xml",
         },
         docs: {
