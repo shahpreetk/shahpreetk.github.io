@@ -50,9 +50,10 @@ const config = {
           containerId: "GTM-TMCWBXF2",
         },
         sitemap: {
-          changefreq: "daily",
-          priority: 1.0,
-          ignorePatterns: undefined,
+          changefreq: "weekly",
+          priority: 0.9,
+          ignorePaths: ["/blog/tags/*", "/blog/authors/*"],
+          trailingSlash: false,
           filename: "sitemap.xml",
         },
         docs: {
