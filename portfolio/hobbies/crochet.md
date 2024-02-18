@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Crochet Projects
 
-### Just a beginner trying to new stuff! 🧶
+### Just a beginner trying new stuff! 🧶
 
 ![Dino](./img/dino.png)
 
