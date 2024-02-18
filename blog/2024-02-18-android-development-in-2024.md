@@ -8,6 +8,8 @@ tags: [android, app, java, development]
 
 1. I started learning Android Development with Java through a helpful guide at [https://developer.android.com/codelabs/android-room-with-a-view](https://developer.android.com/codelabs/android-room-with-a-view)
 
+<!-- truncate -->
+
 :::info
 In preparation for the codelab, I delved into some prerequisite materials and found the invaluable [freeCodeCamp.org](https://www.freecodecamp.org/) videos on Android Development presented by Meisam Mansourzadeh. These comprehensive tutorials provided me with essential insights about RecyclerView and Adapters.
 
@@ -28,7 +30,7 @@ Part 2: [https://www.youtube.com/watch?v=RcSHAkpwXAQ](https://www.youtube.com/wa
 
 6. I had a small issue with the app name not showing, maybe because of using a different Android version or template for Java, but my app worked well on the emulator without any major problems.
 
-A demo of the app - 
+A demo of the app -
 
 <!-- ![Android Add a Word App](./assets/androidApp.webm) -->
 <video width="480" height="480" controls>
