@@ -11,9 +11,9 @@ tags: [android, app, java, development]
 <!-- truncate -->
 
 :::info
-In preparation for the codelab, I delved into some prerequisite materials and found the invaluable [freeCodeCamp.org](https://www.freecodecamp.org/) videos on Android Development presented by Meisam Mansourzadeh. These comprehensive tutorials provided me with essential insights about RecyclerView and Adapters.
+I decided to begin my Android development journey with Java since it's what I'm already familiar with, even though most tutorials nowadays use Kotlin.
 
-If you're also gearing up to dive into Android development, I highly recommend checking out these resources:
+To prepare for the codelab, I checked out some prerequisite materials and stumbled upon the helpful Android Development videos by Meisam Mansourzadeh on [freeCodeCamp.org](https://www.freecodecamp.org/). These tutorials taught me a lot about RecyclerView and Adapters, which are essential for building Android apps.
 
 Part 1: [https://www.youtube.com/watch?v=fis26HvvDII](https://www.youtube.com/watch?v=fis26HvvDII)
 
