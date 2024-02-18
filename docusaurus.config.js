@@ -16,7 +16,7 @@ const config = {
   favicon: "img/favicon.ico?v=3",
 
   // Set the production url of your site here
-  url: "https://shahpreetk.github.io/",
+  url: "https://shahpreetk.com/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -52,7 +52,7 @@ const config = {
         },
         sitemap: {
           changefreq: "weekly",
-          priority: 0.80,
+          priority: 0.90,
           ignorePatterns: ["/tags/**"],
           filename: "sitemap.xml",
         },
