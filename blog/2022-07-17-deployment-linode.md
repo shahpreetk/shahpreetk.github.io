@@ -1,6 +1,6 @@
 ---
-slug: deployment-linode
-title: Deployment - Linode
+slug: deploying-a-nodejs-project-to-linode
+title: Deploying a Node.js project to Linode
 description: Deploying a Node.js project to linode
 authors: shahpreetk
 tags: [deployment, backend, linode]

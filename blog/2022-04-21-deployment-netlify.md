@@ -1,6 +1,6 @@
 ---
-slug: deployment-netlify
-title: Deployment - Netlify
+slug: deploying-a-react-app-to-netlify
+title: Deploying a React App to Netlify
 description: Deploying a React App to Netlify
 authors: shahpreetk
 tags: [deployment, react, netlify]

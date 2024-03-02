@@ -1,5 +1,5 @@
 ---
-slug: disable-cors
+slug: disable-cors-policy-in-chrome
 title: Disable CORS policy in Chrome
 description: Opens a New Chrome Session with CORS disbaled
 authors: shahpreetk

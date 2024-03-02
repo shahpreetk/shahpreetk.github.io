@@ -1,6 +1,6 @@
 ---
-slug: open-folder-vscode
-title: Open folder in VSCode
+slug: shortcut-to-open-folder-in-vscode-from-cmd
+title: Shortcut to Open folder in VSCode from cmd
 description: Opening a folder in VSCode using the terminal
 authors: shahpreetk
 tags: [terminal, vscode, shortcuts]

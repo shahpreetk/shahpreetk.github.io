@@ -1,12 +1,13 @@
 ---
-slug: remove-github-commit
-title: Removing a commit from Github
-description: Removing a commit pushed to Github
+slug: reverting-commits-and-local-changes-in-git
+title: Reverting Commits & Local Changes in Git
+description: Reverting Commits & Local Changes in Git
 authors: shahpreetk
 tags: [git, github]
 ---
 
 The following steps can be used to remove a commit pushed to Github:
+
 <!-- truncate -->
 
 ```js
@@ -19,8 +20,6 @@ git add . // if you have untracked/new files in the changes, you need to add the
 git commit -m '<your_commit_message>' // commit the changes
 ```
 
-<u>NOTE</u>: this solution works only if the commit to be removed is the latest commit pushed to GitHub.
-
-
 #### References
+
 - [How can I remove a commit on GitHub?](https://stackoverflow.com/a/44415889)

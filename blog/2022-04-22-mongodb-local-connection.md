@@ -1,6 +1,6 @@
 ---
-slug: mongodb-local-connection
-title: Starting a MongoDB local connection
+slug: starting-a-mongodb-local-connection-macos
+title: Starting a MongoDB local connection in macOS
 description: Starting a MongoDB local connection in macOS using the terminal
 authors: shahpreetk
 tags: [databases, mongodb, nosql]

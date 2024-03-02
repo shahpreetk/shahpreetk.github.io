@@ -1,6 +1,6 @@
 ---
-slug: deployment-heroku
-title: Deployment - Heroku
+slug: deploying-a-nodejs-project-to-heroku
+title: Deploying a Node.js project to heroku
 description: Deploying a Node.js project to heroku
 authors: shahpreetk
 tags: [deployment, backend, heroku]

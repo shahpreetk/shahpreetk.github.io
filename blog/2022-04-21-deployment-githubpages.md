@@ -1,7 +1,7 @@
 ---
-slug: deployment-githubpages
-title: Deployment - GitHub Pages
-description: Deploying a React app to GitHub Pages
+slug: deploying-a-react-app-to-github-pages
+title: Deploying a React app to GitHub Pages
+description: Deploying a React app to GitHub Pages(ghpages)
 authors: shahpreetk
 tags: [deployment, react, gh-pages]
 ---

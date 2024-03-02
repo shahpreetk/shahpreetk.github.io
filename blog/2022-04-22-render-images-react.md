@@ -1,20 +1,29 @@
 ---
-slug: render-images-react
-title: Rendering images in React
-description: Using the public folder to save images and not needing to import them several times
+slug: adding-image-in-reactjs
+title: Adding Images in React.js
+description: Adding Images in React.js
 authors: shahpreetk
 tags: [react, rendering, images]
 ---
 
-Images stored in the public folder are served as static assets. Doing this, should help you avoid importing the images in your components several times. It also shortens the path to the image in the src attribute.
-
+Images are integral to web development, impacting performance significantly. Efficient management can streamline your React app's functionality and user experience. Let's explore a streamlined approach.
 
 <!-- truncate -->
 
-You can do so by following the instructions below:
-1. Create a new folder in your public folder called ```assets``` or ```images```
-2. Store all your images in this folder
-3. In your component, you can directly type the following in the src attribute: ```/assets/<image_name>```
+**Streamlining Image Handling in React:**
+
+One common method involves creating an `assets/images` folder within your `src` directory and importing images throughout your project. However, optimizing this process can further enhance performance.
+
+**Using the Public Folder for Images (or Files):**
+
+1. Create an assets or images folder in your project's `public` directory.
+2. Store your images/files here for easy access.
+3. Within React components, reference images directly using `/assets/<image_name>` in the `src` attribute.
+
+**Optimizing Image Size:**
+
+Utilize tools like [TinyPNG](https://tinypng.com/) to compress image files while maintaining quality. This reduces load times and enhances user experience, contributing to improved overall performance.
 
 #### References
+
 - [Storing images in react](https://www.upbeatcode.com/react/where-to-store-images-in-react-app/)

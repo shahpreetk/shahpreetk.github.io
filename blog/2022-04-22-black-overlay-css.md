@@ -1,6 +1,6 @@
 ---
-slug: black-overlay-css
-title: Black Overlay in CSS
+slug: creating-black-overlay-on-image-in-css
+title: Creating a Black Overlay on image in CSS
 description: Creating a black overlay over an image in CSS
 authors: shahpreetk
 tags: [css, overlay, styles]
