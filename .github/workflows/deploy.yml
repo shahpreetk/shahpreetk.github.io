@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - master # Set a branch to deploy
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
@@ -47,9 +47,9 @@ jobs:
           git add .
           git commit -m "Deploy updates to GitHub Pages"
           # Force push from the current repo's `gh-pages` branch to the remote
-          # repo's `gh-pages` branch. Orphan branches are unlinked from the main
+          # repo's `gh-pages` branch. Orphan branches are unlinked from the master
           # branch history.
           git push origin gh-pages --force
           # Cleanup
-          git checkout main
+          git checkout master
           git branch -D gh-pages
