@@ -1,0 +1,73 @@
+---
+slug: java-interview-guide
+title: Java Deep Dive
+description: A guide to prepare for Java interviews
+authors: shahpreetk
+tags:
+  [
+    data-structures,
+    java,
+    algorithms,
+    garbage-collector,
+    memory-management,
+    multithreading,
+    concurrency,
+  ]
+---
+
+import javaBlogs from "./javaBlogs.js";
+
+## Java Interview Guide
+
+This guide is a collection of resources to prepare for Java interviews.
+
+{/* truncate */}
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Blog Title</th>
+      <th>Blog Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {javaBlogs.map((blog) => (
+      <tr key={blog.id}>
+        <td>{blog.id}</td>
+        <td>
+          <a href={blog.link}> {blog.blogTitle} </a>
+        </td>
+        <td>{blog.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+{/*
+3. **Primitive data types** vs **Wrapper classes**
+
+- <u>Ans</u>: Primitive data types and wrapper classes are both used in Java for
+  representing data, but they have different characteristics and purposes.
+
+  Primitive Data Types:
+
+  - Primitive data types are basic data types provided by Java, such as int, double, char, boolean, etc.
+  - They are predefined by the language and represent single values with no methods or properties.
+  - Primitive data types are stored directly in memory and are more efficient in terms of memory usage and performance compared to wrapper classes.
+  - Examples of primitive data types include int for integers, double for floating-point numbers, char for characters, and boolean for true/false values.
+
+  Wrapper Classes:
+
+  - Wrapper classes in Java are classes that encapsulate primitive data types, providing a way to treat them as objects.
+  - Each primitive data type has a corresponding wrapper class, such as Integer for int, Double for double, Character for char, Boolean for boolean, etc.
+  - Wrapper classes provide utility methods and constants for working with primitive data types.
+  - They also allow primitive data types to be used in contexts where objects are required, such as collections (e.g., ArrayList) and generics.
+  - Wrapper classes also provide a way to represent null values for primitive types, as they can hold null references.
+  - Examples of wrapper classes include Integer for integers, Double for floating-point numbers, Character for characters, and Boolean for true/false values.
+
+  In summary, primitive data types are basic data types provided by Java with no methods or properties, while wrapper classes are classes that encapsulate primitive data types, providing utility methods and allowing them to be used in object-oriented contexts.
+
+4. Data structures and their performance
+5. Record class
+6. Interface vs Abstract class
+   \*/}

@@ -6,6 +6,7 @@ const books2024 = [
   },
   { id: 2, bookTitle: "The Da Vinci Code", author: "Dan Brown" },
   { id: 3, bookTitle: "The Lost Symbol", author: "Dan Brown" },
+  { id: 4, bookTitle: "Inferno", author: "Dan Brown" },
 ];
 
 export default books2024;

@@ -5,9 +5,6 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
-// import * as Cronitor from "@cronitorio/cronitor-rum";
-
-// Cronitor.track("Pageview");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -52,7 +49,7 @@ const config = {
         },
         sitemap: {
           changefreq: "weekly",
-          priority: 0.90,
+          priority: 0.9,
           ignorePatterns: ["/tags/**"],
           filename: "sitemap.xml",
         },
@@ -66,15 +63,12 @@ const config = {
           path: "portfolio",
         },
         blog: {
+          blogDescription:
+            "Blogs by Preet Shah | Developer with a passion for learning",
           showReadingTime: true,
-          blogSidebarTitle: "All posts",
-          blogSidebarCount: "ALL",
-          // postsPerPage: "ALL",
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          blogSidebarTitle: "Latest Posts",
+          blogSidebarCount: 15,
+          postsPerPage: 10,
         },
         theme: {
           customCss: "./src/css/custom.css",

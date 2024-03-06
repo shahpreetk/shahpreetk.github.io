@@ -7,6 +7,7 @@ tags: [css, overlay, styles]
 ---
 
 Code for creating a black overlay in CSS over an image:
+
 ```css
 {
   background: black;
@@ -17,4 +18,5 @@ Code for creating a black overlay in CSS over an image:
 ```
 
 #### References
+
 - [Overlay with JavaScript](https://www.w3schools.com/howto/howto_css_overlay.asp)

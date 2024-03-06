@@ -7,8 +7,11 @@ tags: [deployment, backend, heroku]
 ---
 
 To deploy a Node.js app to Heroku, follow the instructions below:
+
 <!-- truncate -->
+
 In the terminal, navigate to the root of your project and follow the steps below:
+
 ```js
 npm install -g heroku
 heroku login
@@ -21,4 +24,5 @@ You can now access your backend on <b>https://\<project_name>.herokuapp.com</b>
 Example, https://vikhyaat.herokuapp.com/
 
 #### References
+
 - [Deploying Node.js Apps on Heroku](https://devcenter.heroku.com/articles/deploying-nodejs)
