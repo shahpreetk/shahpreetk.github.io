@@ -1,0 +1,45 @@
+---
+slug: java-interview-guide
+title: Java Deep Dive
+description: A guide to prepare for Java interviews
+authors: shahpreetk
+tags:
+  [
+    data-structures,
+    java,
+    algorithms,
+    garbage-collector,
+    memory-management,
+    multithreading,
+    concurrency,
+  ]
+---
+
+import javaBlogs from "./javaBlogs.js";
+
+## Java Interview Guide
+
+This guide is a collection of resources to prepare for Java interviews.
+
+{/* truncate */}
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Blog Title</th>
+      <th>Blog Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {javaBlogs.map((blog) => (
+      <tr key={blog.id}>
+        <td>{blog.id}</td>
+        <td>
+          <a href={blog.link}> {blog.blogTitle} </a>
+        </td>
+        <td>{blog.description}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>

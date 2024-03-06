@@ -1,0 +1,256 @@
+---
+slug: data-types-in-java
+title: Data Types in Java
+description: Dive into the different data types in Java, including primitive types, reference types, and wrapper classes.
+authors: shahpreetk
+tags: [java, data-types, primitive-types, reference-types, wrapper-classes]
+---
+
+## Introduction to Data Types in Java
+
+Data types in Java specify the size, type, and operations of data that can be stored in a variable. In Java, a statically-typed language, every variable must be declared with a data type. The data type of a variable determines how much space it occupies in memory and what kind of operations can be performed on it.
+
+{/* truncate */}
+
+Java categorizes data types into primitive types, reference types, and wrapper classes.
+
+## Primitive Data Types
+
+Primitive data types are built-in Java types that are not objects; they represent raw values. They include:
+
+1. `byte`: 8-bit signed integer
+2. `short`: 16-bit signed integer
+3. `int`: 32-bit signed integer
+4. `long`: 64-bit signed integer
+5. `float`: 32-bit floating-point number
+6. `double`: 64-bit floating-point number
+7. `char`: 16-bit Unicode character
+8. `boolean`: true or false
+
+```java
+byte exampleByte = 100;
+short exampleShort = 5000;
+int exampleInt = 123456;
+long exampleLong = 12345678910L;
+float exampleFloat = 3.14f;
+double exampleDouble = 3.14159;
+char exampleChar = 'A';
+boolean exampleBoolean = true;
+```
+
+## Reference Data Types
+
+Reference data types refer to objects and hence they are stored by reference. Examples include:
+
+- Basic Reference Types:
+
+  1. `class`: Holds a reference to a class.
+  2. `interface`: A reference to an implemented interface.
+  3. `enum`: A special data type that enables for variables to be a set of predefined constants.
+  4. `lambda`: A reference to a lambda expression.
+  5. `String`: A reference to a string.
+  6. `Runnable`: A reference to a runnable object.
+  7. `Record`: A reference to a record.
+
+```js
+  // Class
+  class ExampleClass {
+      // Code...
+  }
+
+  // Interface
+  interface ExampleInterface {
+      // Code...
+  }
+
+  // Enum
+  enum Size {SMALL, MEDIUM, LARGE}
+  Size exampleSize = Size.MEDIUM;
+
+  // Lambda
+  Runnable exampleRunnable = () -> System.out.println("Running");
+
+  // Lambda with parameters
+  Comparator<Integer> exampleComparator = (a, b) -> a - b;
+
+  // Lambda with return statement
+  Function<Integer, Integer> exampleFunction = (a) -> {
+      return a * a;
+  };
+
+  // String
+  String exampleString = "Hello, World!";
+
+  // Runnable
+  Runnable exampleRunnable = () -> {
+      // Code...
+  };
+
+  // Record
+  record ExampleRecord(int id, String name) {
+      // Code...
+  }
+```
+
+- Collections and Iterators:
+
+  1. `array`: A reference to a dynamically allocated array.
+  2. `List`: A reference to a dynamically sized collection of elements.
+  3. `Map`: A reference to a collection of key-value pairs.
+  4. `Set`: A reference to a collection that contains no duplicate elements.
+  5. `Iterator`: A reference to an object that enables traversal through a collection.
+
+```js
+  // array
+  int[] exampleArray = new int[5];
+
+  // List
+  List<String> exampleList = new ArrayList<>();
+
+  // Map
+  Map<String, Integer> exampleMap = new HashMap<>();
+
+  // Set
+  Set<String> exampleSet = new HashSet<>();
+
+  // Iterator
+  Iterator<String> exampleIterator = exampleList.iterator();
+```
+
+- Concurrency and IO:
+
+  1. `Thread`: A reference to a thread of execution.
+  2. `Exception`: A reference to an exception object.
+  3. `Annotation`: A reference to an annotation.
+  4. `Socket`: A reference to a network communication endpoint.
+  5. `File`: A reference to a file or directory in the file system.
+  6. `Scanner`: A reference to an object used to parse primitive types and strings from an input stream.
+
+```js
+  // Thread
+  Thread exampleThread = new Thread(() -> {
+      // Code...
+  });
+
+  // Exception
+  try {
+      // Code...
+  } catch (Exception e) {
+      // Code...
+  }
+
+  // Annotation
+  @interface ExampleAnnotation {
+      // Code...
+  }
+
+  // Socket
+  Socket exampleSocket = new Socket("localhost", 8080);
+
+  // File
+  File exampleFile = new File("example.txt");
+
+  // Scanner
+  Scanner exampleScanner = new Scanner(System.in);
+```
+
+## Wrapper Classes
+
+Java also provides a set of wrapper classes that correspond to the primitive data types. These wrapper classes are used to create objects from primitive data types, and to perform operations on primitive data types. The wrapper classes are:
+
+1. `Byte`: Wrapper class for `byte`
+2. `Short`: Wrapper class for `short`
+3. `Integer`: Wrapper class for `int`
+4. `Long`: Wrapper class for `long`
+5. `Float`: Wrapper class for `float`
+
+```java
+Byte exampleWrappedByte = 100;
+Short exampleWrappedShort = 5000;
+Integer exampleWrappedInt = 123456;
+Long exampleWrappedLong = 12345678910L;
+Float exampleWrappedFloat = 3.14f;
+Double exampleWrappedDouble = 3.14159;
+Character exampleWrappedChar = 'A';
+Boolean exampleWrappedBoolean = true;
+```
+
+Autoboxing is the automatic conversion that the Java compiler makes between the primitive types and their corresponding object wrapper classes. For example, converting an `int` to an `Integer`, a `double` to a `Double`, etc. Similarly, unboxing is the reverse process:
+
+```js
+// Autoboxing
+Integer autoBoxedInt = 10; // int to Integer
+
+// Unboxing
+int unboxedInt = autoBoxedInt; // Integer to int
+```
+
+## Differences Between Primitive and Wrapper Classes
+
+<table>
+
+<thead>
+  <tr>
+    <th>Aspect</th>
+    <th>Primitive Types</th>
+    <th>Wrapper Classes</th>
+  </tr>
+</thead>
+
+<tbody>
+
+<tr>
+  <td>Type</td>
+  <td>Basic data type</td>
+  <td>Class type (Object)</td>
+</tr>
+
+<tr>
+  <td>Storage</td>
+  <td>Stack</td>
+  <td>Heap</td>
+</tr>
+
+<tr>
+  <td>Default Value</td>
+  <td>Has default value (e.g., 0 for int)</td>
+  <td>Null (if not initialized)</td>
+</tr>
+
+<tr>
+  <td>Size</td>
+  <td>Fixed size</td>
+  <td>Larger than primitives due to object overhead</td>
+</tr>
+
+<tr>
+  <td>Speed</td>
+  <td>Fast</td>
+  <td>Slower than primitives due to additional processing</td>
+</tr>
+
+<tr>
+  <td>Utility</td>
+  <td>Limited to basic arithmetic and logical operations</td>
+  <td>Comes with methods for conversion, comparison, etc.</td>
+</tr>
+
+<tr>
+  <td>Usage in Generics</td>
+  <td>Not applicable</td>
+  <td>Can be used with generics and collections</td>
+</tr>
+
+<tr>
+  <td>Nullability</td>
+  <td>Cannot be null</td>
+  <td>Can be null</td>
+</tr>
+
+</tbody>
+
+</table>
+
+## Conclusion
+
+In this article, we discussed the different data types and access modifiers in Java. We learned about primitive types, reference types, and wrapper classes, and how they differ from each other. We also explored the four access modifiers in Java and their use cases. Understanding these concepts is essential for writing efficient and secure Java code.

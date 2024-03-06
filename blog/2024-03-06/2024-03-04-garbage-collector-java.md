@@ -1,5 +1,5 @@
 ---
-slug: java-garbage-collector
+slug: garbage-collector-in-java
 title: Garbage Collector in Java
 description: Garbage Collection in Java is the process of reclaiming the runtime unused memory automatically. In this blog, we will learn about the Garbage Collector in Java.
 authors: shahpreetk
@@ -35,7 +35,7 @@ Here's a simplified overview of how Java garbage collection works:
 
 - <u>**Memory Allocation**</u>: When you create objects in Java using the new keyword, memory is allocated for those objects on the heap. The heap is the region of memory where Java objects are stored.
 
-- <u>**Marking Phase**</u>: Java garbage collection uses a process called *mark and sweep*. During the marking phase, the garbage collector identifies which objects in the heap are still reachable, starting from the root objects (e.g., objects referenced by active threads, static variables, and local variables on the stack) and recursively marking all objects that are reachable from them. **Any objects not marked as reachable are considered garbage.**
+- <u>**Marking Phase**</u>: Java garbage collection uses a process called _mark and sweep_. During the marking phase, the garbage collector identifies which objects in the heap are still reachable, starting from the root objects (e.g., objects referenced by active threads, static variables, and local variables on the stack) and recursively marking all objects that are reachable from them. **Any objects not marked as reachable are considered garbage.**
 
 - <u>**Sweeping Phase**</u>: In the sweeping phase, the garbage collector removes (sweeps) the memory occupied by the unreferenced objects, effectively reclaiming it for future use. This reclaimed memory becomes available for allocating new objects.
 
@@ -48,21 +48,25 @@ Here's a simplified overview of how Java garbage collection works:
 There are several types of garbage collectors in Java, each designed to handle memory management differently. Here are some common types:
 
 - **Serial Garbage Collector:**
+
   - Uses a single thread for garbage collection.
   - Suitable for applications with smaller heaps or those that prioritize low CPU usage.
   - Freezes the application thread during garbage collection.
 
-- **Parallel Garbage Collector** (also known as the *Throughput Collector*):
+- **Parallel Garbage Collector** (also known as the _Throughput Collector_):
+
   - Utilizes multiple threads to perform garbage collection tasks in parallel.
   - Significantly reduce pause times for large-scale applications.
   - Freezes the application thread during garbage collection, but it utilizes multiple threads to reduce the duration of the pause.
 
 - **CMS (Concurrent Mark-Sweep) Garbage Collector:**
+
   - Aims to minimize pause times by running most of its operations concurrently with the application threads.
   - Suitable for applications where low latency is critical.
   - May still freeze the application briefly during certain phases.
 
 - **G1 (Garbage-First) Garbage Collector:**
+
   - Engineered to achieve low pause times and high throughput, it divides the heap into smaller regions and prioritizes garbage collection on those regions with the most garbage, all while running concurrently with the application threads.
   - May still pause the application briefly during mixed garbage collection phases.
 
