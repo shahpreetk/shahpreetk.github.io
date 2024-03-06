@@ -16,7 +16,7 @@ const javaBlogs = [
   {
     id: 3,
     blogTitle: "Garbage Collector in Java",
-    link: "/blog/java-garbage-collector",
+    link: "/blog/garbage-collector-in-java",
     description:
       "Garbage Collection in Java is the process of reclaiming the runtime unused memory automatically. In this blog, we will learn about the Garbage Collector in Java.",
   },

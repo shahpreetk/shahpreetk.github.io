@@ -53,3 +53,4 @@ jobs:
           # Cleanup
           git checkout master
           git branch -D gh-pages
+          
