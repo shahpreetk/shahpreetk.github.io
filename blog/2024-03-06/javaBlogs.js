@@ -27,6 +27,13 @@ const javaBlogs = [
     description:
       "Multithreading and Concurrency in Java are essential concepts for building scalable and responsive applications. This guide covers the basics of multithreading in Java.",
   },
+  {
+    id: 5,
+    blogTitle: "Java Spring Boot Project - Part 1",
+    link: "/blog/setting-up-a-java-spring-boot-project-part-1",
+    description:
+      "In this blog post, we guide you through the initial setup of a Java Spring Boot project using Gradle and IntelliJ IDEA. We cover creating a new project with Spring Initializr, setting up dependencies, and configuring an in-memory H2 database.",
+  },
 ];
 
 export default javaBlogs;
