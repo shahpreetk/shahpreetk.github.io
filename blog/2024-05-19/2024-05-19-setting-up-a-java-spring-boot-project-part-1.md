@@ -27,11 +27,15 @@ In this blog post, we will cover the initial steps to set up a Java Spring Boot 
 | ------------------------------------------------------------ |
 
 - Add the following dependencies as shown in the image below:
-  - Spring Web
-  - Spring Data JPA
-  - Spring Data JDBC
-  - H2 Database
-  - MySQL Driver
+  - **Spring Web:** Provides tools and features to build web applications, including RESTful APIs, using Spring MVC.
+
+  - **Spring Data JDBC:** Simplifies database access by providing a simple, lightweight approach to using JDBC with Spring, focusing on SQL queries.
+
+  - **Spring Data JPA:** Eases database access by providing a repository abstraction layer on top of JPA (Java Persistence API) to simplify CRUD operations and data access patterns.
+
+  - **H2 Database:** A fast, lightweight, in-memory relational database management system that is commonly used for development and testing purposes.
+
+  - **MySQL Driver:** Enables Java applications to connect to and interact with MySQL databases by providing the necessary JDBC (Java Database Connectivity) implementation.
 
 | ![Demo dependencies](./demo-dependencies.png) |
 | ------------------------------------------------------------ |
@@ -49,6 +53,10 @@ In this blog post, we will cover the initial steps to set up a Java Spring Boot 
   - Annotate the `HelloWorld` class as a `@RestController` from the `org.springframework.web.bind.annotation` package.
   - In the `HelloWorld` class, create a method named `helloWorld` that returns a `String "Hello World"`.
   - Annotate the method with `@GetMapping` and provide the path as `"/hello"`.
+
+:::note
+An annotation in Java is a form of metadata that provides additional information about the program's code elements, such as classes, methods, or variables, and can be used to influence program behavior at runtime or compile time.
+:::
 
 | ![Hello World Code](./hello-world-code.png) |
 | ------------------------------------------------------------ |
