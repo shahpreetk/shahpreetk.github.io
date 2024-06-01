@@ -93,3 +93,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.routeButtons {
+  padding: 1rem;
+  justify-content: center;
+  background-color: #020617;
+  border-radius: 10px;
+  color: #f3f3f3;
+}

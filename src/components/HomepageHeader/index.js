@@ -3,6 +3,7 @@ import { FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 import styles from "@site/src/pages/index.module.css";
+import Link from "@docusaurus/Link";
 
 export default function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -46,6 +47,14 @@ export default function HomepageHeader() {
                 >
                   <FaGithub size={24} style={{ color: "#e2e8f0" }} />
                 </a>
+              </div>
+              <div style={{marginTop: "10px"}}>
+                <Link className={styles.routeButtons} to="/portfolio/about-me">
+                  About Me
+                </Link>
+                <Link className={styles.routeButtons} style={{marginLeft: "15px"}} to="/blog">
+                  Blogs
+                </Link>
               </div>
             </div>
           </div>
