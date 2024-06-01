@@ -118,6 +118,10 @@ spring.h2.console.enabled=true
 
 - Generate the getters and setters for the fields using the `Generate` option in IntelliJ IDEA.
 
+| ![Book Class with Getters and Setters](./book-class-with-getters-setters.png) |
+| ------------------------------------------------------------ |
+
+
 - In the `src/main/resources` folder, create a new file named `data.sql` to insert some sample data into the `book` table. Add the following SQL script to insert books into the table:
 
 ```sql
