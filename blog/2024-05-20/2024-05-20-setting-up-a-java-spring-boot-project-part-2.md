@@ -13,7 +13,7 @@ tags:
     RestApi,
     web-development,
     CRUD-operations,
-    lombok,
+    lombok
   ]
 ---
 
@@ -237,5 +237,5 @@ In the above section, we saw how to GET all the books from the database. Now, le
   With that, we have successfully implemented the CRUD operations on the `Book` entity in our Java Spring Boot project.
 
 :::info
-  Part 3 of this series will cover the testing of the CRUD operations using JUnit and Mockito. We will also create API documentation using [Swagger.io](https://swagger.io/) and update our codebase with exception handling.
+  Part 3 of this series will cover the testing of the CRUD operations using JUnit and Mockito. We will also create API documentation using [Swagger](https://swagger.io/) and update our codebase with exception handling.
 :::

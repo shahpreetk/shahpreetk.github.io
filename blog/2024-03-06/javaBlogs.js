@@ -41,6 +41,13 @@ const javaBlogs = [
     description:
       "In this blog post, we use lombok to create the Book Entity class. We will then create a repository, service and controller class to perform CRUD operations on the Book Entity. Finally, we will test the REST API using Postman.",
   },
+  {
+    id: 7,
+    blogTitle: "Java Spring Boot Project - Part 3",
+    link: "/setting-up-a-java-spring-boot-project-part-3",
+    description:
+      "In this blog post, we will write unit tests for the CRUD operations using JUnit and Mockito. We will also create API documentation using Swagger.io and update our codebase with exception handling.",
+  },
 ];
 
 export default javaBlogs;
