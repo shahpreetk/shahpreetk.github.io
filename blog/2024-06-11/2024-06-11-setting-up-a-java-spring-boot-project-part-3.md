@@ -249,7 +249,6 @@ public class BookLibraryServiceTest {
 
 `@InjectMocks` annotation is used to create an instance of the class under test and inject the mock dependencies into it. When a class field is annotated with `@InjectMocks`, Mockito will automatically inject the mocks created with `@Mock (or @Spy)` into this instance. This simplifies the setup process by automatically performing dependency injection, ensuring that the class under test is properly initialized with all its dependencies mocked. This allows you to focus on testing the behavior of the class without worrying about the initialization of its dependencies.
 
-
 `MockitoAnnotations.openMocks(this)` is a method used in Mockito to initialize the mocks and inject them into the annotated fields of the test class. This method is typically used in the `@BeforeEach` setup method to ensure that the mocks are properly set up before each test case runs.
 
 You can write similar test cases for other service methods to ensure that your code functions correctly and handles various scenarios effectively. You can find the entire test suite in my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
