@@ -68,7 +68,7 @@ Re-run the application and attempt to update a book that does not exist in the d
 | ![Hoppscotch.io BookNotFound error](./hoppscotch-book-not-found.png) |
 | --------------------------------------------------------------------- |
 
-Similarly, you can create custom exception classes and handlers for other scenarios in your application. For example, I have implemented a service and controller method to GET a book by its ID and used the `BookNotFoundException` to handle cases where the book is not found in the database. You can check out the complete codebase in my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
+Similarly, you can create custom exception classes and handlers for other scenarios in your application. For example, I have implemented a service and controller method to GET a book by its ID and used the `BookNotFoundException` to handle cases where the book is not found in the database. You can check the Service class on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/blob/main/src/main/java/com/shahpreetk/javaSpringBootBookLibrary/service/BookLibraryService.java).
 
 ## API Documentation with Swagger
 
@@ -76,7 +76,7 @@ API documentation is essential for developers using your API. It provides detail
 
 [Swagger](https://swagger.io/) is a popular tool for generating API documentation. It allows you to define your API using the OpenAPI Specification (formerly known as Swagger Specification) and automatically generates interactive documentation based on your API definition. Swagger provides a user-friendly interface that displays all your endpoints, request and response formats, and other details in an organized and visually appealing manner.
 
-To generate the Swagger documentation for our Spring Boot project, we will use the `springdoc-openapi` library. This library integrates Swagger with Spring Boot, allowing you to create API documentation easily and efficiently. Add the following code to the `build.gradle` file.
+To generate the Swagger documentation for our Spring Boot project, we will use the `springdoc-openapi` library. This library integrates Swagger with Spring Boot v3, allowing you to create API documentation easily and efficiently. Add the following code to the `build.gradle` file.
 
 ```groovy
   implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
@@ -87,7 +87,7 @@ Run the application and navigate to [http://localhost:8080/v3/api-docs](http://l
 | ![OpenAPI JSON documentation](./open-api-json-docs.png) |
 | --------------------------------------------------------------------- |
 
-You can now navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) to view the Swagger UI interface, which offers an interactive documentation view of your API. The springdoc-openapi library includes Swagger UI out-of-the-box, so no additional setup is required. Currently, since we haven't added any custom annotations or descriptions to our endpoints, Swagger UI will display the default information based on the request and response objects. To enhance the documentation, you can add custom annotations and descriptions to your controllers and endpoints. You can check my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library) for the complete codebase.
+You can now navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) to view the Swagger UI interface, which offers an interactive documentation view of your API. The springdoc-openapi library includes Swagger UI out-of-the-box, so no additional setup is required. Currently, since we haven't added any custom annotations or descriptions to our endpoints, Swagger UI will display the default information based on the request and response objects. To enhance the documentation, you can add custom annotations and descriptions to your controllers and endpoints. You can check the Swagger code on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/blob/main/src/main/java/com/shahpreetk/javaSpringBootBookLibrary/documentation/OpenAPIConfiguration.java).
 
 | ![Swagger UI interface](./swagger-interface.png) |
 | --------------------------------------------------------------------- |
@@ -181,7 +181,7 @@ public class BookLibraryControllerTest {
 
 In the `BookLibraryControllerTest` class, we have created a test case for the `getAllBooks()` method in the `BookLibraryController` class. We have mocked the `BookLibraryService` dependency using Mockito and defined the behavior of the `getAllBooks()` method to return a list of books. We then use MockMvc to perform a GET request to the `/api/books` endpoint and validate the response using assertions.
 
-You can write similar test cases for other controller methods and service classes to ensure that your code functions correctly and handles various scenarios effectively. You can find the entire test suite in my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
+You can write similar test cases for other controller methods and service classes to ensure that your code functions correctly and handles various scenarios effectively. You can find more tests for the Controller on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/blob/main/src/test/java/com/shahpreetk/javaSpringBootBookLibrary/controller/BookLibraryControllerTest.java).
 
 ```java
 package com.shahpreetk.javaSpringBootBookLibrary.service;
@@ -251,9 +251,24 @@ public class BookLibraryServiceTest {
 
 `MockitoAnnotations.openMocks(this)` is a method used in Mockito to initialize the mocks and inject them into the annotated fields of the test class. This method is typically used in the `@BeforeEach` setup method to ensure that the mocks are properly set up before each test case runs.
 
-You can write similar test cases for other service methods to ensure that your code functions correctly and handles various scenarios effectively. You can find the entire test suite in my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
+You can write similar test cases for other service methods to ensure that your code functions correctly and handles various scenarios effectively. You can find the entire test suite on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/tree/main/src/test/java/com/shahpreetk/javaSpringBootBookLibrary).
 
 This is how you can write unit tests for your Spring Boot application using JUnit and Mockito, create API documentation using Swagger, and update your codebase with custom exception handling. By following these best practices, you can improve the quality, reliability, and maintainability of your codebase, making it easier to develop, test, and deploy your applications.
+
+## Things You Can Learn Next (Intermediate to Advanced)
+
+As you continue to develop your Book Library application, here are some advanced topics you can explore to enhance its functionality and performance:
+
+- **Add Actuator Endpoints:** Expose health and metrics endpoints to monitor and manage your application more effectively.
+- **Creating Docker Setup:** Containerize your Book Library app for easier deployment and scalability using Docker.
+- **Deploying to a Cloud Platform:** Learn how to deploy your Spring Boot application to cloud platforms like AWS, Azure, or Google Cloud.
+- **Implementing Logging:** Enhance your application with effective logging strategies to monitor and debug more efficiently.
+- **Add Authentication and Authorization:** Protect your endpoints and enhance API security by implementing authentication and authorization mechanisms.
+- **Add Features like Pagination, Sorting, and Rate Limiting:** Improve your API by adding advanced features such as pagination, sorting, and rate limiting.
+- **Implement Caching:** Boost performance by implementing caching strategies to reduce load times and database queries.
+- **Add Internationalization (i18n):** Make your application accessible to a global audience by adding support for multiple languages.
+
+These topics will help you take your Book Library application to the next level, ensuring it is robust, secure, and scalable.
 
 ## Conclusion
 
