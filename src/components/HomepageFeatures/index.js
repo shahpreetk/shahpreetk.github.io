@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require("@site/static/img/coder.png").default,
     description: (
       <>
-        at JP Morgan Chase, working with React, Java SpringBoot, and SQL
+        at JP Morgan Chase, working with Python, React, Java SpringBoot, and SQL
         databases.
       </>
     ),

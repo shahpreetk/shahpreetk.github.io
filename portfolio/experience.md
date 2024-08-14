@@ -4,17 +4,27 @@ sidebar_position: 2
 
 # Experience
 
-## JP Morgan Chase & Co.
+## JP Morgan Chase
 
 ### Software Development Engineer (Software Engineer I)
 
-September 2022 - Present
+August 2024 - Present
 
-- Full-stack developer working with a tech stack including React, Java Spring Boot, and GOS DB.
-- Focus on implementing business requirements while prioritising an intuitive user experience.
-- Led the creation of comprehensive documentation to assist new team members in navigating the application effectively.
-- Actively participate in Prod Support and Release Management rota, ensuring seamless application availability.
-- Engaged in a CMS-based project for a "Tech for Good" social initiative, volunteering skills to help an NGO enhance their website and provide technological support.
+- Implementing FX Reporting Web Application using Python and React.js.
+
+September 2022 - July 2024
+
+- Full-stack developer with experience in React.js, Java Spring Boot, and GOS DB.
+- Developing the XBorder application, which is designed to monitor and manage the travel and
+compliance requirements of employees.
+- Specialised in translating business requirements into efficient solutions with a focus on creating an
+intuitive user experience.
+- Led the development of a CMS-based project for a "Tech for Good" social initiative, volunteering skills
+to enhance a non-profit organisation's website and provide technological support.
+- Established a comprehensive documentation system to facilitate the onboarding process for new team
+members and enhance application navigation.
+- Actively participated in Prod Support and Release Management rota, ensuring continuous application
+availability and contributing to overall system stability.
 
 ### Tech Connect Program
 

@@ -14,7 +14,7 @@ const books2023 = [
   { id: 13, bookTitle: "The Fire", author: "James Patterson" },
   { id: 14, bookTitle: "The Kiss", author: "James Patterson" },
   { id: 15, bookTitle: "The Lost", author: "James Patterson" },
-  { id: 16, bookTitle: "The Maid", author: "Nita Prose Nita Prose" },
+  { id: 16, bookTitle: "The Maid", author: "Nita Prose" },
   { id: 17, bookTitle: "A Meditation on Murder", author: "Robert Thorogood" },
   {
     id: 18,
