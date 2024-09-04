@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "clean:install": "rm -rf node_modules dist build .docusaurus && npm install --legacy-peer-deps",
+    "clean:install": "rm -rf node_modules dist build .docusaurus && npm install --legacy-peer-deps && npm install -D",
     "format": "prettier **/*.{js,md,mdx} --write --ignore-path .prettierignore || true",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
