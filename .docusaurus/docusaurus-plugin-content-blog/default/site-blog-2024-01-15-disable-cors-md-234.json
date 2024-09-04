@@ -1,0 +1,81 @@
+{
+  "permalink": "/blog/disable-cors-policy-in-chrome",
+  "source": "@site/blog/2024-01-15-disable-cors.md",
+  "title": "Disable CORS policy in Chrome",
+  "description": "Opens a New Chrome Session with CORS disbaled",
+  "date": "2024-01-15T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "cors",
+      "permalink": "/blog/tags/cors"
+    },
+    {
+      "inline": true,
+      "label": "chrome",
+      "permalink": "/blog/tags/chrome"
+    },
+    {
+      "inline": true,
+      "label": "same-origin-policy",
+      "permalink": "/blog/tags/same-origin-policy"
+    },
+    {
+      "inline": true,
+      "label": "windows",
+      "permalink": "/blog/tags/windows"
+    },
+    {
+      "inline": true,
+      "label": "mac",
+      "permalink": "/blog/tags/mac"
+    },
+    {
+      "inline": true,
+      "label": "testing",
+      "permalink": "/blog/tags/testing"
+    }
+  ],
+  "readingTime": 0.77,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "disable-cors-policy-in-chrome",
+    "title": "Disable CORS policy in Chrome",
+    "description": "Opens a New Chrome Session with CORS disbaled",
+    "authors": "shahpreetk",
+    "tags": [
+      "cors",
+      "chrome",
+      "same-origin-policy",
+      "windows",
+      "mac",
+      "testing"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Android Development in 2024",
+    "permalink": "/blog/android-development-in-2024"
+  },
+  "nextItem": {
+    "title": "Deploying a Node.js project to Linode",
+    "permalink": "/blog/deploying-a-nodejs-project-to-linode"
+  }
+}

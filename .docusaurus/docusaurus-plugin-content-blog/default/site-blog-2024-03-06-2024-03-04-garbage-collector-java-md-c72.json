@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/garbage-collector-in-java",
+  "source": "@site/blog/2024-03-06/2024-03-04-garbage-collector-java.md",
+  "title": "Garbage Collector in Java",
+  "description": "Garbage Collection in Java is the process of reclaiming the runtime unused memory automatically. In this blog, we will learn about the Garbage Collector in Java.",
+  "date": "2024-03-04T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "garbage-collector",
+      "permalink": "/blog/tags/garbage-collector"
+    },
+    {
+      "inline": true,
+      "label": "memory-management",
+      "permalink": "/blog/tags/memory-management"
+    }
+  ],
+  "readingTime": 3.925,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "garbage-collector-in-java",
+    "title": "Garbage Collector in Java",
+    "description": "Garbage Collection in Java is the process of reclaiming the runtime unused memory automatically. In this blog, we will learn about the Garbage Collector in Java.",
+    "authors": "shahpreetk",
+    "tags": [
+      "java",
+      "garbage-collector",
+      "memory-management"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Multithreading in Java",
+    "permalink": "/blog/multithreading-in-java"
+  },
+  "nextItem": {
+    "title": "Access Modifiers in Java",
+    "permalink": "/blog/access-modifiers-in-java"
+  }
+}

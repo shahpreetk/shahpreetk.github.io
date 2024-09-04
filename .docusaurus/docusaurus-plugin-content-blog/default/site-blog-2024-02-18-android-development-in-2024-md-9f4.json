@@ -1,0 +1,69 @@
+{
+  "permalink": "/blog/android-development-in-2024",
+  "source": "@site/blog/2024-02-18-android-development-in-2024.md",
+  "title": "Android Development in 2024",
+  "description": "Learning Android Development using Java in 2024",
+  "date": "2024-02-18T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "android",
+      "permalink": "/blog/tags/android"
+    },
+    {
+      "inline": true,
+      "label": "app",
+      "permalink": "/blog/tags/app"
+    },
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "development",
+      "permalink": "/blog/tags/development"
+    }
+  ],
+  "readingTime": 1.7,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "android-development-in-2024",
+    "title": "Android Development in 2024",
+    "description": "Learning Android Development using Java in 2024",
+    "authors": "shahpreetk",
+    "tags": [
+      "android",
+      "app",
+      "java",
+      "development"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Java Deep Dive",
+    "permalink": "/blog/java-interview-guide"
+  },
+  "nextItem": {
+    "title": "Disable CORS policy in Chrome",
+    "permalink": "/blog/disable-cors-policy-in-chrome"
+  }
+}
