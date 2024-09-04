@@ -4,15 +4,7 @@ title: Java Spring Boot Project - Part 1
 description: In this blog post, we guide you through the initial setup of a Java Spring Boot project using Gradle and IntelliJ IDEA. We cover creating a new project with Spring Initializr, setting up dependencies, and configuring an in-memory H2 database.
 authors: shahpreetk
 tags:
-  [
-    java,
-    springboot,
-    intellij,
-    gradle,
-    h2-database,
-    RestApi,
-    web-development,
-  ]
+  [java, springboot, intellij, gradle, h2-database, RestApi, web-development]
 ---
 
 ## Initial Setup for a Java Spring Boot Project
@@ -24,9 +16,10 @@ In this blog post, we will cover the initial steps to set up a Java Spring Boot 
 - It is not possible to directly create a new Spring Boot application in **IntelliJ IDEA Community Edition**. However, you can create a new Spring Boot project using the [Spring Initializr](https://start.spring.io/) website and then import it into IntelliJ IDEA.
 
 | ![Demo project init](./demo-init.png) |
-| ------------------------------------------------------------ |
+| ------------------------------------- |
 
 - Add the following dependencies as shown in the image below:
+
   - **Spring Web:** Provides tools and features to build web applications, including RESTful APIs, using Spring MVC.
 
   - **Spring Data JDBC:** Simplifies database access by providing a simple, lightweight approach to using JDBC with Spring, focusing on SQL queries.
@@ -38,7 +31,7 @@ In this blog post, we will cover the initial steps to set up a Java Spring Boot 
   - **MySQL Driver:** Enables Java applications to connect to and interact with MySQL databases by providing the necessary JDBC (Java Database Connectivity) implementation.
 
 | ![Demo dependencies](./demo-dependencies.png) |
-| ------------------------------------------------------------ |
+| --------------------------------------------- |
 
 - After adding the dependencies, click on the `Generate` button to download the project as a zip file.
 
@@ -47,7 +40,7 @@ In this blog post, we will cover the initial steps to set up a Java Spring Boot 
 - Run the DemoApplication file to start the project. By default, the project will run on port 8080.
 
 | ![Demo project run](./demo-run.png) |
-| ------------------------------------------------------------ |
+| ----------------------------------- |
 
 - In the folder containing the `DemoApplication` file, create a new class named `HelloWorld`.
   - Annotate the `HelloWorld` class as a `@RestController` from the `org.springframework.web.bind.annotation` package.
@@ -59,12 +52,12 @@ An annotation in Java is a form of metadata that provides additional information
 :::
 
 | ![Hello World Code](./hello-world-code.png) |
-| ------------------------------------------------------------ |
+| ------------------------------------------- |
 
 - Run the project and navigate to `http://localhost:8080/hello` in your browser. You should see the message "Hello World" displayed on the screen.
 
 | ![Hello World](./hello-world-web.png) |
-| ------------------------------------------------------------ |
+| ------------------------------------- |
 
 ## Setup of a Book Library Project
 
@@ -78,7 +71,7 @@ In this section, we will set up a Book Library project created with Java Spring 
   - MySQL Driver
 
 | ![Book Library project init](./book-library-init.png) |
-| ------------------------------------------------------------ |
+| ----------------------------------------------------- |
 
 - Generate and extract the project, then open it in IntelliJ IDEA.
 
@@ -109,6 +102,7 @@ spring.h2.console.enabled=true
 ```
 
 - Create the `Book` class to represent a book entity in the library. The `Book` class will have the following fields:
+
   - `id` of type `int`. Annotation `@Id` and `@GeneratedValue` to auto-generate the id.
   - `name` of type `String`
   - `author` of type `String`
@@ -119,7 +113,7 @@ spring.h2.console.enabled=true
 - Generate the getters and setters for the fields using the `Generate` option in IntelliJ IDEA.
 
 | ![Book Class with Getters and Setters](./book-class-with-getters-setters.png) |
-| ------------------------------------------------------------ |
+| ----------------------------------------------------------------------------- |
 
 - In the `src/main/resources` folder, create a new file named `data.sql` to insert some sample data into the `book` table. Add the following SQL script to insert books into the table:
 
@@ -137,7 +131,7 @@ INSERT INTO BOOK (ID, NAME, AUTHOR, DESCRIPTION) VALUES (10, 'Harry Potter and t
 ```
 
 | ![SQL inserts](./sql-inserts.png) |
-| ------------------------------------------------------------ |
+| --------------------------------- |
 
 :::tip
 If your SQL string has a apostrophe(‘), you need to escape it by adding two apostrophes(‘’). Check descriptions of book ID 8 and 10.
@@ -146,10 +140,10 @@ If your SQL string has a apostrophe(‘), you need to escape it by adding two ap
 - Run the project, and the H2 console can be accessed at `http://localhost:8080/h2-console`. The JDBC URL should be `jdbc:h2:mem:testdb`, and the username and password should be `sa` and `password` respectively.
 
 | ![H2 console](./h2-console.png) |
-| ------------------------------------------------------------ |
+| ------------------------------- |
 
 | ![H2 SELECT ALL BOOKS](./h2-all-books.png) |
-| ------------------------------------------------------------ |
+| ------------------------------------------ |
 
 :::info
 Part 2 of this blog post will use Lombok for the Book Entity and will cover the creation of the Book Repository, Service, and Controller classes to perform CRUD operations on the Book Entity.

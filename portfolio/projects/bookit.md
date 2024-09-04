@@ -3,13 +3,16 @@ sidebar_position: 5
 ---
 
 # BookIt
+
 This is an Online Auditorium and Turf Booking System created as part of my final year project for my Bachelor of Engineering degree.
 
 ## 🏆 Achievement 🏆
+
 :::info
+
 - Received an Outstanding Grade(80-100%) for the project
 - Published a [Research Paper](https://doi.org/10.22214/ijraset.2021.33974) in "The International Journal for Research in Applied Science and Engineering Technology, Volume 9, Issue IV", April 2021.
-:::
+  :::
 
 ## 👩‍🏫 Abstract ⚽️
 
@@ -26,32 +29,38 @@ It uses the latest web technologies like React for frontend, Express server in t
 ![BookIt Homepage](./img/bookit.png)
 
 ## 🛠 Built with 🛠
+
 UI:
- - Sketched the wireframe of the website on paper.
- - The prototype and designing were done on [Adobe XD](https://www.adobe.com/uk/products/xd/learn/get-started/what-is-adobe-xd-used-for.html).
+
+- Sketched the wireframe of the website on paper.
+- The prototype and designing were done on [Adobe XD](https://www.adobe.com/uk/products/xd/learn/get-started/what-is-adobe-xd-used-for.html).
 
 Frontend:
- - The frontend of this online booking system is made using the [Reactjs](https://react.dev/) UI library. It helps in making a single-page application (SPA) that ensures fast rendering.
- - [React-Bootstrap](https://react-bootstrap.netlify.app/) with Styled Components has been used for the styling of the web app.
- - To give the user a feeling of content being loaded, we show a loader using [react-loading-skeleton](https://www.npmjs.com/package/react-loading-skeleton).
- - The backend sends the data using [Axios](https://axios-http.com/docs/intro).
- - The state management of the cart has been done using [use-shopping-cart](https://www.npmjs.com/package/use-shopping-cart).
- - The checkout is managed by [Stripe](https://stripe.com/gb) payment system.
+
+- The frontend of this online booking system is made using the [Reactjs](https://react.dev/) UI library. It helps in making a single-page application (SPA) that ensures fast rendering.
+- [React-Bootstrap](https://react-bootstrap.netlify.app/) with Styled Components has been used for the styling of the web app.
+- To give the user a feeling of content being loaded, we show a loader using [react-loading-skeleton](https://www.npmjs.com/package/react-loading-skeleton).
+- The backend sends the data using [Axios](https://axios-http.com/docs/intro).
+- The state management of the cart has been done using [use-shopping-cart](https://www.npmjs.com/package/use-shopping-cart).
+- The checkout is managed by [Stripe](https://stripe.com/gb) payment system.
 
 Backend:
- - The API system is made using [Express](https://expressjs.com/), a lightweight [Nodejs](https://nodejs.org/en/) library.
- - The data is saved on a NoSQL [MongoDB](https://www.mongodb.com/) database.
- - To welcome the user after signup, we send an email using the [Sendgrid](https://sendgrid.com/en-us) service.
- - For the security and privacy of the user, we use [bcrypt.js](https://www.npmjs.com/package/bcryptjs) to hash the user’s password in the database, and session authentication is done via [JSON web tokens](https://www.npmjs.com/package/jsonwebtoken).
 
+- The API system is made using [Express](https://expressjs.com/), a lightweight [Nodejs](https://nodejs.org/en/) library.
+- The data is saved on a NoSQL [MongoDB](https://www.mongodb.com/) database.
+- To welcome the user after signup, we send an email using the [Sendgrid](https://sendgrid.com/en-us) service.
+- For the security and privacy of the user, we use [bcrypt.js](https://www.npmjs.com/package/bcryptjs) to hash the user’s password in the database, and session authentication is done via [JSON web tokens](https://www.npmjs.com/package/jsonwebtoken).
 
 ## 🖥 Try It Out 🖥
+
 :::success
- - [Frontend Link](https://kjsieit-onlinebooking.netlify.app/)
- - [Frontend code](https://github.com/shahpreetk/online-booking-frontend)
- - [Backend code](https://github.com/shahpreetk/beproject-backend)
-:::
+
+- [Frontend Link](https://kjsieit-onlinebooking.netlify.app/)
+- [Frontend code](https://github.com/shahpreetk/online-booking-frontend)
+- [Backend code](https://github.com/shahpreetk/beproject-backend)
+  :::
 
 ## 📝 License
+
 This project is licensed under [GNU General Public License v3.0
 GNU GPLv3](https://spdx.org/licenses/GPL-3.0-or-later.html)

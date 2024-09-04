@@ -24,8 +24,21 @@ const books2024 = [
   { id: 19, bookTitle: "The Mystery Guest", author: "Nita Prose" },
   { id: 20, bookTitle: "Perfect Stranger", author: "Lexy Timms" },
   { id: 21, bookTitle: "Never Lie", author: "Freida McFadden" },
-  { id: 22, bookTitle: "Talking with Serial Killers", author: "Christopher Berry-Dee" },
+  {
+    id: 22,
+    bookTitle: "Talking with Serial Killers",
+    author: "Christopher Berry-Dee",
+  },
   { id: 23, bookTitle: "One by One", author: "Freida McFadden" },
+  { id: 24, bookTitle: "Ward D", author: "Freida McFadden" },
+  { id: 25, bookTitle: "The Teacher", author: "Freida McFadden" },
+  { id: 26, bookTitle: "The Coworker", author: "Freida McFadden" },
+  { id: 27, bookTitle: "The Inmate", author: "Freida McFadden" },
+  { id: 28, bookTitle: "The Locked Door", author: "Freida McFadden" },
+  { id: 29, bookTitle: "The Last Flight", author: "Julie Clark" },
+  { id: 30, bookTitle: "A Court of Thorns and Roses", author: "Sarah J. Maas" },
+  { id: 31, bookTitle: "A Court of Mist and Fury", author: "Sarah J. Maas" },
+  { id: 32, bookTitle: "A Court of Wings and Ruin", author: "Sarah J. Maas" },
 ];
 
 export default books2024;

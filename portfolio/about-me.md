@@ -18,4 +18,4 @@ I am always eager to learn new things and challenge myself, both personally and 
 [AWS Certified Cloud Practitioner](https://www.credly.com/badges/7ce03755-389a-4037-8202-16e0e78b9813)
 :::
 
-*Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com*
+_Want to rant about coding or discuss painting? Hit me an email on shahpreetk[at]outlook[dot]com_

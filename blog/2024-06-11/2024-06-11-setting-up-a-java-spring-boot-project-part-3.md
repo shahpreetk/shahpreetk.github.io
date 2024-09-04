@@ -13,7 +13,7 @@ tags:
     swagger,
     api-documentation,
     unit-testing,
-    junit
+    junit,
   ]
 ---
 
@@ -28,7 +28,7 @@ Custom exception handling is invaluable as it allows us to define and throw exce
 We will create a custom exception class named `BookNotFoundException` that extends the `RuntimeException` class. This exception will be unchecked, meaning it occurs at runtime. It will be thrown when a user searches for or attempts to update a book that is not found in the database.
 
 | ![BookNotFoundException Class](./book-not-found-exception.png) |
-| --------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 
 Update the `updateBook(int id, Book updatedBook)` method in the `BookService` class to throw a `BookNotFoundException` if the book is not found in the database.
 
@@ -57,16 +57,16 @@ To provide a more user-friendly message in the response body, we need to create 
 Create a new class named `CustomExceptionHandler`. This class will be annotated with `@ControllerAdvice` and will contain methods to handle specific exceptions. In this case, we will create a method to handle the `BookNotFoundException`.
 
 :::note
-  `@ControllerAdvice` in Spring is an annotation used to handle exceptions globally across all controllers. It allows you to define common exception handling logic in one place, ensuring consistent error responses throughout your application. Additionally, you can use it to add global attributes and configure data binding for all controllers, making your code cleaner and easier to maintain.
+`@ControllerAdvice` in Spring is an annotation used to handle exceptions globally across all controllers. It allows you to define common exception handling logic in one place, ensuring consistent error responses throughout your application. Additionally, you can use it to add global attributes and configure data binding for all controllers, making your code cleaner and easier to maintain.
 :::
 
 | ![CustomExceptionHandler Class](./custom-exception-handler.png) |
-| --------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 
 Re-run the application and attempt to update a book that does not exist in the database. The response will now include a custom error message indicating that the book was not found.
 
 | ![Hoppscotch.io BookNotFound error](./hoppscotch-book-not-found.png) |
-| --------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 
 Similarly, you can create custom exception classes and handlers for other scenarios in your application. For example, I have implemented a service and controller method to GET a book by its ID and used the `BookNotFoundException` to handle cases where the book is not found in the database. You can check the Service class on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/blob/main/src/main/java/com/shahpreetk/javaSpringBootBookLibrary/service/BookLibraryService.java).
 
@@ -85,12 +85,12 @@ To generate the Swagger documentation for our Spring Boot project, we will use t
 Run the application and navigate to [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs) to view the generated OpenAPI JSON documentation.
 
 | ![OpenAPI JSON documentation](./open-api-json-docs.png) |
-| --------------------------------------------------------------------- |
+| ------------------------------------------------------- |
 
 You can now navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) to view the Swagger UI interface, which offers an interactive documentation view of your API. The springdoc-openapi library includes Swagger UI out-of-the-box, so no additional setup is required. Currently, since we haven't added any custom annotations or descriptions to our endpoints, Swagger UI will display the default information based on the request and response objects. To enhance the documentation, you can add custom annotations and descriptions to your controllers and endpoints. You can check the Swagger code on my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library/blob/main/src/main/java/com/shahpreetk/javaSpringBootBookLibrary/documentation/OpenAPIConfiguration.java).
 
 | ![Swagger UI interface](./swagger-interface.png) |
-| --------------------------------------------------------------------- |
+| ------------------------------------------------ |
 
 ## Unit Testing with JUnit and Mockito
 
@@ -275,7 +275,7 @@ These topics will help you take your Book Library application to the next level,
 In this three-part blog series, we explored building a Book Library application with Java Spring Boot. We started with project setup and dependencies, then used Lombok for simplifying entity classes and implemented CRUD operations. Finally, we covered unit testing and custom exception handling, emphasizing their importance for robust application development. By following these steps, you’ve created a scalable and maintainable Spring Boot application.
 
 :::info
- For the complete codebase, visit my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
+For the complete codebase, visit my [GitHub repository](https://github.com/shahpreetk/java-spring-boot-book-library).
 :::
 
 Happy coding! 🚀

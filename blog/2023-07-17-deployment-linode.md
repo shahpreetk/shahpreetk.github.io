@@ -24,12 +24,12 @@ To deploy a Node.js app to Linode, follow the instructions below:
 11. Now, run the following commands ->
 
     ```sh
-    apt-get update
-    apt-get upgrade
-    apt-get install npm
-    npm i -g n
-    n install lts
-    exit
+        apt-get update
+        apt-get upgrade
+        apt-get install npm
+        npm i -g n
+        n install lts
+        exit
     ```
 
 12. Restart the server by entering your SSH Access. The server will now be using the latest node version
@@ -52,18 +52,22 @@ cd ~/etc/nginx/sites-available
 nano default
 ```
 
-20. In this file make the following changes: 1. At "server*name *;" replace the underscore with your domain name(with and without www prefix) or server IP address. 2. In the "location /" block, remove the existing code and add the following:
-    `           location / {
-              proxy_pass http://localhost:5000;
-              proxy_http_version 1.1;
-              proxy_set_header Upgrade $http_upgrade;
-              proxy_set_header Connection 'upgrade';
-              proxy_set_header Host $host;
-              proxy_cache_bypass $http_upgrade;
-          }
-          `
+20. In this file make the following changes:
 
-        3. **[Ctrl] + S** to save the file. **[Ctrl] + X**  to exit the file.
+    - a. At "server*name *;" replace the underscore with your domain name(with and without www prefix) or server IP address.
+    - b. In the "location /" block, remove the existing code and add the following:
+         ```nginx
+         location / {
+         proxy_pass http://localhost:5000;
+         proxy_http_version 1.1;
+         proxy_set_header Upgrade $http_upgrade;
+         proxy_set_header Connection 'upgrade';
+         proxy_set_header Host $host;
+         proxy_cache_bypass $http_upgrade;
+         }
+         ```
+
+    - c. **[Ctrl] + S** to save the file. **[Ctrl] + X** to exit the file.
 
 21. Run `nginx -t` to check if the changes are correct.
 22. Restart nginx by running `systemctl restart nginx`.

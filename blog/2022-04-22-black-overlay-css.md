@@ -7,7 +7,9 @@ tags: [css, overlay, styles]
 ---
 
 Code for creating a black overlay in CSS over an image:
+
 <!-- truncate -->
+
 ```css
 {
   background: black;

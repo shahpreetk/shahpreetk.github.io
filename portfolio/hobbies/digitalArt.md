@@ -11,4 +11,3 @@ sidebar_position: 1
 ![Study Room](./img/studyroom.png)
 
 ![Sunset Landscape](./img/sunset.png)
-

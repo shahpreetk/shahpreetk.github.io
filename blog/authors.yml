@@ -2,4 +2,9 @@ shahpreetk:
   name: Preet Shah
   title: Software Developer @ JPMC
   url: https://github.com/shahpreetk
-  image_url: https://github.com/shahpreetk.png
+  description: "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos."
+  page: true
+  image_url: https://github.com/shahpreetk.png\
+  socials:
+    x: shahpreetk
+    linkedin: shahpreetk

@@ -13,7 +13,7 @@ tags:
     RestApi,
     web-development,
     CRUD-operations,
-    lombok
+    lombok,
   ]
 ---
 
@@ -89,9 +89,10 @@ Lombok is a library that helps reduce boilerplate code in Java classes by provid
   The `compileOnly` part of the dependency is needed to compile the project, without which the import statements for the Lombok annotations would not be recognized by the compiler.
 
   :::note
+
   - Please install the Lombok Plugin from the IntelliJ IDEA marketplace (`Settings` -> `Plugins` ) to enable the IDE to recognize the Lombok annotations.
   - Then go into the `Settings` -> `Build, Execution, Deployment` -> `Compiler` -> `Annotation Processors` and check the box for `Enable annotation processing`.
-  :::
+    :::
 
   | ![Updated build.gradle file](./updated-gradle.png) |
   | -------------------------------------------------- |
@@ -114,7 +115,7 @@ Lombok is a library that helps reduce boilerplate code in Java classes by provid
   Once you have the extension installed, reload the page and re-send the request. Then choose the **Browser extension option** from the error and click on the `Send` button. You should see the list of books displayed in JSON format.
 
   | ![GET Request on Hoppscotch.io](./get-hoppscotch.png) |
-  | --------------------------------------------- |
+  | ----------------------------------------------------- |
 
 ## CRUD Operations on the Book Entity
 
@@ -122,120 +123,120 @@ In the above section, we saw how to GET all the books from the database. Now, le
 
 ### Create a New Book
 
-  To create a new book, we need to implement a `POST` API that accepts a JSON payload containing the book details. Add the following method to the `BookLibraryController` class:
+To create a new book, we need to implement a `POST` API that accepts a JSON payload containing the book details. Add the following method to the `BookLibraryController` class:
 
-  ```java
-  // In BookLibraryController.java
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public Book addBook(@RequestBody Book book) {
-        return bookLibraryService.addBook(book);
-    }
-  ```
+```java
+// In BookLibraryController.java
+  @PostMapping
+  @ResponseStatus(HttpStatus.CREATED)
+  public Book addBook(@RequestBody Book book) {
+      return bookLibraryService.addBook(book);
+  }
+```
 
-  We now create the Service method which will make the repository call to save the book.
+We now create the Service method which will make the repository call to save the book.
 
-  ```java
-  // In BookLibraryService.java
-    public Book addBook(Book book) {
-        return bookLibraryRepository.save(book);
-    }
-  ```
+```java
+// In BookLibraryService.java
+  public Book addBook(Book book) {
+      return bookLibraryRepository.save(book);
+  }
+```
 
-  | ![POST Request Error on Hoppscotch.io](./post-hoppscotch-error.png) |
-  | --------------------------------------------- |
+| ![POST Request Error on Hoppscotch.io](./post-hoppscotch-error.png) |
+| ------------------------------------------------------------------- |
 
-  When you try to send a POST request you will encounter the following `SqlExceptionHelper` error.
+When you try to send a POST request you will encounter the following `SqlExceptionHelper` error.
 
-  ```sh
-    2024-06-01T17:33:42.470+01:00 ERROR 68886 --- [javaSpringBootBookLibrary] [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BOOK(ID) ( /* key:1 */ 1, 'Harper Lee', 'A gripping novel about racial injustice.', 'To Kill a Mockingbird')"; SQL statement:
-  insert into book (author,description,name,id) values (?,?,?,default) [23505-224]
-  ```
+```sh
+  2024-06-01T17:33:42.470+01:00 ERROR 68886 --- [javaSpringBootBookLibrary] [nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BOOK(ID) ( /* key:1 */ 1, 'Harper Lee', 'A gripping novel about racial injustice.', 'To Kill a Mockingbird')"; SQL statement:
+insert into book (author,description,name,id) values (?,?,?,default) [23505-224]
+```
 
-  This error occurs because even though we are asking the database to auto-generate the `id`, the `id` field in the `Book` class, we are filling it with a value in the `data.sql` file. This causes a conflict when we try to insert a new book. To resolve this, remove the `id` field from the `data.sql` file.
+This error occurs because even though we are asking the database to auto-generate the `id`, the `id` field in the `Book` class, we are filling it with a value in the `data.sql` file. This causes a conflict when we try to insert a new book. To resolve this, remove the `id` field from the `data.sql` file.
 
-  ```sql
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('To Kill a Mockingbird', 'Harper Lee', 'A gripping novel about racial injustice.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Pride and Prejudice', 'Jane Austen', 'A classic romance novel.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', 'A story of the American dream gone wrong.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Moby Dick', 'Herman Melville', 'A thrilling adventure of the whaling industry.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Catcher in the Rye', 'J.D. Salinger', 'A novel about teenage rebellion.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Hobbit', 'J.R.R. Tolkien', 'A fantasy adventure of a reluctant hero.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Crime and Punishment', 'Fyodor Dostoevsky', 'A psychological drama about guilt and redemption.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Odyssey', 'Homer', 'An ancient epic of a hero''s journey home.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', 'Mysteries solved by the famous detective.');
-  INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Harry Potter and the Philosopher''s Stone', 'J.K. Rowling', 'The beginning of a young wizard''s journey.');
-  ```
+```sql
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('To Kill a Mockingbird', 'Harper Lee', 'A gripping novel about racial injustice.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Pride and Prejudice', 'Jane Austen', 'A classic romance novel.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', 'A story of the American dream gone wrong.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Moby Dick', 'Herman Melville', 'A thrilling adventure of the whaling industry.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Catcher in the Rye', 'J.D. Salinger', 'A novel about teenage rebellion.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Hobbit', 'J.R.R. Tolkien', 'A fantasy adventure of a reluctant hero.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Crime and Punishment', 'Fyodor Dostoevsky', 'A psychological drama about guilt and redemption.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Odyssey', 'Homer', 'An ancient epic of a hero''s journey home.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', 'Mysteries solved by the famous detective.');
+INSERT INTO BOOK (NAME, AUTHOR, DESCRIPTION) VALUES ('Harry Potter and the Philosopher''s Stone', 'J.K. Rowling', 'The beginning of a young wizard''s journey.');
+```
 
-  Re-run your app and re-send the POST request on Hoppscotch.io. You should see a success message with the newly created book details.
+Re-run your app and re-send the POST request on Hoppscotch.io. You should see a success message with the newly created book details.
 
-  | ![POST Request Success on Hoppscotch.io](./post-hoppscotch-success.png) |
-  | --------------------------------------------- |
+| ![POST Request Success on Hoppscotch.io](./post-hoppscotch-success.png) |
+| ----------------------------------------------------------------------- |
 
 ### Update an Existing Book
 
-  To update an existing book, we need to implement a `PUT` API that accepts the book `id` and the updated book details. Add the following method to the `BookLibraryController` class:
+To update an existing book, we need to implement a `PUT` API that accepts the book `id` and the updated book details. Add the following method to the `BookLibraryController` class:
 
-  ```java
-  // In BookLibraryController.java
-    @PutMapping(value = "/{id}")
-    public ResponseEntity<Book> updateBook(@PathVariable int id, @RequestBody Book updatedBook) {
-        Book updated = bookLibraryService.updateBook(id, updatedBook);
-        return new ResponseEntity<>(updated, HttpStatus.OK);
-    }
-  ```
+```java
+// In BookLibraryController.java
+  @PutMapping(value = "/{id}")
+  public ResponseEntity<Book> updateBook(@PathVariable int id, @RequestBody Book updatedBook) {
+      Book updated = bookLibraryService.updateBook(id, updatedBook);
+      return new ResponseEntity<>(updated, HttpStatus.OK);
+  }
+```
 
-  We now create the Service method which will make the repository call to update the book.
+We now create the Service method which will make the repository call to update the book.
 
-  ```java
-  // In BookLibraryService.java
-    public Book updateBook(int id, Book updatedBook) {
-        if (updatedBook.getId() != id) {
-            throw new RuntimeException("The ID in the request body does not match the ID in the URL.");
-        }
-        Optional<Book> optionalBook = bookLibraryRepository.findById(id);
-        if (optionalBook.isPresent()) {
-            Book existingBook = optionalBook.get();
-            existingBook.setName(updatedBook.getName());
-            existingBook.setAuthor(updatedBook.getAuthor());
-            existingBook.setDescription(updatedBook.getDescription());
-            return bookLibraryRepository.save(existingBook);
-        } else {
-            throw new RuntimeException(String.format("Book with id {%s} not found", id));
-        }
-    }
-  ```
+```java
+// In BookLibraryService.java
+  public Book updateBook(int id, Book updatedBook) {
+      if (updatedBook.getId() != id) {
+          throw new RuntimeException("The ID in the request body does not match the ID in the URL.");
+      }
+      Optional<Book> optionalBook = bookLibraryRepository.findById(id);
+      if (optionalBook.isPresent()) {
+          Book existingBook = optionalBook.get();
+          existingBook.setName(updatedBook.getName());
+          existingBook.setAuthor(updatedBook.getAuthor());
+          existingBook.setDescription(updatedBook.getDescription());
+          return bookLibraryRepository.save(existingBook);
+      } else {
+          throw new RuntimeException(String.format("Book with id {%s} not found", id));
+      }
+  }
+```
 
-  | ![PUT Request on Hoppscotch.io](./put-hoppscotch.png) |
-  | --------------------------------------------- |
+| ![PUT Request on Hoppscotch.io](./put-hoppscotch.png) |
+| ----------------------------------------------------- |
 
 ### Delete a Book
 
-  To delete a book, we need to implement a `DELETE` API that accepts the book `id`. Add the following method to the `BookLibraryController` class:
+To delete a book, we need to implement a `DELETE` API that accepts the book `id`. Add the following method to the `BookLibraryController` class:
 
-  ```java
-  // In BookLibraryController.java
-    @DeleteMapping(value = "/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deleteBook(@PathVariable int id) {
-        bookLibraryService.deleteBook(id);
-    }
-  ```
+```java
+// In BookLibraryController.java
+  @DeleteMapping(value = "/{id}")
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public void deleteBook(@PathVariable int id) {
+      bookLibraryService.deleteBook(id);
+  }
+```
 
-  We now create the Service method which will make the repository call to delete the book.
+We now create the Service method which will make the repository call to delete the book.
 
-  ```java
-  // In BookLibraryService.java
-    public void deleteBook(int id) {
-        bookLibraryRepository.deleteById(id);
-    }
-  ```
+```java
+// In BookLibraryService.java
+  public void deleteBook(int id) {
+      bookLibraryRepository.deleteById(id);
+  }
+```
 
-  | ![DELETE Request on Hoppscotch.io](./delete-hoppscotch.png) |
-  | --------------------------------------------- |
+| ![DELETE Request on Hoppscotch.io](./delete-hoppscotch.png) |
+| ----------------------------------------------------------- |
 
-  With that, we have successfully implemented the CRUD operations on the `Book` entity in our Java Spring Boot project.
+With that, we have successfully implemented the CRUD operations on the `Book` entity in our Java Spring Boot project.
 
 :::info
-  Part 3 of this series will cover the testing of the CRUD operations using JUnit and Mockito. We will also create API documentation using [Swagger](https://swagger.io/) and update our codebase with exception handling.
+Part 3 of this series will cover the testing of the CRUD operations using JUnit and Mockito. We will also create API documentation using [Swagger](https://swagger.io/) and update our codebase with exception handling.
 :::

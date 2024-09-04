@@ -67,7 +67,7 @@ const config = {
             "Blogs by Preet Shah | Developer with a passion for learning",
           showReadingTime: true,
           blogSidebarTitle: "Latest Posts",
-          blogSidebarCount: 15,
+          blogSidebarCount: "ALL",
           postsPerPage: 10,
         },
         theme: {

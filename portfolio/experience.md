@@ -16,15 +16,15 @@ September 2022 - July 2024
 
 - Full-stack developer with experience in React.js, Java Spring Boot, and GOS DB.
 - Developing the XBorder application, which is designed to monitor and manage the travel and
-compliance requirements of employees.
+  compliance requirements of employees.
 - Specialised in translating business requirements into efficient solutions with a focus on creating an
-intuitive user experience.
+  intuitive user experience.
 - Led the development of a CMS-based project for a "Tech for Good" social initiative, volunteering skills
-to enhance a non-profit organisation's website and provide technological support.
+  to enhance a non-profit organisation's website and provide technological support.
 - Established a comprehensive documentation system to facilitate the onboarding process for new team
-members and enhance application navigation.
+  members and enhance application navigation.
 - Actively participated in Prod Support and Release Management rota, ensuring continuous application
-availability and contributing to overall system stability.
+  availability and contributing to overall system stability.
 
 ### Tech Connect Program
 
@@ -49,5 +49,5 @@ September 2020 – December 2020
 November 2019 – April 2020
 
 - Designed and developed the front-end of an Order Management System (with chat functionality) using
-HTML, CSS, and JavaScript.
+  HTML, CSS, and JavaScript.
 - Freelanced as a front-end developer for Hellbent for 3 months.
