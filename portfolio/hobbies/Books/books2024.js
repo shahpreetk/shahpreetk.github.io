@@ -39,6 +39,26 @@ const books2024 = [
   { id: 30, bookTitle: "A Court of Thorns and Roses", author: "Sarah J. Maas" },
   { id: 31, bookTitle: "A Court of Mist and Fury", author: "Sarah J. Maas" },
   { id: 32, bookTitle: "A Court of Wings and Ruin", author: "Sarah J. Maas" },
+  {
+    id: 33,
+    bookTitle: "A Court of Frost and Starlight",
+    author: "Sarah J. Maas",
+  },
+  { id: 34, bookTitle: "A Court of Silver Flames", author: "Sarah J. Maas" },
+  { id: 35, bookTitle: "The Housemaid", author: "Freida McFadden" },
+  { id: 36, bookTitle: "The Housemaid's Secret", author: "Freida McFadden" },
+  {
+    id: 37,
+    bookTitle: "Summer in the Scottish Highlands",
+    author: "Donna Ashcroft",
+  },
+  { id: 38, bookTitle: "Have a Voice", author: "Lexy Timms" },
+  { id: 39, bookTitle: "Small Town Charisma", author: "Lexy Timms" },
+  { id: 40, bookTitle: "A Thankful Heart", author: "Melissa McClone" },
+  { id: 41, bookTitle: "The SEAL", author: "Juliette N. Banks" },
+  { id: 42, bookTitle: "Doctor Smug", author: "Whitley Cox" },
+  { id: 43, bookTitle: "The Whisper Man", author: "Alex North" },
+  { id: 44, bookTitle: "The Kind Worth Killing", author: "Peter Swanson" },
 ];
 
 export default books2024;
