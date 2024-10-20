@@ -1,0 +1,99 @@
+{
+  "permalink": "/blog/setting-up-a-java-spring-boot-project-part-2",
+  "source": "@site/blog/2024-05-20/2024-05-20-setting-up-a-java-spring-boot-project-part-2.md",
+  "title": "Java Spring Boot Project - Part 2",
+  "description": "In this blog post, we use lombok to create the Book Entity class. We will then create a repository, service and controller class to perform CRUD operations on the Book Entity.",
+  "date": "2024-05-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "springboot",
+      "permalink": "/blog/tags/springboot"
+    },
+    {
+      "inline": true,
+      "label": "intellij",
+      "permalink": "/blog/tags/intellij"
+    },
+    {
+      "inline": true,
+      "label": "gradle",
+      "permalink": "/blog/tags/gradle"
+    },
+    {
+      "inline": true,
+      "label": "h2-database",
+      "permalink": "/blog/tags/h-2-database"
+    },
+    {
+      "inline": true,
+      "label": "RestApi",
+      "permalink": "/blog/tags/rest-api"
+    },
+    {
+      "inline": true,
+      "label": "web-development",
+      "permalink": "/blog/tags/web-development"
+    },
+    {
+      "inline": true,
+      "label": "CRUD-operations",
+      "permalink": "/blog/tags/crud-operations"
+    },
+    {
+      "inline": true,
+      "label": "lombok",
+      "permalink": "/blog/tags/lombok"
+    }
+  ],
+  "readingTime": 8.08,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "setting-up-a-java-spring-boot-project-part-2",
+    "title": "Java Spring Boot Project - Part 2",
+    "description": "In this blog post, we use lombok to create the Book Entity class. We will then create a repository, service and controller class to perform CRUD operations on the Book Entity.",
+    "authors": "shahpreetk",
+    "tags": [
+      "java",
+      "springboot",
+      "intellij",
+      "gradle",
+      "h2-database",
+      "RestApi",
+      "web-development",
+      "CRUD-operations",
+      "lombok"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Java Spring Boot Project - Part 3",
+    "permalink": "/blog/setting-up-a-java-spring-boot-project-part-3"
+  },
+  "nextItem": {
+    "title": "Java Spring Boot Project - Part 1",
+    "permalink": "/blog/setting-up-a-java-spring-boot-project-part-1"
+  }
+}
