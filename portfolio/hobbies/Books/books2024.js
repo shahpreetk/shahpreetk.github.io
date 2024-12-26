@@ -13,7 +13,7 @@ const books2024 = [
   { id: 8, bookTitle: "Passion and Privilege", author: "Lexy Timms" },
   { id: 9, bookTitle: "Lone Star Princess", author: "Lenora Worth" },
   { id: 10, bookTitle: "Imperfect Chemistry", author: "Mary Frame" },
-  { id: 11, bookTitle: "Blue Moon", author: "Lori Handleland" },
+  { id: 11, bookTitle: "Blue Moon", author: "Lori Handeland" },
   { id: 12, bookTitle: "The Alpha's Saviour", author: "Reece Barden" },
   { id: 13, bookTitle: "Hostile Hearts", author: "K E Osborn" },
   { id: 14, bookTitle: "Surging Tide", author: "Lexy Timms" },
@@ -59,6 +59,24 @@ const books2024 = [
   { id: 42, bookTitle: "Doctor Smug", author: "Whitley Cox" },
   { id: 43, bookTitle: "The Whisper Man", author: "Alex North" },
   { id: 44, bookTitle: "The Kind Worth Killing", author: "Peter Swanson" },
+  { id: 45, bookTitle: "Jack Reacher - Killing Floor", author: "Lee Child" },
+  { id: 46, bookTitle: "Jack Reacher - Die Trying", author: "Lee Child" },
+  { id: 47, bookTitle: "Shadow and Bone", author: "Leigh Bardugo" },
+  { id: 48, bookTitle: "Siege and Storm", author: "Leigh Bardugo" },
+  { id: 49, bookTitle: "Ruin and Rising", author: "Leigh Bardugo" },
+  {
+    id: 50,
+    bookTitle: "The Choosing Chronicles - A Game of Love and Betrayal",
+    author: "Elayna R. Gallea",
+  },
+  {
+    id: 51,
+    bookTitle: "The Choosing Chronicles - A Heart of Desire and Deceit",
+    author: "Elayna R. Gallea",
+  },
+  { id: 52, bookTitle: "Of Dragons and Fae - Promised in Fire", author: "Jasmine Walt" },
+  { id: 53, bookTitle: "Of Dragons and Fae - Forged in Frost", author: "Jasmine Walt" },
+  { id: 54, bookTitle: "Of Dragons and Fae - Caged in Shadow", author: "Jasmine Walt" },
 ];
 
 export default books2024;
