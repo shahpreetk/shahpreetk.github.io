@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/adding-image-in-reactjs",
+  "source": "@site/blog/2022-04-22-render-images-react.md",
+  "title": "Adding Images in React.js",
+  "description": "Adding Images in React.js",
+  "date": "2022-04-22T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "inline": true,
+      "label": "rendering",
+      "permalink": "/blog/tags/rendering"
+    },
+    {
+      "inline": true,
+      "label": "images",
+      "permalink": "/blog/tags/images"
+    }
+  ],
+  "readingTime": 0.67,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "adding-image-in-reactjs",
+    "title": "Adding Images in React.js",
+    "description": "Adding Images in React.js",
+    "authors": "shahpreetk",
+    "tags": [
+      "react",
+      "rendering",
+      "images"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Reverting Commits & Local Changes in Git",
+    "permalink": "/blog/reverting-commits-and-local-changes-in-git"
+  },
+  "nextItem": {
+    "title": "Deploying a React app to GitHub Pages",
+    "permalink": "/blog/deploying-a-react-app-to-github-pages"
+  }
+}

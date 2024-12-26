@@ -1,0 +1,87 @@
+{
+  "permalink": "/blog/setting-up-a-java-spring-boot-project-part-1",
+  "source": "@site/blog/2024-05-19/2024-05-19-setting-up-a-java-spring-boot-project-part-1.md",
+  "title": "Java Spring Boot Project - Part 1",
+  "description": "In this blog post, we guide you through the initial setup of a Java Spring Boot project using Gradle and IntelliJ IDEA. We cover creating a new project with Spring Initializr, setting up dependencies, and configuring an in-memory H2 database.",
+  "date": "2024-05-19T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "springboot",
+      "permalink": "/blog/tags/springboot"
+    },
+    {
+      "inline": true,
+      "label": "intellij",
+      "permalink": "/blog/tags/intellij"
+    },
+    {
+      "inline": true,
+      "label": "gradle",
+      "permalink": "/blog/tags/gradle"
+    },
+    {
+      "inline": true,
+      "label": "h2-database",
+      "permalink": "/blog/tags/h-2-database"
+    },
+    {
+      "inline": true,
+      "label": "RestApi",
+      "permalink": "/blog/tags/rest-api"
+    },
+    {
+      "inline": true,
+      "label": "web-development",
+      "permalink": "/blog/tags/web-development"
+    }
+  ],
+  "readingTime": 5.18,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "setting-up-a-java-spring-boot-project-part-1",
+    "title": "Java Spring Boot Project - Part 1",
+    "description": "In this blog post, we guide you through the initial setup of a Java Spring Boot project using Gradle and IntelliJ IDEA. We cover creating a new project with Spring Initializr, setting up dependencies, and configuring an in-memory H2 database.",
+    "authors": "shahpreetk",
+    "tags": [
+      "java",
+      "springboot",
+      "intellij",
+      "gradle",
+      "h2-database",
+      "RestApi",
+      "web-development"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Java Spring Boot Project - Part 2",
+    "permalink": "/blog/setting-up-a-java-spring-boot-project-part-2"
+  },
+  "nextItem": {
+    "title": "Multithreading in Java",
+    "permalink": "/blog/multithreading-in-java"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "permalink": "/blog/java-interview-guide",
+  "source": "@site/blog/2024-03-06/2024-03-01-java-guide.mdx",
+  "title": "Java Deep Dive",
+  "description": "A guide to prepare for Java interviews",
+  "date": "2024-03-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "data-structures",
+      "permalink": "/blog/tags/data-structures"
+    },
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "algorithms",
+      "permalink": "/blog/tags/algorithms"
+    },
+    {
+      "inline": true,
+      "label": "garbage-collector",
+      "permalink": "/blog/tags/garbage-collector"
+    },
+    {
+      "inline": true,
+      "label": "memory-management",
+      "permalink": "/blog/tags/memory-management"
+    },
+    {
+      "inline": true,
+      "label": "multithreading",
+      "permalink": "/blog/tags/multithreading"
+    },
+    {
+      "inline": true,
+      "label": "concurrency",
+      "permalink": "/blog/tags/concurrency"
+    }
+  ],
+  "readingTime": 0.255,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "java-interview-guide",
+    "title": "Java Deep Dive",
+    "description": "A guide to prepare for Java interviews",
+    "authors": "shahpreetk",
+    "tags": [
+      "data-structures",
+      "java",
+      "algorithms",
+      "garbage-collector",
+      "memory-management",
+      "multithreading",
+      "concurrency"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Data Types in Java",
+    "permalink": "/blog/data-types-in-java"
+  },
+  "nextItem": {
+    "title": "Android Development in 2024",
+    "permalink": "/blog/android-development-in-2024"
+  }
+}

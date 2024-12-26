@@ -1,0 +1,26 @@
+{
+  "id": "projects/bookit",
+  "title": "BookIt",
+  "description": "This is an Online Auditorium and Turf Booking System created as part of my final year project for my Bachelor of Engineering degree.",
+  "source": "@site/portfolio/projects/bookit.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/bookit",
+  "permalink": "/portfolio/projects/bookit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Trippy Castle",
+    "permalink": "/portfolio/projects/trippy-castle"
+  },
+  "next": {
+    "title": "Hobbies",
+    "permalink": "/portfolio/category/hobbies"
+  }
+}
