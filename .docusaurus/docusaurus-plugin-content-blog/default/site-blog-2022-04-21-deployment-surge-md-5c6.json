@@ -1,0 +1,59 @@
+{
+  "permalink": "/blog/deploying-a-react-app-to-surge-sh",
+  "source": "@site/blog/2022-04-21-deployment-surge.md",
+  "title": "Deploying a React App to Surge.sh",
+  "description": "Deploying a React App to Surge.sh",
+  "date": "2022-04-21T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "deployment",
+      "permalink": "/blog/tags/deployment"
+    },
+    {
+      "inline": true,
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "inline": true,
+      "label": "surge",
+      "permalink": "/blog/tags/surge"
+    }
+  ],
+  "readingTime": 0.465,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "deploying-a-react-app-to-surge-sh",
+    "title": "Deploying a React App to Surge.sh",
+    "description": "Deploying a React App to Surge.sh",
+    "authors": "shahpreetk",
+    "tags": [
+      "deployment",
+      "react",
+      "surge"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Deploying a React App to Netlify",
+    "permalink": "/blog/deploying-a-react-app-to-netlify"
+  }
+}

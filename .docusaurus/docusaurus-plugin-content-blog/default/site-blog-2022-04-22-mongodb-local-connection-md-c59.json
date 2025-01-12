@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/starting-a-mongodb-local-connection-macos",
+  "source": "@site/blog/2022-04-22-mongodb-local-connection.md",
+  "title": "Starting a MongoDB local connection in macOS",
+  "description": "Starting a MongoDB local connection in macOS using the terminal",
+  "date": "2022-04-22T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "databases",
+      "permalink": "/blog/tags/databases"
+    },
+    {
+      "inline": true,
+      "label": "mongodb",
+      "permalink": "/blog/tags/mongodb"
+    },
+    {
+      "inline": true,
+      "label": "nosql",
+      "permalink": "/blog/tags/nosql"
+    }
+  ],
+  "readingTime": 0.235,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "starting-a-mongodb-local-connection-macos",
+    "title": "Starting a MongoDB local connection in macOS",
+    "description": "Starting a MongoDB local connection in macOS using the terminal",
+    "authors": "shahpreetk",
+    "tags": [
+      "databases",
+      "mongodb",
+      "nosql"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Creating a Black Overlay on image in CSS",
+    "permalink": "/blog/creating-black-overlay-on-image-in-css"
+  },
+  "nextItem": {
+    "title": "Shortcut to Open folder in VSCode from cmd",
+    "permalink": "/blog/shortcut-to-open-folder-in-vscode-from-cmd"
+  }
+}

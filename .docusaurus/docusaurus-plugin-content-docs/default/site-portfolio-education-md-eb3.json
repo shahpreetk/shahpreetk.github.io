@@ -1,0 +1,26 @@
+{
+  "id": "education",
+  "title": "Education",
+  "description": "MSc in Computer Science",
+  "source": "@site/portfolio/education.md",
+  "sourceDirName": ".",
+  "slug": "/education",
+  "permalink": "/portfolio/education",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Experience",
+    "permalink": "/portfolio/experience"
+  },
+  "next": {
+    "title": "Projects",
+    "permalink": "/portfolio/category/projects"
+  }
+}

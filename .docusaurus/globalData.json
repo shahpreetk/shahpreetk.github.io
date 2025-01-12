@@ -1,0 +1,128 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/portfolio",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/portfolio",
+          "mainDocId": "about-me",
+          "docs": [
+            {
+              "id": "about-me",
+              "path": "/portfolio/about-me",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "education",
+              "path": "/portfolio/education",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "experience",
+              "path": "/portfolio/experience",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/Books/books-I-read-in-2022",
+              "path": "/portfolio/hobbies/Books/books-I-read-in-2022",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/Books/books-I-read-in-2023",
+              "path": "/portfolio/hobbies/Books/books-I-read-in-2023",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/Books/books-I-read-in-2024",
+              "path": "/portfolio/hobbies/Books/books-I-read-in-2024",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/Books/books-I-read-in-2025",
+              "path": "/portfolio/hobbies/Books/books-I-read-in-2025",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/crochet",
+              "path": "/portfolio/hobbies/crochet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/crochetGuide",
+              "path": "/portfolio/hobbies/crochetGuide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hobbies/digitalArt",
+              "path": "/portfolio/hobbies/digitalArt",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/bookit",
+              "path": "/portfolio/projects/bookit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/futourist",
+              "path": "/portfolio/projects/futourist",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/money-mingle",
+              "path": "/portfolio/projects/money-mingle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/socialspirit",
+              "path": "/portfolio/projects/socialspirit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/trippy-castle",
+              "path": "/portfolio/projects/trippy-castle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/projects",
+              "path": "/portfolio/category/projects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/hobbies",
+              "path": "/portfolio/category/hobbies",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/portfolio/about-me",
+                "label": "about-me"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-EZYBN7167D"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-TMCWBXF2",
+      "id": "default"
+    }
+  }
+}

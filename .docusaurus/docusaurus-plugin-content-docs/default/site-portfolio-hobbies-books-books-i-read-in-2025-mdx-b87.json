@@ -1,0 +1,26 @@
+{
+  "id": "hobbies/Books/books-I-read-in-2025",
+  "title": "Books I read in 2025",
+  "description": "ID",
+  "source": "@site/portfolio/hobbies/Books/books-I-read-in-2025.mdx",
+  "sourceDirName": "hobbies/Books",
+  "slug": "/hobbies/Books/books-I-read-in-2025",
+  "permalink": "/portfolio/hobbies/Books/books-I-read-in-2025",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Guide to Crochet",
+    "permalink": "/portfolio/hobbies/crochetGuide"
+  },
+  "next": {
+    "title": "Books I read in 2024",
+    "permalink": "/portfolio/hobbies/Books/books-I-read-in-2024"
+  }
+}

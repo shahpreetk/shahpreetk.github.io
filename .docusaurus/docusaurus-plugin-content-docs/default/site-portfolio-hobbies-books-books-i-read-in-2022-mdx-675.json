@@ -1,0 +1,22 @@
+{
+  "id": "hobbies/Books/books-I-read-in-2022",
+  "title": "Books I read in 2022",
+  "description": "Decided to take up 60 book challenge in 2022. I read 46 books.",
+  "source": "@site/portfolio/hobbies/Books/books-I-read-in-2022.mdx",
+  "sourceDirName": "hobbies/Books",
+  "slug": "/hobbies/Books/books-I-read-in-2022",
+  "permalink": "/portfolio/hobbies/Books/books-I-read-in-2022",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Books I read in 2023",
+    "permalink": "/portfolio/hobbies/Books/books-I-read-in-2023"
+  }
+}

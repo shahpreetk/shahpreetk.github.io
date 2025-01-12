@@ -1,0 +1,26 @@
+{
+  "id": "hobbies/crochetGuide",
+  "title": "Guide to Crochet",
+  "description": "Tips that helped me Crochet 🧶",
+  "source": "@site/portfolio/hobbies/crochetGuide.md",
+  "sourceDirName": "hobbies",
+  "slug": "/hobbies/crochetGuide",
+  "permalink": "/portfolio/hobbies/crochetGuide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Crochet Projects",
+    "permalink": "/portfolio/hobbies/crochet"
+  },
+  "next": {
+    "title": "Books I read in 2025",
+    "permalink": "/portfolio/hobbies/Books/books-I-read-in-2025"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "projects/socialspirit",
+  "title": "Social Spirit",
+  "description": "This project was created as part of MSc Computer Science thesis.",
+  "source": "@site/portfolio/projects/socialspirit.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/socialspirit",
+  "permalink": "/portfolio/projects/socialspirit",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FuTourist",
+    "permalink": "/portfolio/projects/futourist"
+  },
+  "next": {
+    "title": "Trippy Castle",
+    "permalink": "/portfolio/projects/trippy-castle"
+  }
+}

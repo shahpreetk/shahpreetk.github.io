@@ -1,0 +1,93 @@
+{
+  "permalink": "/blog/multithreading-in-java",
+  "source": "@site/blog/2024-03-06/2024-03-06-multithreading-java.md",
+  "title": "Multithreading in Java",
+  "description": "Multithreading and Concurrency in Java are essential concepts for building scalable and responsive applications. This guide covers the basics of multithreading in Java.",
+  "date": "2024-03-06T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "java",
+      "permalink": "/blog/tags/java"
+    },
+    {
+      "inline": true,
+      "label": "multithreading",
+      "permalink": "/blog/tags/multithreading"
+    },
+    {
+      "inline": true,
+      "label": "race-condition",
+      "permalink": "/blog/tags/race-condition"
+    },
+    {
+      "inline": true,
+      "label": "concurrency",
+      "permalink": "/blog/tags/concurrency"
+    },
+    {
+      "inline": true,
+      "label": "lock",
+      "permalink": "/blog/tags/lock"
+    },
+    {
+      "inline": true,
+      "label": "semaphore",
+      "permalink": "/blog/tags/semaphore"
+    },
+    {
+      "inline": true,
+      "label": "monitor",
+      "permalink": "/blog/tags/monitor"
+    },
+    {
+      "inline": true,
+      "label": "synchronization",
+      "permalink": "/blog/tags/synchronization"
+    }
+  ],
+  "readingTime": 3.845,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Preet Shah",
+      "title": "Software Developer @ JPMC",
+      "url": "https://github.com/shahpreetk",
+      "description": "Preet Shah is a Full-Stack Software Developer at JP Morgan Chase, specialising in Java Spring Boot, Python and React. Preet is an AWS Certified Associate, currently aiming for her Developer Certification. In her free time, she enjoys crocheting, diving into murder mystery novels, and watching cat videos.",
+      "page": {
+        "permalink": "/blog/authors/shahpreetk"
+      },
+      "socials": {
+        "x": "https://x.com/shahpreetk",
+        "linkedin": "https://www.linkedin.com/in/shahpreetk/"
+      },
+      "imageURL": "https://github.com/shahpreetk.png\\",
+      "key": "shahpreetk"
+    }
+  ],
+  "frontMatter": {
+    "slug": "multithreading-in-java",
+    "title": "Multithreading in Java",
+    "description": "Multithreading and Concurrency in Java are essential concepts for building scalable and responsive applications. This guide covers the basics of multithreading in Java.",
+    "authors": "shahpreetk",
+    "tags": [
+      "java",
+      "multithreading",
+      "race-condition",
+      "concurrency",
+      "lock",
+      "semaphore",
+      "monitor",
+      "synchronization"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Java Spring Boot Project - Part 1",
+    "permalink": "/blog/setting-up-a-java-spring-boot-project-part-1"
+  },
+  "nextItem": {
+    "title": "Garbage Collector in Java",
+    "permalink": "/blog/garbage-collector-in-java"
+  }
+}
